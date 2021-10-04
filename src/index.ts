@@ -1,74 +1,91 @@
-export const getColor = (ticker?: string, name?: string) => {
-  switch (ticker) {
-    case "bitcoin":
-      return "rgb(247,147,26)";
-    case "blackcoin":
-      return "rgb(0,0,0)";
-    case "bitcoin cash":
-      return "rgb(45,179,1)";
-    case "eos":
-      return "rgb(2,2,2)";
-    case "zcash":
-      return "rgb(215,149,45)";
-    case "ethereum":
-      return "rgb(140,140,140)";
-    case "monero":
-      return "rgb(255,102,1)";
-    case "litecoin":
-      return "rgb(190,190,190)";
-    case "ethereum classic":
-      return "rgb(30,159,103)";
-    case "xrp":
-      return "rgb(210,210,210)";
-    case "dash":
-      return "rgb(0,141,230)";
-    case "qtum":
-      return "rgb(208,201,234)";
-    case "neo":
-      return "rgb(123,184,81)";
-    case "bytom":
-      return "rgb(215,215,215)";
-    case "tether":
-      return "rgb(38,161,23)";
-    case "bitshares":
-      return "rgb(4,110,52)";
-    case "tron":
-      return "rgb(228,7,20)";
-    case "cardano":
-      return "rgb(6,21,41)";
-    case "stellar":
-      return "rgb(221,223,252)";
-    case "exchange union":
-      return "rgb(17,69,134)";
-    case "true chain":
-      return "rgb(30,107,186)";
-    case "paxos standard":
-      return "rgb(230,228,56)";
-    case "gifto":
-      return "rgb(137,52,255)";
-    case "unitedbitcoin":
-      return "rgb(61,183,247)";
-    case "basic attention token":
-      return "rgb(48,48,48)";
-    case "bitcoin gold":
-      return "rgb(255,200,98)";
-    case "selfkey":
-      return "rgb(47,53,69)";
-    case "ravencoin":
-      return "rgb(55,64,130)";
-    case "binance coin":
-      return "rgb(246,190,48)";
-    case "omisego":
-      return "rgb(27,83,240)";
-    case "hshare":
-      return "rgb(90,69,141)";
-    case "okex":
-      return "rgb(90,148,255)";
-    case "0x":
-      return "rgb(28,23,37)";
-    case "mithril":
-      return "rgb(147,147,200)";
+import symbolList from "cryptocurrencies";
+
+export const cryptoColor = (
+  ticker?: string,
+  name?: string,
+  output?: string,
+  alpha?: number
+): string => {
+  if (ticker) {
+    if (symbolList[ticker.toUpperCase()] != undefined) {
+      name = symbolList[ticker.toUpperCase()].toLowerCase();
+    } else {
+      return "No record for that ticker";
+    }
+  }
+
+  const rgba = output === `rgb` ? `` : `a`;
+  const appendedAlpha = alpha === undefined || rgba === `` ? `` : `,${alpha}`;
+  switch (name) {
+    case `bitcoin`:
+      return `rgb${rgba}(247,147,26${appendedAlpha})`;
+    case `blackcoin`:
+      return `rgb${rgba}(0,0,0${appendedAlpha})`;
+    case `bitcoin cash`:
+      return `rgb${rgba}(45,179,1${appendedAlpha})`;
+    case `eos`:
+      return `rgb${rgba}(2,2,2${appendedAlpha})`;
+    case `zcash`:
+      return `rgb${rgba}(215,149,45${appendedAlpha})`;
+    case `ethereum`:
+      return `rgb${rgba}(140,140,140${appendedAlpha})`;
+    case `monero`:
+      return `rgb${rgba}(255,102,1${appendedAlpha})`;
+    case `litecoin`:
+      return `rgb${rgba}(190,190,190${appendedAlpha})`;
+    case `ethereum classic`:
+      return `rgb${rgba}(30,159,103${appendedAlpha})`;
+    case `xrp`:
+      return `rgb${rgba}(210,210,210${appendedAlpha})`;
+    case `dash`:
+      return `rgb${rgba}(0,141,230${appendedAlpha})`;
+    case `qtum`:
+      return `rgb${rgba}(208,201,234${appendedAlpha})`;
+    case `neo`:
+      return `rgb${rgba}(123,184,81${appendedAlpha})`;
+    case `bytom`:
+      return `rgb${rgba}(215,215,215${appendedAlpha})`;
+    case `tether`:
+      return `rgb${rgba}(38,161,23${appendedAlpha})`;
+    case `bitshares`:
+      return `rgb${rgba}(4,110,52${appendedAlpha})`;
+    case `tron`:
+      return `rgb${rgba}(228,7,20${appendedAlpha})`;
+    case `cardano`:
+      return `rgb${rgba}(6,21,41${appendedAlpha})`;
+    case `stellar`:
+      return `rgb${rgba}(221,223,252${appendedAlpha})`;
+    case `exchange union`:
+      return `rgb${rgba}(17,69,134${appendedAlpha})`;
+    case `true chain`:
+      return `rgb${rgba}(30,107,186${appendedAlpha})`;
+    case `paxos standard`:
+      return `rgb${rgba}(230,228,56${appendedAlpha})`;
+    case `gifto`:
+      return `rgb${rgba}(137,52,255${appendedAlpha})`;
+    case `unitedbitcoin`:
+      return `rgb${rgba}(61,183,247${appendedAlpha})`;
+    case `basic attention token`:
+      return `rgb${rgba}(48,48,48${appendedAlpha})`;
+    case `bitcoin gold`:
+      return `rgb${rgba}(255,200,98${appendedAlpha})`;
+    case `selfkey`:
+      return `rgb${rgba}(47,53,69${appendedAlpha})`;
+    case `ravencoin`:
+      return `rgb${rgba}(55,64,130${appendedAlpha})`;
+    case `binance coin`:
+      return `rgb${rgba}(246,190,48${appendedAlpha})`;
+    case `omisego`:
+      return `rgb${rgba}(27,83,240${appendedAlpha})`;
+    case `hshare`:
+      return `rgb${rgba}(90,69,141${appendedAlpha})`;
+    case `okex`:
+      return `rgb${rgba}(90,148,255${appendedAlpha})`;
+    case `0x`:
+      return `rgb${rgba}(28,23,37${appendedAlpha})`;
+    case `mithril`:
+      return `rgb${rgba}(147,147,200${appendedAlpha})`;
     default:
-      return "rgb(242,169,0)";
+      return `rgb${rgba}(242,169,0${appendedAlpha})`;
   }
 };
