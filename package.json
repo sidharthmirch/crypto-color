@@ -1,6 +1,6 @@
 {
   "name": "crypto-color",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "returns rgb values for a given crypto",
   "main": "lib/index.js",
   "types": "lib",
@@ -19,5 +19,8 @@
   "dependencies": {
     "cryptocurrencies": "^7.0.0"
   },
-  "files": ["lib/index.js","README.md"]
+  "files": [
+    "lib/index.js",
+    "README.md"
+  ]
 }
