@@ -1,0 +1,14 @@
+{
+  "name": "crypto-color",
+  "version": "0.0.1",
+  "description": "returns rgb values for a given crypto",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
