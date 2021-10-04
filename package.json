@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "cryptocurrencies": "^7.0.0"
-  }
+  },
+  "files": ["lib/index.js","README.md"]
 }
