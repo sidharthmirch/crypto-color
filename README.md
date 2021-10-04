@@ -9,12 +9,12 @@ $ npm install crypto-color
 
 Example usage:
 ```ts
-cryptoColor(ticker?: string, name?: string, output?: string, alpha?: number);
+cryptoColor(ticker?: string, name?: string, rgba?: boolean, alpha?: number);
 // output (eg: "rgb", "rgba"), alpha (eg: 0.3)
 
-cryptoColor(undefined, "bitcoin", "rgb");
+cryptoColor(undefined, "bitcoin", false);
 // returns "rgb(247,147,26)"
 
-cryptoColor("BTC", undefined, "rgba", "0.3");
+cryptoColor("BTC", undefined, true, 0.3);
 // returns "rgba(247,147,26,0.3)"
 ```
