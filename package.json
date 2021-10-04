@@ -7,6 +7,10 @@
     "build": "npx tsc"
   },
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.4.3"
