@@ -2,9 +2,10 @@
   "name": "crypto-color",
   "version": "0.0.6",
   "description": "returns rgb values for a given crypto",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib",
   "scripts": {
-    "build": "npx tsc"
+    "build": "tsc -p . "
   },
   "author": "",
   "repository": {
