@@ -1,8 +1,4 @@
-# crypto-color
-
-Returns an rgb color string for given crypto names.
-
-Created to replace `crypto-color-extractor` as it has outdated dependancies and is no longer maintained.
+Created to replace [`crypto-color-extractor`](https://www.npmjs.com/package/crypto-color-extractor) as it has outdated dependancies and is no longer maintained.
 Uses [cryptocurrencies](https://www.npmjs.com/package/cryptocurrencies) as a reference point for currency tickers.
 
 Install
