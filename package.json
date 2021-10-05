@@ -22,7 +22,7 @@
   },
   "files": [
     "lib/index.js",
-    "colors.json",
+    "lib/colors.json",
     "README.md"
   ]
 }
