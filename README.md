@@ -1,8 +1,10 @@
 Created to replace [`crypto-color-extractor`](https://www.npmjs.com/package/crypto-color-extractor) as it has outdated dependancies and is no longer maintained.
+
 Uses [cryptocurrencies](https://www.npmjs.com/package/cryptocurrencies) as a reference point for currency tickers.
+
 Uses [colortheif](https://www.npmjs.com/package/colorthief) to generate the color values.
 
-Install
+Install:
 ```bash
 $ npm install crypto-color
 ```
