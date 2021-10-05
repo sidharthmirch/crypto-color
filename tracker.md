@@ -1,3760 +1,1929 @@
-| Symbol       | Name                                       | RGB Value        |
-| :----------- | :----------------------------------------- | :--------------- |
-| `42`         | 42 Coin                                    |                  |
-| `300`        | 300 token                                  |                  |
-| `365`        | 365Coin                                    |                  |
-| `404`        | 404Coin                                    |                  |
-| `433`        | 433 Token                                  |                  |
-| `611`        | SixEleven                                  |                  |
-| `808`        | 808                                        |                  |
-| `888`        | Octocoin                                   |                  |
-| `1337`       | EliteCoin                                  |                  |
-| `2015`       | 2015 coin                                  |                  |
-| `ARC*`       | Arcade City                                |                  |
-| `CLUB`       | ClubCoin                                   |                  |
-| `007`        | 007 coin                                   |                  |
-| `ZCN`        | 0chain                                     |                  |
-| `ZRX`        | 0x                                         | rgb(28,23,37)    |
-| `0xBTC`      | 0xBitcoin                                  |                  |
-| `BIT16`      | 16BitCoin                                  |                  |
-| `MCT`        | 1717 Masonic Commemorative Token           |                  |
-| `1CR`        | 1Credit                                    |                  |
-| `1WO`        | 1World                                     |                  |
-| `CHAO`       | 23 Skidoo                                  |                  |
-| `ARMS`       | 2Acoin                                     |                  |
-| `2BACCO`     | 2BACCO Coin                                |                  |
-| `2GIVE`      | 2GiveCoin                                  |                  |
-| `2TF`        | 2TF                                        |                  |
-| `32BIT`      | 32Bitcoin                                  |                  |
-| `3XD`        | 3DChain                                    |                  |
-| `3DES`       | 3DES                                       |                  |
-| `8BT`        | 8 Circuit Studios                          |                  |
-| `8BIT`       | 8BIT Coin                                  |                  |
-| `ATKN`       | A-Token                                    |                  |
-| `AAA`        | AAA Reserve Currency                       |                  |
-| `RTB`        | AB-CHAIN                                   |                  |
-| `ABC`        | AB-Chain                                   |                  |
-| `AT`         | ABCC Token                                 |                  |
-| `AC3`        | AC3                                        |                  |
-| `ACA`        | ACA Token                                  |                  |
-| `ACT`        | ACT                                        |                  |
-| `ACOIN`      | ACoin                                      |                  |
-| `AENT`       | AEN                                        |                  |
-| `AEON`       | AEON                                       |                  |
-| `AERGO`      | AERGO                                      |                  |
-| `AGT`        | AGATE                                      |                  |
-| `AIC`        | AI Crypto                                  |                  |
-| `AIDOC`      | AI Doctor                                  |                  |
-| `AIT`        | AIChain Token                              |                  |
-| `XAI*`       | AICoin                                     |                  |
-| `AIOT`       | AIOT Token                                 |                  |
-| `AITT`       | AITrading                                  |                  |
-| `AXT`        | AIX                                        |                  |
-| `ALX`        | ALAX                                       |                  |
-| `ALIS`       | ALISmedia                                  |                  |
-| `ALT`        | ALTcoin                                    |                  |
-| `AMBT`       | AMBT Token                                 |                  |
-| `AMIS`       | AMIS                                       |                  |
-| `AMLT`       | AMLT                                       |                  |
-| `AMO`        | AMO Coin                                   |                  |
-| `ANON`       | ANON                                       |                  |
-| `ANTS`       | ANTS Reloaded                              |                  |
-| `APIS`       | APIS                                       |                  |
-| `APS`        | APRES                                      |                  |
-| `QEY`        | AQwire                                     |                  |
-| `ARB*`       | ARBITRAGE                                  |                  |
-| `ARE`        | ARENON                                     |                  |
-| `ARK`        | ARK                                        |                  |
-| `ARNA`       | ARNA Panacea                               |                  |
-| `ARR`        | ARROUND                                    |                  |
-| `ASGC`       | ASG                                        |                  |
-| `ASQT`       | ASQ Protocol                               |                  |
-| `ATB`        | ATB coin                                   |                  |
-| `ATCC`       | ATC Coin                                   |                  |
-| `ATFS`       | ATFS Project                               |                  |
-| `ATL`        | ATLANT                                     |                  |
-| `ATM`        | ATMChain                                   |                  |
-| `AUC*`       | AU-Coin                                    |                  |
-| `AWAX`       | AWAX                                       |                  |
-| `AXR`        | AXRON                                      |                  |
-| `AXS`        | AXS                                        |                  |
-| `ABELE`      | Abele                                      |                  |
-| `ABJ`        | Abjcoin                                    |                  |
-| `ABS`        | Absolute Coin                              |                  |
-| `ACC*`       | Accelerator Network                        |                  |
-| `ACCO`       | Accolade                                   |                  |
-| `AEC`        | AcesCoin                                   |                  |
-| `ACES`       | AcesCoin                                   |                  |
-| `ACT*`       | Achain                                     |                  |
-| `ACH`        | AchieveCoin                                |                  |
-| `ACID`       | AcidCoin                                   |                  |
-| `OAK`        | Acorn Collective                           |                  |
-| `ACM`        | Actinium                                   |                  |
-| `ACTN`       | Action Coin                                |                  |
-| `AMT`        | Acumen                                     |                  |
-| `AAC`        | Acute Angle Cloud                          |                  |
-| `ACC`        | AdCoin                                     |                  |
-| `ADX`        | AdEx                                       |                  |
-| `ADT`        | AdToken                                    |                  |
-| `ADAB`       | Adab Solutions                             |                  |
-| `ADM`        | Adamant                                    |                  |
-| `ADB`        | Adbank                                     |                  |
-| `ADL`        | Adelphoi                                   |                  |
-| `ADH`        | Adhive                                     |                  |
-| `ADI`        | Aditus                                     |                  |
-| `ADST`       | Adshares                                   |                  |
-| `AIB`        | AdvancedInternetBlock                      |                  |
-| `ADZ`        | Adzcoin                                    |                  |
-| `AGS`        | Aegis                                      |                  |
-| `AEN`        | Aenco                                      |                  |
-| `AERM`       | Aerium                                     |                  |
-| `AERO`       | Aero Coin                                  |                  |
-| `AM`         | AeroMe                                     |                  |
-| `ARN`        | Aeron                                      |                  |
-| `XRM`        | Aerum                                      |                  |
-| `AER`        | Aeryus                                     |                  |
-| `AE`         | Aeternity                                  |                  |
-| `ATT`        | Aeternum                                   |                  |
-| `AET`        | AfterEther                                 |                  |
-| `AGVC`       | AgaveCoin                                  |                  |
-| `ESTATE`     | AgentMile                                  |                  |
-| `AGRS`       | Agoras Token                               |                  |
-| `DLT`        | Agrello Delta                              |                  |
-| `AHT`        | Ahoolee                                    |                  |
-| `AIBB`       | AiBB                                       |                  |
-| `AID`        | AidCoin                                    |                  |
-| `ADN`        | Aiden                                      |                  |
-| `ADK`        | Aidos Kuneen                               |                  |
-| `AIX`        | Aigang                                     |                  |
-| `AIM`        | Aimedis                                    |                  |
-| `AION`       | Aion                                       |                  |
-| `APOD`       | AirPod                                     |                  |
-| `AST`        | AirSwap                                    |                  |
-| `AIR`        | AirToken                                   |                  |
-| `AIRT`       | Aircraft                                   |                  |
-| `AKA`        | Akroma                                     |                  |
-| `ALCE`       | Alcedo                                     |                  |
-| `ALEX`       | Alexandrite                                |                  |
-| `PLM`        | Algo.Land                                  |                  |
-| `ALG`        | Algory                                     |                  |
-| `ABBC`       | Alibabacoin                                |                  |
-| `ALN`        | AlienCoin                                  |                  |
-| `SOC`        | All Sports Coin                            |                  |
-| `AFO`        | AllForOneBusiness                          |                  |
-| `ASAFE2`     | Allsafe                                    |                  |
-| `APC`        | AlpaCoin                                   |                  |
-| `ALPS`       | Alpenschillling                            |                  |
-| `ALF`        | AlphaCoin                                  |                  |
-| `AX`         | AlphaX                                     |                  |
-| `ACAT`       | Alphacat                                   |                  |
-| `ALP`        | Alphacon                                   |                  |
-| `APZ`        | Alprockz                                   |                  |
-| `ALQO`       | Alqo                                       |                  |
-| `ALTCOM`     | AltCommunity Coin                          |                  |
-| `ALTOCAR`    | AltoCar                                    |                  |
-| `ALUX`       | Alux Bank                                  |                  |
-| `AS`         | AmaStar                                    |                  |
-| `AMBER`      | AmberCoin                                  |                  |
-| `AMB`        | Ambrosus                                   |                  |
-| `AMC`        | AmericanCoin                               |                  |
-| `AMX`        | Amero                                      |                  |
-| `AMMO`       | Ammo Rewards                               |                  |
-| `AMN`        | Amon                                       |                  |
-| `AMOS`       | Amos                                       |                  |
-| `VEO`        | Amoveo                                     |                  |
-| `AMS`        | Amsterdam Coin                             |                  |
-| `AMY`        | Amygws                                     |                  |
-| `ANCP`       | Anacrypt                                   |                  |
-| `ANAL`       | AnalCoin                                   |                  |
-| `ACP`        | Anarchists Prime                           |                  |
-| `AND`        | AndromedaCoin                              |                  |
-| `ANGL`       | Angel Token                                |                  |
-| `AVH`        | Animation Vision Cash                      |                  |
-| `ANI`        | Animecoin                                  |                  |
-| `ANK`        | Ankorus Token                              |                  |
-| `ANKR`       | Ankr Network                               |                  |
-| `ANC`        | Anoncoin                                   |                  |
-| `RYZ`        | Anryze                                     |                  |
-| `ANTI`       | Anti Bitcoin                               |                  |
-| `ATHK`       | AntiHACK.me                                |                  |
-| `ANTC`       | AntiLitecoin                               |                  |
-| `CPX`        | Apex Token                                 |                  |
-| `APEX`       | ApexCoin                                   |                  |
-| `APH`        | Aphelion                                   |                  |
-| `APL`        | Apollo Currency                            |                  |
-| `APXT`       | ApolloX                                    |                  |
-| `XAP`        | Apollon                                    |                  |
-| `APPC`       | AppCoins                                   |                  |
-| `APT`        | Aptcoin                                    |                  |
-| `APX`        | Apx                                        |                  |
-| `AQUA`       | Aquachain                                  |                  |
-| `ARCO`       | AquariusCoin                               |                  |
-| `AR*`        | Ar.cash                                    |                  |
-| `ARQ`        | ArQmA                                      |                  |
-| `ALC`        | Arab League Coin                           |                  |
-| `ANT`        | Aragon                                     |                  |
-| `ARAW`       | Araw                                       |                  |
-| `ARBI`       | Arbi                                       |                  |
-| `ARB`        | Arbit Coin                                 |                  |
-| `ARCT`       | ArbitrageCT                                |                  |
-| `ABT`        | ArcBlock                                   |                  |
-| `ARCX`       | ArcadierX                                  |                  |
-| `ARCH`       | ArchCoin                                   |                  |
-| `ARC`        | ArcticCoin                                 |                  |
-| `ARDR`       | Ardor                                      |                  |
-| `ARENA`      | Arena                                      |                  |
-| `ARG`        | Argentum                                   |                  |
-| `AGM`        | Argoneum                                   |                  |
-| `ARGUS`      | ArgusCoin                                  |                  |
-| `ARI`        | AriCoin                                    |                  |
-| `ARO`        | Arionum                                    |                  |
-| `BOTS`       | ArkDAO                                     |                  |
-| `ARM`        | Armory Coin                                |                  |
-| `ARPA`       | ArpaCoin                                   |                  |
-| `ABY`        | ArtByte                                    |                  |
-| `ATP`        | ArtPro                                     |                  |
-| `ARS`        | Artcoin                                    |                  |
-| `ARTE`       | Artemine                                   |                  |
-| `ATX`        | ArtexCoin                                  |                  |
-| `AUA`        | ArubaCoin                                  |                  |
-| `ASN`        | Ascension Coin                             |                  |
-| `XAS`        | Asch                                       |                  |
-| `AC`         | Asia Coin                                  |                  |
-| `ADCN`       | Asiadigicoin                               |                  |
-| `ATX*`       | Aston                                      |                  |
-| `AST*`       | Astral                                     |                  |
-| `ASTRO`      | Astronaut                                  |                  |
-| `ATH`        | Atheios                                    |                  |
-| `THO`        | Athero                                     |                  |
-| `ATMOS`      | Atmos                                      |                  |
-| `ATOM`       | Atomic Coin                                |                  |
-| `AWC`        | Atomic Wallet Coin                         |                  |
-| `ATMI`       | Atonomi                                    |                  |
-| `ATTR`       | Attrace                                    |                  |
-| `AUC`        | Auctus                                     |                  |
-| `ADC`        | AudioCoin                                  |                  |
-| `REP`        | Augur                                      |                  |
-| `AUK`        | Aukcecoin                                  |                  |
-| `AURS`       | Aureus                                     |                  |
-| `AURA`       | Aurora                                     |                  |
-| `AOA`        | Aurora                                     |                  |
-| `AUR`        | Aurora Coin                                |                  |
-| `AURUM`      | Aurum                                      |                  |
-| `AUD`        | Aussie Digital                             |                  |
-| `AUN`        | Authoreon                                  |                  |
-| `ATS`        | Authorship                                 |                  |
-| `AUPC`       | Authpaper                                  |                  |
-| `ABX`        | AutoBay                                    |                  |
-| `ATC`        | AutoBlock                                  |                  |
-| `NIO*`       | Autonio                                    |                  |
-| `AUT`        | Autoria                                    |                  |
-| `ATM*`       | Autumncoin                                 |                  |
-| `Auxilium`   | Auxilium                                   |                  |
-| `AVA`        | Avalon                                     |                  |
-| `AV`         | Avatar Coin                                |                  |
-| `AVT`        | AventCoin                                  |                  |
-| `AOP`        | Averopay                                   |                  |
-| `AVE`        | Avesta                                     |                  |
-| `ACN`        | AvonCoin                                   |                  |
-| `WORK`       | Aworker                                    |                  |
-| `AXIOM`      | Axiom Coin                                 |                  |
-| `AXYS`       | Axys                                       |                  |
-| `AZART`      | Azart                                      |                  |
-| `AZ`         | Azbit                                      |                  |
-| `AZU`        | Azultec                                    |                  |
-| `B21`        | B21                                        |                  |
-| `B2B`        | B2BX                                       |                  |
-| `B3`         | B3 Coin                                    |                  |
-| `KB3`        | B3Coin                                     |                  |
-| `BAX`        | BABB                                       |                  |
-| `BAM`        | BAM                                        |                  |
-| `BANCA`      | BANCA                                      |                  |
-| `BKX`        | BANKEX                                     |                  |
-| `BBN`        | BBNCOIN                                    |                  |
-| `BCV`        | BCV Blue Chip                              |                  |
-| `BEAT`       | BEAT Token                                 |                  |
-| `BEER`       | BEER Coin                                  |                  |
-| `BERN`       | BERNcash                                   |                  |
-| `BEX`        | BEX token                                  |                  |
-| `BFT`        | BF Token                                   |                  |
-| `BFEX`       | BFEX                                       |                  |
-| `BHPC`       | BHPCash                                    |                  |
-| `BITTO`      | BITTO                                      |                  |
-| `VEE`        | BLOCKv                                     |                  |
-| `BMT`        | BMChain                                    |                  |
-| `BSC*`       | BOONSCoin                                  |                  |
-| `BST*`       | BOOSTO                                     |                  |
-| `BOS`        | BOScoin                                    |                  |
-| `BQC`        | BQCoin                                     |                  |
-| `BQTX`       | BQT                                        |                  |
-| `BVO`        | BRAVO Pay                                  |                  |
-| `BRAT`       | BROTHER                                    |                  |
-| `BTCL`       | BTC Lite                                   |                  |
-| `BTCM`       | BTCMoon                                    |                  |
-| `BTU`        | BTU Protocol                               |                  |
-| `BAAS`       | BaaSid                                     |                  |
-| `BAN`        | Babes and Nerds                            |                  |
-| `BKC`        | Balkancoin                                 |                  |
-| `NANAS`      | BananaBits                                 |                  |
-| `BNT`        | Bancor Network Token                       |                  |
-| `XBANK`      | Bancryp                                    |                  |
-| `B@`         | BankCoin                                   |                  |
-| `BNK`        | Bankera                                    |                  |
-| `BCOIN`      | BannerCoin                                 |                  |
-| `BBN*`       | Banyan Network                             |                  |
-| `BBCC`       | BaseballCardCoin                           |                  |
-| `BASHC`      | BashCoin                                   |                  |
-| `BAT`        | Basic Attention Token                      | rgb(48,48,48)    |
-| `BASIS`      | Basis                                      |                  |
-| `BTA`        | Bata                                       |                  |
-| `BCX`        | BattleCoin                                 |                  |
-| `BSTK`       | BattleStake                                |                  |
-| `SAND`       | BeachCoin                                  |                  |
-| `BEAM`       | Beam                                       |                  |
-| `BEAN`       | BeanCash                                   |                  |
-| `BRDD`       | BeardDollars                               |                  |
-| `XBTS`       | Beats                                      |                  |
-| `BTZC`       | BeatzCoin                                  |                  |
-| `BEC`        | Beauty Chain                               |                  |
-| `BVC`        | BeaverCoin                                 |                  |
-| `BXY`        | Beaxy                                      |                  |
-| `BEE`        | Bee Token                                  |                  |
-| `BFDT`       | Befund                                     |                  |
-| `BELA`       | Bela                                       |                  |
-| `BBI`        | BelugaPay                                  |                  |
-| `BMK`        | Benchmark                                  |                  |
-| `BNC`        | Benjacoin                                  |                  |
-| `BENJI`      | BenjiRolls                                 |                  |
-| `BEST`       | BestChain                                  |                  |
-| `KNG`        | BetKings                                   |                  |
-| `CHART`      | BetOnChart                                 |                  |
-| `BET`        | BetaCoin                                   |                  |
-| `BFC`        | Betform                                    |                  |
-| `BETHER`     | Bethereum                                  |                  |
-| `KRO`        | Betoken                                    |                  |
-| `BTRM`       | Betrium Token                              |                  |
-| `BETR`       | BetterBetting                              |                  |
-| `BTXC`       | Bettex coin                                |                  |
-| `BETT`       | Bettium                                    |                  |
-| `BC`         | Beverage.cash                              |                  |
-| `BZNT`       | Bezant                                     |                  |
-| `BEZ`        | Bezop                                      |                  |
-| `BGG`        | Bgogo Token                                |                  |
-| `BNR`        | BiNeuro                                    |                  |
-| `BBP`        | BiblePay                                   |                  |
-| `BIX`        | BiboxCoin                                  |                  |
-| `BID`        | BidCoin                                    |                  |
-| `BDP`        | Bidipass                                   |                  |
-| `DOOH`       | Bidooh                                     |                  |
-| `BDB`        | Big Data Block                             |                  |
-| `BBG`        | BigBang                                    |                  |
-| `HUGE`       | BigCoin                                    |                  |
-| `LFC`        | BigLifeCoin                                |                  |
-| `BIGUP`      | BigUp                                      |                  |
-| `BBO`        | Bigbom                                     |                  |
-| `BHC`        | BighanCoin                                 |                  |
-| `BIC`        | Bikercoins                                 |                  |
-| `BLRY`       | BillaryCoin                                |                  |
-| `XBL`        | Billionaire Token                          |                  |
-| `BNB`        | Binance Coin                               | rgb(246,190,48)  |
-| `BRC*`       | BinaryCoin                                 |                  |
-| `BIOB`       | BioBar                                     |                  |
-| `BIOC`       | BioCrypt                                   |                  |
-| `BIO`        | Biocoin                                    |                  |
-| `BIOS`       | BiosCrypto                                 |                  |
-| `BTRN`       | Biotron                                    |                  |
-| `BIPC`       | BipCoin                                    |                  |
-| `BIS`        | Bismuth                                    |                  |
-| `BZ`         | Bit-Z                                      |                  |
-| `BAS`        | BitAsean                                   |                  |
-| `BTB`        | BitBar                                     |                  |
-| `BAY`        | BitBay                                     |                  |
-| `BBK`        | BitBlocks                                  |                  |
-| `BBT`        | BitBoost                                   |                  |
-| `BOSS`       | BitBoss                                    |                  |
-| `BRONZ`      | BitBronze                                  |                  |
-| `BCD*`       | BitCAD                                     |                  |
-| `BEN`        | BitCOEN                                    |                  |
-| `BCNA`       | BitCanna                                   |                  |
-| `BITCAR`     | BitCar                                     |                  |
-| `CAT*`       | BitClave                                   |                  |
-| `COAL`       | BitCoal                                    |                  |
-| `BCCOIN`     | BitConnect Coin                            |                  |
-| `BCR`        | BitCredit                                  |                  |
-| `BTCRY`      | BitCrystal                                 |                  |
-| `BCY`        | BitCrystals                                |                  |
-| `BTCR`       | BitCurrency                                |                  |
-| `BDG`        | BitDegree                                  |                  |
-| `CSNO`       | BitDice                                    |                  |
-| `HNY`        | BitFence                                   |                  |
-| `BFX`        | BitFinex Tokens                            |                  |
-| `FLIP`       | BitFlip                                    |                  |
-| `FLX*`       | BitFlux                                    |                  |
-| `BF`         | BitForex Token                             |                  |
-| `HIRE*`      | BitHIRE                                    |                  |
-| `BIH`        | BitHostCoin                                |                  |
-| `STU`        | BitJob                                     |                  |
-| `BTLC`       | BitLuckCoin                                |                  |
-| `LUX*`       | BitLux                                     |                  |
-| `BTM`        | BitMark                                    |                  |
-| `BMX`        | BitMart Coin                               |                  |
-| `BTMX`       | BitMax Token                               |                  |
-| `BTMI`       | BitMiles                                   |                  |
-| `BITM`       | BitMoney                                   |                  |
-| `BM`         | BitMoon                                    |                  |
-| `BITOK`      | BitOKX                                     |                  |
-| `BTQ`        | BitQuark                                   |                  |
-| `RNTB`       | BitRent                                    |                  |
-| `BIT`        | BitRewards                                 |                  |
-| `BSCH`       | BitSchool                                  |                  |
-| `BITX`       | BitScreener                                |                  |
-| `XSEED`      | BitSeeds                                   |                  |
-| `BSD`        | BitSend                                    |                  |
-| `BTE*`       | BitSerial                                  |                  |
-| `BSR`        | BitSoar Coin                               |                  |
-| `BTSG`       | BitSong                                    |                  |
-| `STASH`      | BitStash                                   |                  |
-| `BSTN`       | BitStation                                 |                  |
-| `BST`        | BitStone                                   |                  |
-| `SWIFT`      | BitSwift                                   |                  |
-| `BXT`        | BitTokens                                  |                  |
-| `BTT`        | BitTorrent                                 |                  |
-| `TUBE`       | BitTube                                    |                  |
-| `VEG`        | BitVegan                                   |                  |
-| `VOLT`       | BitVolt                                    |                  |
-| `BTW`        | BitWhite                                   |                  |
-| `ZNY`        | BitZeny                                    |                  |
-| `XBOND`      | Bitacium                                   |                  |
-| `BTCA`       | Bitair                                     |                  |
-| `BAC`        | BitalphaCoin                               |                  |
-| `BB1`        | Bitbond                                    |                  |
-| `BOSE`       | Bitbose                                    |                  |
-| `BTMG`       | Bitcademy Football                         |                  |
-| `BTD`        | Bitcloud                                   |                  |
-| `BTDX`       | Bitcloud 2.0                               |                  |
-| `BTCN`       | BitcoiNote                                 |                  |
-| `B2G`        | Bitcoiin2Gen                               |                  |
-| `BTC`        | Bitcoin                                    | rgb(247,147,26)  |
-| `BCA`        | Bitcoin Atom                               |                  |
-| `CDY`        | Bitcoin Candy                              |                  |
-| `BCH`        | Bitcoin Cash                               | rgb(45,179,1)    |
-| `BTCC`       | Bitcoin Core                               |                  |
-| `BCD`        | Bitcoin Diamond                            |                  |
-| `BTG`        | Bitcoin Gold                               | rgb(255,200,98)  |
-| `BITG`       | Bitcoin Green                              |                  |
-| `BTCH`       | Bitcoin Hush                               |                  |
-| `XBI`        | Bitcoin Incognito                          |                  |
-| `BCI`        | Bitcoin Interest                           |                  |
-| `BTN`        | Bitcoin Nova                               |                  |
-| `BTPL`       | Bitcoin Planet                             |                  |
-| `BTCP`       | Bitcoin Private                            |                  |
-| `BTCRED`     | Bitcoin Red                                |                  |
-| `BCR*`       | Bitcoin Royal                              |                  |
-| `BSV`        | Bitcoin SV                                 |                  |
-| `BTCS`       | Bitcoin Scrypt                             |                  |
-| `BT2`        | Bitcoin SegWit2X                           |                  |
-| `BTCS*`      | Bitcoin Supreme                            |                  |
-| `BTCD`       | BitcoinDark                                |                  |
-| `BTCE*`      | BitcoinEX                                  |                  |
-| `BCF`        | BitcoinFast                                |                  |
-| `BIFI`       | BitcoinFile                                |                  |
-| `BTF*`       | BitcoinFor                                 |                  |
-| `BTCGO`      | BitcoinGo                                  |                  |
-| `XBC`        | BitcoinPlus                                |                  |
-| `BWS`        | BitcoinWSpectrum                           |                  |
-| `BCX*`       | BitcoinX                                   |                  |
-| `BTCZ`       | BitcoinZ                                   |                  |
-| `BTCUS`      | Bitcoinus                                  |                  |
-| `BM*`        | Bitcomo                                    |                  |
-| `BTX`        | Bitcore                                    |                  |
-| `DARX`       | Bitdaric                                   |                  |
-| `BDL`        | Bitdeal                                    |                  |
-| `XBX`        | BiteX                                      |                  |
-| `BT1`        | Bitfinex Bitcoin Future                    |                  |
-| `BTR`        | Bither                                     |                  |
-| `BTH`        | Bithereum                                  |                  |
-| `KAN`        | Bitkan                                     |                  |
-| `BTCL*`      | BitluckCoin                                |                  |
-| `BIM`        | BitminerCoin                               |                  |
-| `BMXT`       | Bitmxittz                                  |                  |
-| `XPAT`       | Bitnation Pangea                           |                  |
-| `BQ`         | Bitqy                                      |                  |
-| `BRO`        | Bitradio                                   |                  |
-| `BTL`        | Bitrolium                                  |                  |
-| `BITSD`      | Bits Digit                                 |                  |
-| `BINS`       | Bitsense                                   |                  |
-| `BTS`        | Bitshares                                  | rgb(4,110,52)    |
-| `BSX`        | Bitspace                                   |                  |
-| `XBS`        | Bitstake                                   |                  |
-| `BITS`       | BitstarCoin                                |                  |
-| `BITS*`      | Bitswift                                   |                  |
-| `BWT`        | Bittwatt                                   |                  |
-| `BTV`        | Bitvote                                    |                  |
-| `BWT2`       | Bitwin 2.0                                 |                  |
-| `BITZ`       | Bitz Coin                                  |                  |
-| `BTZ`        | BitzCoin                                   |                  |
-| `BTZN`       | Bitzon                                     |                  |
-| `BXM`        | Bixtrim                                    |                  |
-| `BZKY`       | Bizkey                                     |                  |
-| `XBP`        | Black Pearl Coin                           |                  |
-| `BLK`        | BlackCoin                                  | rgb(0,0,0)       |
-| `BS`         | BlackShadowCoin                            |                  |
-| `BBOS`       | Blackbox Foundation                        |                  |
-| `BHC*`       | BlackholeCoin                              |                  |
-| `BMC`        | Blackmoon Crypto                           |                  |
-| `BSTAR`      | Blackstar                                  |                  |
-| `BBTC`       | BlakeBitcoin                               |                  |
-| `BLC`        | BlakeCoin                                  |                  |
-| `BLAS`       | BlakeStar                                  |                  |
-| `BLAZR`      | BlazerCoin                                 |                  |
-| `BLKD`       | Blinked                                    |                  |
-| `BLITZ`      | BlitzCoin                                  |                  |
-| `XBP*`       | BlitzPredict                               |                  |
-| `ARY`        | Block Array                                |                  |
-| `BLTG`       | Block-Logic                                |                  |
-| `BCAT`       | BlockCAT                                   |                  |
-| `BCDN`       | BlockCDN                                   |                  |
-| `LNC`        | BlockLancer                                |                  |
-| `BCPT`       | BlockMason Credit Protocol                 |                  |
-| `BMH`        | BlockMesh                                  |                  |
-| `BLOCK`      | BlockNet                                   |                  |
-| `BLOCKPAY`   | BlockPay                                   |                  |
-| `BPL`        | BlockPool                                  |                  |
-| `BCAP`       | Blockchain Capital                         |                  |
-| `BCDT`       | Blockchain Certified Data Token            |                  |
-| `BLX`        | Blockchain Index                           |                  |
-| `BCT`        | Blockchain Terminal                        |                  |
-| `BTF`        | Blockchain Traded Fund                     |                  |
-| `BCIO`       | Blockchain.io                              |                  |
-| `BDT`        | Blockonix                                  |                  |
-| `PASS`       | Blockpass                                  |                  |
-| `BPT`        | Blockport                                  |                  |
-| `CCC*`       | Blockshipping                              |                  |
-| `TIX`        | Blocktix                                   |                  |
-| `BKT`        | Blocktrade token                           |                  |
-| `BLV`        | Blockvest                                  |                  |
-| `BNTN`       | Blocnation                                 |                  |
-| `CYS`        | BlooCYS                                    |                  |
-| `BLT`        | Bloom Token                                |                  |
-| `CDT`        | Blox                                       |                  |
-| `BLU`        | BlueCoin                                   |                  |
-| `BDR`        | BlueDragon                                 |                  |
-| `BLZ`        | Bluzelle                                   |                  |
-| `BNX`        | BnrtxCoin                                  |                  |
-| `BOB`        | Bob's Repair                               |                  |
-| `BOT`        | Bodhi                                      |                  |
-| `BOE`        | Bodhi                                      |                  |
-| `BOG`        | Bogcoin                                    |                  |
-| `BOLD`       | Bold                                       |                  |
-| `BLN*`       | Bolenum                                    |                  |
-| `BOLI`       | BolivarCoin                                |                  |
-| `BOLTT`      | BolttCoin                                  |                  |
-| `BOMB`       | BombCoin                                   |                  |
-| `BONA`       | Bonafi                                     |                  |
-| `BON*`       | BonesCoin                                  |                  |
-| `BON`        | Bonpay                                     |                  |
-| `BBR`        | Boolberry                                  |                  |
-| `BOST`       | BoostCoin                                  |                  |
-| `BMG`        | Borneo                                     |                  |
-| `BOSON`      | BosonCoin                                  |                  |
-| `BOS*`       | Bostoken                                   |                  |
-| `BOTC`       | BotChain                                   |                  |
-| `CAP`        | BottleCaps                                 |                  |
-| `BTO`        | Bottos                                     |                  |
-| `BOU`        | Boulle                                     |                  |
-| `BNTE`       | Bountie                                    |                  |
-| `XBTY`       | Bounty                                     |                  |
-| `BNTY`       | Bounty0x                                   |                  |
-| `BOUTS`      | BoutsPro                                   |                  |
-| `AHT*`       | Bowhead Health                             |                  |
-| `BSC`        | BowsCoin                                   |                  |
-| `BOXY`       | BoxyCoin                                   |                  |
-| `IMPCN`      | Brain Space                                |                  |
-| `BRAIN`      | BrainCoin                                  |                  |
-| `BRAZ`       | Brazio                                     |                  |
-| `BRD`        | Bread token                                |                  |
-| `BRX`        | Breakout Stake                             |                  |
-| `BRK`        | BreakoutCoin                               |                  |
-| `BRIA`       | Briacoin                                   |                  |
-| `XBB`        | BrickBlock                                 |                  |
-| `BCO`        | BridgeCoin                                 |                  |
-| `BRC`        | BrightCoin                                 |                  |
-| `BRIK`       | BrikBit                                    |                  |
-| `BRIT`       | BritCoin                                   |                  |
-| `BRNX`       | Bronix                                     |                  |
-| `BXC`        | BtcEX                                      |                  |
-| `BUBO`       | Budbo                                      |                  |
-| `BUD`        | Buddy                                      |                  |
-| `BGL`        | Buglab                                     |                  |
-| `BT`         | BuildTeam                                  |                  |
-| `BULLS`      | BullshitCoin                               |                  |
-| `BWK`        | Bulwark                                    |                  |
-| `BUN`        | BunnyCoin                                  |                  |
-| `BURST`      | BurstCoin                                  |                  |
-| `BUZZ`       | BuzzCoin                                   |                  |
-| `BYC`        | ByteCent                                   |                  |
-| `BTE`        | ByteCoin                                   |                  |
-| `BCN`        | ByteCoin                                   |                  |
-| `GBYTE`      | Byteball                                   |                  |
-| `BYTHER`     | Bytether                                   |                  |
-| `BTM*`       | Bytom                                      | rgb(215,215,215) |
-| `XCT`        | C-Bits                                     |                  |
-| `C25`        | C25 Coin                                   |                  |
-| `CAIx`       | CAIx                                       |                  |
-| `CBD`        | CBD Crystals                               |                  |
-| `CCC`        | CCCoin                                     |                  |
-| `CDRX`       | CDRX                                       |                  |
-| `CDX`        | CDX Network                                |                  |
-| `CEDEX`      | CEDEX Coin                                 |                  |
-| `CEEK`       | CEEK Smart VR Token                        |                  |
-| `CETI`       | CETUS Coin                                 |                  |
-| `CHIPS`      | CHIPS                                      |                  |
-| `CIC`        | CIChain                                    |                  |
-| `CINX`       | CINDX                                      |                  |
-| `CINNI`      | CINNICOIN                                  |                  |
-| `CLAM`       | CLAMS                                      |                  |
-| `CO2`        | CO2 Token                                  |                  |
-| `CMS`        | COMSA                                      |                  |
-| `CNCT`       | CONNECT                                    |                  |
-| `CPY`        | COPYTRACK                                  |                  |
-| `COSS`       | COSS                                       |                  |
-| `COTI`       | COTI                                       |                  |
-| `CPC*`       | CPChain                                    |                  |
-| `MLS`        | CPROP                                      |                  |
-| `CPROP`      | CPROP                                      |                  |
-| `CRWD`       | CRWD Network                               |                  |
-| `CMZ`        | CRYPTOMAGZ                                 |                  |
-| `CRS*`       | CRYSTALS                                   |                  |
-| `CYBR`       | CYBR                                       |                  |
-| `CAB`        | CabbageUnit                                |                  |
-| `CHE`        | Cache                                      |                  |
-| `CACH`       | Cachecoin                                  |                  |
-| `CF`         | Californium                                |                  |
-| `CALC`       | CaliphCoin                                 |                  |
-| `CLO`        | Callisto Network                           |                  |
-| `CAM`        | Camcoin                                    |                  |
-| `CMPCO`      | CampusCoin                                 |                  |
-| `CAN`        | CanYaCoin                                  |                  |
-| `CND*`       | Canada eCoin                               |                  |
-| `CDN`        | Canada eCoin                               |                  |
-| `CAND`       | Canlead                                    |                  |
-| `CCN`        | CannaCoin                                  |                  |
-| `XCI`        | Cannabis Industry Coin                     |                  |
-| `CANN`       | CannabisCoin                               |                  |
-| `CNAB`       | Cannabium                                  |                  |
-| `XCD`        | Capdax                                     |                  |
-| `CAPP`       | Cappasity                                  |                  |
-| `CPC`        | CapriCoin                                  |                  |
-| `CAR`        | CarBlock                                   |                  |
-| `CTX`        | CarTaxi                                    |                  |
-| `CV`         | CarVertical                                |                  |
-| `CARAT`      | Carats Token                               |                  |
-| `CUSD`       | Carbon                                     |                  |
-| `CARBON`     | Carboncoin                                 |                  |
-| `ADA`        | Cardano                                    | rgb(6,21,41)     |
-| `CARD`       | Cardstack                                  |                  |
-| `CARE*`      | Care Token                                 |                  |
-| `CARE`       | Carebit                                    |                  |
-| `CRGO`       | CargoCoin                                  |                  |
-| `TICS`       | CargoConX                                  |                  |
-| `CXO`        | CargoX                                     |                  |
-| `DIEM`       | CarpeDiemCoin                              |                  |
-| `CTC`        | CarterCoin                                 |                  |
-| `CNBC`       | Cash & Back Coin                           |                  |
-| `CASH*`      | Cash Poker Pro                             |                  |
-| `CBC*`       | CashBagCoin                                |                  |
-| `CBC`        | CashBet Coin                               |                  |
-| `CASH`       | CashCoin                                   |                  |
-| `CSH`        | CashOut                                    |                  |
-| `CAS`        | Cashaa                                     |                  |
-| `CSC`        | CasinoCoin                                 |                  |
-| `CST`        | Casper API                                 |                  |
-| `CSP`        | Caspian                                    |                  |
-| `CSTL`       | Castle                                     |                  |
-| `CAT`        | Catcoin                                    |                  |
-| `CATT`       | Catex                                      |                  |
-| `CVTC`       | CavatCoin                                  |                  |
-| `CAV`        | Caviar                                     |                  |
-| `CCO`        | Ccore                                      |                  |
-| `CEL`        | Celsius Network                            |                  |
-| `CTR`        | Centra                                     |                  |
-| `CENNZ`      | Centrality Token                           |                  |
-| `CNT`        | Centurion                                  |                  |
-| `CBS`        | Cerberus                                   |                  |
-| `XCE`        | Cerium                                     |                  |
-| `CHC`        | ChainCoin                                  |                  |
-| `LINK`       | ChainLink                                  |                  |
-| `ZILLA`      | ChainZilla                                 |                  |
-| `CHX`        | Chainium                                   |                  |
-| `CHAN`       | ChanCoin                                   |                  |
-| `CAG`        | Change                                     |                  |
-| `CHA`        | Charity Coin                               |                  |
-| `CHARM`      | Charm Coin                                 |                  |
-| `CXC`        | CheckCoin                                  |                  |
-| `CHK`        | Chek                                       |                  |
-| `CHESS`      | ChessCoin                                  |                  |
-| `CHILD`      | ChildCoin                                  |                  |
-| `CNC`        | ChinaCoin                                  |                  |
-| `CHIP`       | Chip                                       |                  |
-| `CHOOF`      | ChoofCoin                                  |                  |
-| `DAY`        | Chronologic                                |                  |
-| `CRX`        | ChronosCoin                                |                  |
-| `CHW`        | Chrysalis Coin                             |                  |
-| `CLPX`       | Chynge.net                                 |                  |
-| `CIN`        | CinderCoin                                 |                  |
-| `CND`        | Cindicator                                 |                  |
-| `CIR`        | CircuitCoin                                |                  |
-| `COVAL`      | Circuits of Value                          |                  |
-| `CTL`        | Citadel                                    |                  |
-| `CTW`        | Citowise                                   |                  |
-| `CVC`        | Civic                                      |                  |
-| `CLRTY`      | Clarity                                    |                  |
-| `CAID`       | ClearAid                                   |                  |
-| `XCLR`       | ClearCoin                                  |                  |
-| `POLL`       | ClearPoll                                  |                  |
-| `CLV`        | CleverCoin                                 |                  |
-| `CHASH`      | CleverHash                                 |                  |
-| `CLICK`      | Clickcoin                                  |                  |
-| `CLIN`       | Clinicoin                                  |                  |
-| `CLINT`      | Clinton                                    |                  |
-| `CCCX`       | Clipper Coin Capital                       |                  |
-| `CLOAK`      | CloakCoin                                  |                  |
-| `CKC`        | Clockcoin                                  |                  |
-| `CLD`        | Cloud                                      |                  |
-| `CLOUT`      | Clout                                      |                  |
-| `CLDX`       | Cloverdex                                  |                  |
-| `CLUD`       | CludCoin                                   |                  |
-| `COE`        | CoEval                                     |                  |
-| `COT`        | CoTrader                                   |                  |
-| `COVEX`      | CoVEX                                      |                  |
-| `COB`        | Cobinhood                                  |                  |
-| `COX`        | CobraCoin                                  |                  |
-| `CTT`        | CodeTract                                  |                  |
-| `CFC`        | CoffeeCoin                                 |                  |
-| `CFI`        | Cofound.it                                 |                  |
-| `COGEN`      | Cogenero                                   |                  |
-| `COGS`       | Cogmento                                   |                  |
-| `COG`        | Cognitio                                   |                  |
-| `COIN*`      | Coin                                       |                  |
-| `COY`        | Coin Analyst                               |                  |
-| `XMG`        | Coin Magi                                  |                  |
-| `BTTF`       | Coin to the Future                         |                  |
-| `C2`         | Coin.2                                     |                  |
-| `CONI`       | CoinBene                                   |                  |
-| `CET`        | CoinEx token                               |                  |
-| `COFI`       | CoinFi                                     |                  |
-| `IMP`        | CoinIMP                                    |                  |
-| `XCJ`        | CoinJob                                    |                  |
-| `CL`         | CoinLancer                                 |                  |
-| `LION`       | CoinLion                                   |                  |
-| `MEE`        | CoinMeet                                   |                  |
-| `MEET`       | CoinMeet                                   |                  |
-| `XCM`        | CoinMetro                                  |                  |
-| `CPL`        | CoinPlace Token                            |                  |
-| `CHP`        | CoinPoker Token                            |                  |
-| `CPEX`       | CoinPulseToken                             |                  |
-| `CCH`        | Coinchase                                  |                  |
-| `DAILY`      | Coindaily                                  |                  |
-| `CGT`        | Coingrid                                   |                  |
-| `CTIC`       | Coinmatic                                  |                  |
-| `COI`        | Coinnec                                    |                  |
-| `CNO`        | Coino                                      |                  |
-| `CNMT`       | Coinomat                                   |                  |
-| `CXT`        | Coinonat                                   |                  |
-| `XCXT`       | CoinonatX                                  |                  |
-| `TCJ`        | Coinshare                                  |                  |
-| `CEN`        | Coinsuper Ecosystem Network                |                  |
-| `COIN`       | Coinvest                                   |                  |
-| `CWT`        | Coinware                                   |                  |
-| `CXG`        | Coinxes                                    |                  |
-| `COLX`       | ColossusCoinXT                             |                  |
-| `CLN`        | Colu Local Network                         |                  |
-| `CBP`        | ComBox                                     |                  |
-| `CMTC`       | CometCoin                                  |                  |
-| `CBT`        | CommerceBlock Token                        |                  |
-| `CMM`        | Commercium                                 |                  |
-| `COMM`       | Community Coin                             |                  |
-| `COC`        | Community Coin                             |                  |
-| `CMP`        | Compcoin                                   |                  |
-| `COMP`       | Compound Coin                              |                  |
-| `CPN`        | CompuCoin                                  |                  |
-| `CYC`        | ConSpiracy Coin                            |                  |
-| `CNL`        | ConcealCoin                                |                  |
-| `RAIN`       | Condensate                                 |                  |
-| `CFD`        | Confido                                    |                  |
-| `CJR`        | Conjure                                    |                  |
-| `CJT`        | ConnectJob Token                           |                  |
-| `CTY`        | Connecty                                   |                  |
-| `CQST`       | ConquestCoin                               |                  |
-| `SEN*`       | Consensus                                  |                  |
-| `DAG`        | Constellation                              |                  |
-| `CNN`        | Content Neutrality Network                 |                  |
-| `CAN*`       | Content and AD Network                     |                  |
-| `BOX`        | ContentBox                                 |                  |
-| `COS`        | Contentos                                  |                  |
-| `CUZ`        | Cool Cousin                                |                  |
-| `COOL`       | CoolCoin                                   |                  |
-| `CCX`        | CoolDarkCoin                               |                  |
-| `XCPO`       | Copico                                     |                  |
-| `CLR`        | CopperLark                                 |                  |
-| `CORAL`      | CoralPay                                   |                  |
-| `CORE`       | Core Group Asset                           |                  |
-| `COR`        | Corion                                     |                  |
-| `CTXC`       | Cortex                                     |                  |
-| `COSX`       | Cosmecoin                                  |                  |
-| `CSMIC`      | Cosmic                                     |                  |
-| `CMOS`       | Cosmo                                      |                  |
-| `COSM`       | CosmoChain                                 |                  |
-| `ATOM*`      | Cosmos                                     |                  |
-| `CMC`        | CosmosCoin                                 |                  |
-| `COU`        | Couchain                                   |                  |
-| `XCP`        | CounterParty                               |                  |
-| `CHT`        | Countinghouse Fund                         |                  |
-| `COV*`       | CovenCoin                                  |                  |
-| `COV`        | Covesting                                  |                  |
-| `CPLO`       | Cpollo                                     |                  |
-| `CRAB`       | CrabCoin                                   |                  |
-| `CRACK`      | CrackCoin                                  |                  |
-| `CRAFT`      | Craftcoin                                  |                  |
-| `CFTY`       | Crafty                                     |                  |
-| `CRAIG`      | CraigsCoin                                 |                  |
-| `CRNK`       | CrankCoin                                  |                  |
-| `CRAVE*`     | Crave-NG                                   |                  |
-| `CRAVE`      | CraveCoin                                  |                  |
-| `CRV`        | Cravy                                      |                  |
-| `CZC`        | Crazy Coin                                 |                  |
-| `CRM`        | Cream                                      |                  |
-| `XCRE`       | Creatio                                    |                  |
-| `CREA`       | CreativeChain                              |                  |
-| `CRDNC`      | Credence Coin                              |                  |
-| `PESA`       | Credible                                   |                  |
-| `CREDIT`     | Credit                                     |                  |
-| `CRB`        | Creditbit                                  |                  |
-| `CRE*`       | Creditcoin                                 |                  |
-| `CCOIN`      | Creditcoin                                 |                  |
-| `CDPT`       | Creditor Data Platform                     |                  |
-| `CRE`        | Credits                                    |                  |
-| `CRDS`       | Credits                                    |                  |
-| `CS*`        | Credits                                    |                  |
-| `CFT*`       | Credo                                      |                  |
-| `CREDO`      | Credo                                      |                  |
-| `CREVA`      | Creva Coin                                 |                  |
-| `CROAT`      | Croat                                      |                  |
-| `CMCT`       | Crowd Machine                              |                  |
-| `CRC***`     | CrowdCoin                                  |                  |
-| `CCOS`       | CrowdCoinage                               |                  |
-| `CRF`        | CrowdForce                                 |                  |
-| `CDP`        | CrowdPrecision                             |                  |
-| `YUP`        | Crowdholding                               |                  |
-| `WIZ`        | Crowdwiz                                   |                  |
-| `CRW`        | Crown Coin                                 |                  |
-| `CRC**`      | CryCash                                    |                  |
-| `IPT`        | Crypt-ON                                   |                  |
-| `CRYPT`      | CryptCoin                                  |                  |
-| `CPT`        | Cryptaur                                   |                  |
-| `CRL`        | Cryptelo Coin                              |                  |
-| `CRPT`       | Crypterium                                 |                  |
-| `XCR`        | Crypti                                     |                  |
-| `CRYP`       | CrypticCoin                                |                  |
-| `QRP`        | Cryptics                                   |                  |
-| `CTO`        | Crypto                                     |                  |
-| `ANGEL`      | Crypto Angel                               |                  |
-| `CESC`       | Crypto Escudo                              |                  |
-| `CIF`        | Crypto Improvement Fund                    |                  |
-| `CSPN`       | Crypto Sports                              |                  |
-| `TKT`        | Crypto Tickets                             |                  |
-| `CWEX`       | Crypto Wine Exchange                       |                  |
-| `CWIS`       | Crypto Wisdom Coin                         |                  |
-| `CWX`        | Crypto-X                                   |                  |
-| `MCO`        | Crypto.com                                 |                  |
-| `CRO`        | Crypto.com Chain Token                     |                  |
-| `C20`        | Crypto20                                   |                  |
-| `CABS`       | CryptoABS                                  |                  |
-| `BUK`        | CryptoBuk                                  |                  |
-| `CBX`        | CryptoBullion                              |                  |
-| `CCRB`       | CryptoCarbon                               |                  |
-| `CIRC`       | CryptoCircuits                             |                  |
-| `FCS`        | CryptoFocus                                |                  |
-| `CFT`        | CryptoForecast                             |                  |
-| `CHBR`       | CryptoHub                                  |                  |
-| `TKR`        | CryptoInsight                              |                  |
-| `CJ`         | CryptoJacks                                |                  |
-| `CJC`        | CryptoJournal                              |                  |
-| `LEU`        | CryptoLEU                                  |                  |
-| `CPAY`       | CryptoPay                                  |                  |
-| `CRPS`       | CryptoPennies                              |                  |
-| `PING`       | CryptoPing                                 |                  |
-| `CP`         | CryptoProfile                              |                  |
-| `CREV`       | CryptoRevolution                           |                  |
-| `CR`         | CryptoRiyal                                |                  |
-| `CS`         | CryptoSpots                                |                  |
-| `CWV`        | CryptoWave                                 |                  |
-| `CWXT`       | CryptoWorldXToken                          |                  |
-| `CRON`       | Cryptocean                                 |                  |
-| `CCIN`       | Cryptocoin Insurance                       |                  |
-| `CDX*`       | Cryptodex                                  |                  |
-| `CGA`        | Cryptographic Anomaly                      |                  |
-| `CIX100`     | Cryptoindex                                |                  |
-| `CYT`        | Cryptokenz                                 |                  |
-| `CIX`        | Cryptonetix                                |                  |
-| `CNX`        | Cryptonex                                  |                  |
-| `XCN`        | Cryptonite                                 |                  |
-| `CEFS`       | CryptopiaFeeShares                         |                  |
-| `CRS`        | Cryptoreal                                 |                  |
-| `CXA`        | CryptovationX                              |                  |
-| `OXY2`       | Cryptoxygen                                |                  |
-| `MN`         | Cryptsy Mining Contract                    |                  |
-| `POINTS`     | Cryptsy Points                             |                  |
-| `CRTM`       | Cryptum                                    |                  |
-| `CVCOIN`     | Crypviser                                  |                  |
-| `CCT`        | Crystal Clear Token                        |                  |
-| `AUTO`       | Cube                                       |                  |
-| `QBT`        | Cubits                                     |                  |
-| `CUR`        | Cura Network                               |                  |
-| `CTKN`       | Curaizon                                   |                  |
-| `CURE`       | Curecoin                                   |                  |
-| `CRU`        | Curium                                     |                  |
-| `CBUK`       | CurveBlock                                 |                  |
-| `CHFT`       | CustomCoin                                 |                  |
-| `CCL`        | CyClean                                    |                  |
-| `XCS`        | CybCSec Coin                               |                  |
-| `CCI`        | Cyber Capital Invest                       |                  |
-| `CC`         | CyberCoin                                  |                  |
-| `CMT`        | CyberMiles                                 |                  |
-| `CABS*`      | CyberTrust                                 |                  |
-| `CVT`        | CyberVein                                  |                  |
-| `CRE**`      | Cybereits Token                            |                  |
-| `CYDER`      | Cyder Coin                                 |                  |
-| `CYG`        | Cygnus                                     |                  |
-| `CYP`        | CypherPunkCoin                             |                  |
-| `FUNK`       | Cypherfunks Coin                           |                  |
-| `CYRS`       | Cyrus Token                                |                  |
-| `DACH`       | DACH Coin                                  |                  |
-| `DAC`        | DACash                                     |                  |
-| `DADI`       | DADI                                       |                  |
-| `DAX`        | DAEX                                       |                  |
-| `BET*`       | DAO.casino                                 |                  |
-| `GEN*`       | DAOstack                                   |                  |
-| `DAPS`       | DAPS Token                                 |                  |
-| `DAS`        | DAS                                        |                  |
-| `DATX`       | DATx                                       |                  |
-| `DAV*`       | DAV                                        |                  |
-| `DRP`        | DCORP                                      |                  |
-| `DEEX`       | DEEX                                       |                  |
-| `CET*`       | DICE Money                                 |                  |
-| `DIM`        | DIMCOIN                                    |                  |
-| `DIW`        | DIWtoken                                   |                  |
-| `DMT`        | DMarket                                    |                  |
-| `DNTX`       | DNAtix                                     |                  |
-| `DNN`        | DNN Token                                  |                  |
-| `MTC`        | DOCADEMIC                                  |                  |
-| `DOV`        | DOVU                                       |                  |
-| `DREAM*`     | DREAM                                      |                  |
-| `DRPU`       | DRP Utility                                |                  |
-| `DRACO`      | DT Token                                   |                  |
-| `DYNO`       | DYNO                                       |                  |
-| `DAI`        | Dai                                        |                  |
-| `DAN`        | Daneel                                     |                  |
-| `DXC*`       | Daox                                       |                  |
-| `DAR`        | Darcrus                                    |                  |
-| `PROD`       | Darenta                                    |                  |
-| `DEC`        | Darico                                     |                  |
-| `DARK`       | Dark                                       |                  |
-| `DISK`       | Dark Lisk                                  |                  |
-| `MOOND`      | Dark Moon                                  |                  |
-| `DB`         | DarkBit                                    |                  |
-| `DRKC`       | DarkCash                                   |                  |
-| `DCC`        | DarkCrave                                  |                  |
-| `DETH`       | DarkEther                                  |                  |
-| `DGDC`       | DarkGold                                   |                  |
-| `DKC`        | DarkKnightCoin                             |                  |
-| `DANK`       | DarkKush                                   |                  |
-| `DSB`        | DarkShibe                                  |                  |
-| `DT`         | DarkToken                                  |                  |
-| `DRKT`       | DarkTron                                   |                  |
-| `DNET`       | Darknet                                    |                  |
-| `DASC`       | DasCoin                                    |                  |
-| `DASH`       | Dash                                       | rgb(0,141,230)   |
-| `DSH`        | Dashcoin                                   |                  |
-| `DTA`        | Data                                       |                  |
-| `DTT*`       | Data Trading                               |                  |
-| `DTX`        | DataBroker DAO                             |                  |
-| `DXT`        | DataWallet                                 |                  |
-| `DTB`        | Databits                                   |                  |
-| `DBCCOIN`    | Datablockchain                             |                  |
-| `DTC*`       | Datacoin                                   |                  |
-| `XDT`        | Dataeum                                    |                  |
-| `DTN`        | Datareum                                   |                  |
-| `DTRC`       | Datarius                                   |                  |
-| `DAT`        | Datum                                      |                  |
-| `DAV`        | DavorCoin                                  |                  |
-| `DAXX`       | DaxxCoin                                   |                  |
-| `DTC`        | DayTrader Coin                             |                  |
-| `DAYTA`      | Dayta                                      |                  |
-| `DHT`        | DeHedge Token                              |                  |
-| `DNET*`      | DeNet                                      |                  |
-| `XNA`        | DeOxyRibose                                |                  |
-| `DBC*`       | Debit Coin                                 |                  |
-| `DBTC`       | DebitCoin                                  |                  |
-| `DEB`        | Debitum Token                              |                  |
-| `DCT`        | Decent                                     |                  |
-| `DBET`       | Decent.bet                                 |                  |
-| `MANA`       | Decentraland                               |                  |
-| `DACC`       | Decentralized Accessible Content Chain     |                  |
-| `DML`        | Decentralized Machine Learning             |                  |
-| `DUBI`       | Decentralized Universal Basic Income       |                  |
-| `HST`        | Decision Token                             |                  |
-| `DCR`        | Decred                                     |                  |
-| `DEEP`       | Deep Gold                                  |                  |
-| `DBC`        | DeepBrain Chain                            |                  |
-| `ONION`      | DeepOnion                                  |                  |
-| `DEA`        | Degas Coin                                 |                  |
-| `DEI`        | Deimos                                     |                  |
-| `DKD`        | Dekado                                     |                  |
-| `DEL`        | DelChain                                   |                  |
-| `DPAY`       | DelightPay                                 |                  |
-| `DPT`        | Deliverers Power Token                     |                  |
-| `DPY`        | Delphy                                     |                  |
-| `DLXV`       | Delta-X                                    |                  |
-| `DCRE`       | DeltaCredits                               |                  |
-| `DNR`        | Denarius                                   |                  |
-| `DNO`        | Denaro                                     |                  |
-| `DENT`       | Dent                                       |                  |
-| `DCN`        | Dentacoin                                  |                  |
-| `DFBT`       | DentalFix                                  |                  |
-| `DEPO`       | Depository Network                         |                  |
-| `DERO`       | Dero                                       |                  |
-| `DESI`       | Desico                                     |                  |
-| `DSR`        | Desire                                     |                  |
-| `DES`        | Destiny                                    |                  |
-| `DTCT`       | DetectorToken                              |                  |
-| `DTH`        | Dether                                     |                  |
-| `DVC`        | DevCoin                                    |                  |
-| `EVE`        | Devery                                     |                  |
-| `DEV`        | Deviant Coin                               |                  |
-| `DXG`        | DexAge                                     |                  |
-| `DMD`        | Diamond                                    |                  |
-| `DCK`        | DickCoin                                   |                  |
-| `DIGS`       | Diggits                                    |                  |
-| `DGB`        | DigiByte                                   |                  |
-| `DGC`        | DigiCoin                                   |                  |
-| `CUBE`       | DigiCube                                   |                  |
-| `DEUR`       | DigiEuro                                   |                  |
-| `DIGIF`      | DigiFel                                    |                  |
-| `DFXT`       | DigiFinexToken                             |                  |
-| `DGM`        | DigiMoney                                  |                  |
-| `DGPT`       | DigiPulse                                  |                  |
-| `DGMS`       | Digigems                                   |                  |
-| `DAGT`       | Digital Asset Guarantee Token              |                  |
-| `DPP`        | Digital Assets Power Play                  |                  |
-| `DBG`        | Digital Bullion Gold                       |                  |
-| `DDF`        | Digital Developers Fund                    |                  |
-| `DFS`        | Digital Fantasy Sports                     |                  |
-| `TMTG`       | Digital Gold Exchange                      |                  |
-| `DRS`        | Digital Rupees                             |                  |
-| `XDN`        | DigitalNote                                |                  |
-| `DP`         | DigitalPrice                               |                  |
-| `DGTX`       | Digitex Futures                            |                  |
-| `WAGE`       | Digiwage                                   |                  |
-| `DGD`        | Digix DAO                                  |                  |
-| `DGX`        | Digix Gold token                           |                  |
-| `DIG`        | Dignity                                    |                  |
-| `DIME`       | DimeCoin                                   |                  |
-| `DCY`        | Dinastycoin                                |                  |
-| `DIN`        | Dinero                                     |                  |
-| `XDQ`        | Dirac Coin                                 |                  |
-| `DIS`        | DiscoveryIoT                               |                  |
-| `DCC*`       | Distributed Credit Chain                   |                  |
-| `DIT`        | Ditcoin                                    |                  |
-| `DIVX`       | Divi Exchange Token                        |                  |
-| `DIVI`       | Divi Project                               |                  |
-| `DTC**`      | DivotyCoin                                 |                  |
-| `DXC`        | DixiCoin                                   |                  |
-| `DLISK`      | Dlisk                                      |                  |
-| `NOTE`       | Dnotes                                     |                  |
-| `DOC`        | Doc Coin                                   |                  |
-| `NRN`        | Doc.ai Neuron                              |                  |
-| `DOCK`       | Dock.io                                    |                  |
-| `DOGED`      | DogeCoinDark                               |                  |
-| `DGORE`      | DogeGoreCoin                               |                  |
-| `XDP`        | DogeParty                                  |                  |
-| `DOGE`       | Dogecoin                                   |                  |
-| `DLA`        | Dolla                                      |                  |
-| `DT1`        | Dollar Token 1                             |                  |
-| `DLC`        | DollarCoin                                 |                  |
-| `DLR`        | DollarOnline                               |                  |
-| `DRT`        | DomRaider                                  |                  |
-| `DON`        | DonationCoin                               |                  |
-| `DDL`        | Donocle                                    |                  |
-| `DOPE`       | DopeCoin                                   |                  |
-| `DOR`        | Dorado                                     |                  |
-| `DOT`        | Dotcoin                                    |                  |
-| `BOAT`       | Doubloon                                   |                  |
-| `Dow`        | DowCoin                                    |                  |
-| `DRA`        | DraculaCoin                                |                  |
-| `DFT`        | Draftcoin                                  |                  |
-| `DRG`        | Dragon Coin                                |                  |
-| `XDB`        | DragonSphere                               |                  |
-| `DRGN`       | Dragonchain                                |                  |
-| `DRM8`       | Dream8Coin                                 |                  |
-| `DREAM`      | DreamTeam Token                            |                  |
-| `DRF`        | Drife                                      |                  |
-| `DRZ`        | Droidz                                     |                  |
-| `DRC`        | Dropcoin                                   |                  |
-| `DROP`       | Dropil                                     |                  |
-| `DRXNE`      | Droxne                                     |                  |
-| `DUB`        | DubCoin                                    |                  |
-| `DBIC`       | DubaiCoin                                  |                  |
-| `DBIX`       | DubaiCoin                                  |                  |
-| `DUCK`       | DuckDuckCoin                               |                  |
-| `DUSK`       | Dusk Network                               |                  |
-| `DUTCH`      | Dutch Coin                                 |                  |
-| `DUX`        | DuxCoin                                    |                  |
-| `DYC`        | Dycoin                                     |                  |
-| `DYN`        | Dynamic                                    |                  |
-| `DTR`        | Dynamic Trading Rights                     |                  |
-| `DYNCOIN`    | Dyncoin                                    |                  |
-| `DTEM`       | Dystem                                     |                  |
-| `DBR`        | Düber                                      |                  |
-| `ECC*`       | E-CurrencyCoin                             |                  |
-| `EDR`        | E-Dinar Coin                               |                  |
-| `EFL`        | E-Gulden                                   |                  |
-| `EB3`        | EB3coin                                    |                  |
-| `EBC`        | EBCoin                                     |                  |
-| `ECC`        | ECC                                        |                  |
-| `OMI`        | ECOMI                                      |                  |
-| `ECO`        | ECOcoin                                    |                  |
-| `EDRC`       | EDRCoin                                    |                  |
-| `EGO`        | EGOcoin                                    |                  |
-| `EJAC`       | EJA Coin                                   |                  |
-| `ELTCOIN`    | ELTCOIN                                    |                  |
-| `EMANATE`    | EMANATE                                    |                  |
-| `EMX`        | EMX                                        |                  |
-| `ET`         | ENDO                                       |                  |
-| `ENTRC`      | ENTER COIN                                 |                  |
-| `ENTRY`      | ENTRY                                      |                  |
-| `EOT*`       | EON                                        |                  |
-| `EOS`        | EOS                                        | rgb(2,2,2)       |
-| `EPIK`       | EPIK Token                                 |                  |
-| `EQL`        | EQUAL                                      |                  |
-| `EQ`         | EQUI                                       |                  |
-| `EQUI`       | EQUI Token                                 |                  |
-| `ERB`        | ERBCoin                                    |                  |
-| `EST`        | ESports Chain                              |                  |
-| `XBASE`      | ETERBASE                                   |                  |
-| `ETS`        | ETH Share                                  |                  |
-| `ERA`        | ETHA                                       |                  |
-| `ETHO`       | ETHER-1                                    |                  |
-| `EGAS`       | ETHGAS                                     |                  |
-| `EUNO`       | EUNO                                       |                  |
-| `EVOS`       | EVOS                                       |                  |
-| `EXMR`       | EXMR                                       |                  |
-| `EXRN`       | EXRNchain                                  |                  |
-| `ETE`        | EXTRADECOIN                                |                  |
-| `EYE`        | EYE Token                                  |                  |
-| `EZX`        | EZ Exchange                                |                  |
-| `EZC`        | EZCoin                                     |                  |
-| `EZM`        | EZMarket                                   |                  |
-| `EZT`        | EZToken                                    |                  |
-| `EA`         | EagleCoin                                  |                  |
-| `EAGS`       | EagsCoin                                   |                  |
-| `EARTH`      | Earth Token                                |                  |
-| `EAC`        | EarthCoin                                  |                  |
-| `EGDC`       | EasyGuide                                  |                  |
-| `EMT`        | EasyMine                                   |                  |
-| `ETKN`       | EasyToken                                  |                  |
-| `EBZ`        | Ebitz                                      |                  |
-| `EBS`        | EbolaShare                                 |                  |
-| `EKO`        | EchoLink                                   |                  |
-| `EC`         | Eclipse                                    |                  |
-| `ECOB`       | EcoBit                                     |                  |
-| `ECR`        | EcoVerse                                   |                  |
-| `EDDIE`      | Eddie coin                                 |                  |
-| `EDN`        | EdenChain                                  |                  |
-| `EDGE`       | EdgeCoin                                   |                  |
-| `EDG`        | Edgeless                                   |                  |
-| `EDU`        | EduCoin                                    |                  |
-| `LEDU`       | Education Ecosystem                        |                  |
-| `EDC`        | EducoinV                                   |                  |
-| `EGG`        | EggCoin                                    |                  |
-| `EGT`        | Egretia                                    |                  |
-| `EDO`        | Eidoo                                      |                  |
-| `EMC2`       | Einsteinium                                |                  |
-| `ELC`        | Elacoin                                    |                  |
-| `XEL`        | Elastic                                    |                  |
-| `ELA`        | Elastos                                    |                  |
-| `ECA`        | Electra                                    |                  |
-| `ELEC`       | Electrify.Asia                             |                  |
-| `ELT`        | Electron                                   |                  |
-| `ETN`        | Electroneum                                |                  |
-| `EKN`        | Elektron                                   |                  |
-| `ELE`        | Elementrem                                 |                  |
-| `ELM`        | Elements                                   |                  |
-| `ELES`       | Elements Estates                           |                  |
-| `ELI*`       | Elicoin                                    |                  |
-| `ELI`        | Eligma                                     |                  |
-| `ELIX`       | Elixir                                     |                  |
-| `ELLA`       | Ellaism                                    |                  |
-| `ELP`        | Ellerium                                   |                  |
-| `ELLI`       | ElliotCoin                                 |                  |
-| `ELY`        | Elysian                                    |                  |
-| `ELS`        | Elysium                                    |                  |
-| `AEC*`       | EmaratCoin                                 |                  |
-| `EMB`        | EmberCoin                                  |                  |
-| `MBRS`       | Embers                                     |                  |
-| `EMD`        | Emerald                                    |                  |
-| `EMC`        | Emercoin                                   |                  |
-| `EMN`        | Eminent Token                              |                  |
-| `EMIGR`      | EmiratesGoldCoin                           |                  |
-| `EPY*`       | Emphy                                      |                  |
-| `PLEO`       | Empleos                                    |                  |
-| `EMPC`       | EmporiumCoin                               |                  |
-| `EPY`        | Empyrean                                   |                  |
-| `ENCX`       | Encrybit                                   |                  |
-| `DNA`        | EncrypGen                                  |                  |
-| `ETT`        | EncryptoTel                                |                  |
-| `ENCN`       | EndChain                                   |                  |
-| `EDR*`       | Endor Protocol Token                       |                  |
-| `ENE`        | EneCoin                                    |                  |
-| `ENQ`        | Enecuum                                    |                  |
-| `NRG`        | Energi                                     |                  |
-| `ETK`        | Energi Token                               |                  |
-| `TSL`        | Energo                                     |                  |
-| `ENRG`       | EnergyCoin                                 |                  |
-| `ENGT`       | Engagement Token                           |                  |
-| `EGCC`       | Engine                                     |                  |
-| `XNG`        | Enigma                                     |                  |
-| `ENG`        | Enigma                                     |                  |
-| `ENJ`        | Enjin Coin                                 |                  |
-| `ENK`        | Enkidu                                     |                  |
-| `ENTER`      | EnterCoin (ENTER)                          |                  |
-| `ENTRP`      | Entropy Token                              |                  |
-| `ENU`        | Enumivo                                    |                  |
-| `ENV`        | Envienta                                   |                  |
-| `EVN`        | Envion                                     |                  |
-| `NVOY`       | Envoy                                      |                  |
-| `ZYM`        | Enzym                                      |                  |
-| `EQUAL`      | EqualCoin                                  |                  |
-| `EQT`        | EquiTrader                                 |                  |
-| `EQB`        | Equibit                                    |                  |
-| `EQM`        | Equilibrium Coin                           |                  |
-| `EQY`        | Eqwity                                     |                  |
-| `ERE`        | Erecoin                                    |                  |
-| `EFYT`       | Ergo                                       |                  |
-| `ERT*`       | Eristica                                   |                  |
-| `ERO`        | Eroscoin                                   |                  |
-| `ERR`        | ErrorCoin                                  |                  |
-| `ERY`        | Eryllium                                   |                  |
-| `ESP`        | Espers                                     |                  |
-| `ERT`        | Esports.com                                |                  |
-| `ESS`        | Essentia                                   |                  |
-| `ETALON`     | Etalon                                     |                  |
-| `XEC`        | Eternal Coin                               |                  |
-| `XET`        | Eternal Token                              |                  |
-| `ETT*`       | Eternal Trusts                             |                  |
-| `ENT`        | Eternity                                   |                  |
-| `EBET`       | EthBet                                     |                  |
-| `ETBS`       | EthBits                                    |                  |
-| `LEND`       | EthLend                                    |                  |
-| `HEAL`       | Etheal                                     |                  |
-| `ETHB`       | EtherBTC                                   |                  |
-| `EDT`        | EtherDelta                                 |                  |
-| `DOGETH`     | EtherDoge                                  |                  |
-| `ETI`        | EtherInc                                   |                  |
-| `ETL`        | EtherLite                                  |                  |
-| `ESZ`        | EtherSportz                                |                  |
-| `ETZ`        | EtherZero                                  |                  |
-| `ECH`        | EthereCash                                 |                  |
-| `ETH`        | Ethereum                                   | rgb(140,140,140) |
-| `ETBT`       | Ethereum Black                             |                  |
-| `BLUE`       | Ethereum Blue                              |                  |
-| `ECASH`      | Ethereum Cash                              |                  |
-| `ETC`        | Ethereum Classic                           | rgb(30,159,103)  |
-| `ETHD`       | Ethereum Dark                              |                  |
-| `ETG`        | Ethereum Gold                              |                  |
-| `ETHM`       | Ethereum Meta                              |                  |
-| `EMV`        | Ethereum Movie Venture                     |                  |
-| `ETHPR`      | Ethereum Premium                           |                  |
-| `EQC`        | Ethereum Qchain Token                      |                  |
-| `LNK`        | Ethereum.Link                              |                  |
-| `BTCE`       | EthereumBitcoin                            |                  |
-| `ETF`        | EthereumFog                                |                  |
-| `ELITE`      | EthereumLite                               |                  |
-| `ETHS`       | EthereumScrypt                             |                  |
-| `DIP`        | Etherisc                                   |                  |
-| `RIYA`       | Etheriya                                   |                  |
-| `DICE`       | Etheroll                                   |                  |
-| `FUEL`       | Etherparty                                 |                  |
-| `ESN`        | Ethersocial                                |                  |
-| `ESC`        | Ethersportcoin                             |                  |
-| `NEC*`       | Ethfinex Nectar Token                      |                  |
-| `ETHIX`      | EthicHub                                   |                  |
-| `HORSE`      | Ethorse                                    |                  |
-| `ETHOS`      | Ethos                                      |                  |
-| `ET4`        | Eticket4                                   |                  |
-| `EUC`        | Eurocoin                                   |                  |
-| `ECTE`       | EurocoinToken                              |                  |
-| `ERC`        | EuropeCoin                                 |                  |
-| `EVN*`       | EvenCoin                                   |                  |
-| `EVENT`      | Event Token                                |                  |
-| `EVC`        | Eventchain                                 |                  |
-| `EGC`        | EverGreenCoin                              |                  |
-| `EVER`       | EverLife.AI                                |                  |
-| `EVX`        | Everex                                     |                  |
-| `IQ`         | Everipedia                                 |                  |
-| `EVR`        | Everus                                     |                  |
-| `EOC`        | EveryonesCoin                              |                  |
-| `EVIL`       | EvilCoin                                   |                  |
-| `EXB`        | ExaByte (EXB)                              |                  |
-| `XUC`        | Exchange Union                             | rgb(17,69,134)   |
-| `EXCC`       | ExchangeCoin                               |                  |
-| `EXN`        | ExchangeN                                  |                  |
-| `EXCL`       | Exclusive Coin                             |                  |
-| `EXE`        | ExeCoin                                    |                  |
-| `XNT`        | Exenium                                    |                  |
-| `EXC`        | Eximchain                                  |                  |
-| `EXIT`       | ExitCoin                                   |                  |
-| `EXO`        | Exosis                                     |                  |
-| `EXP`        | Expanse                                    |                  |
-| `EXPR`       | Expercoin                                  |                  |
-| `XP`         | Experience Points                          |                  |
-| `EXT*`       | Experience Token                           |                  |
-| `EXY`        | Experty                                    |                  |
-| `EON`        | Exscudo                                    |                  |
-| `TAURI`      | Extauri                                    |                  |
-| `EXTN`       | Extensive Coin                             |                  |
-| `XTRA`       | ExtraCredit                                |                  |
-| `ELT*`       | ExtraLovers                                |                  |
-| `XSB`        | Extreme Sportsbook                         |                  |
-| `XT`         | ExtremeCoin                                |                  |
-| `F16`        | F16Coin                                    |                  |
-| `FARM`       | FARM Coin                                  |                  |
-| `FX`         | FCoin                                      |                  |
-| `FIBRE`      | FIBRE                                      |                  |
-| `eFIC`       | FIC Network                                |                  |
-| `FLASH`      | FLASH coin                                 |                  |
-| `FLIK`       | FLiK                                       |                  |
-| `FLM`        | FOLM coin                                  |                  |
-| `FOREX`      | FOREXCOIN                                  |                  |
-| `FRED`       | FREDEnergy                                 |                  |
-| `FREE`       | FREE coin                                  |                  |
-| `FXP`        | FXPay                                      |                  |
-| `FABA`       | Faba Invest                                |                  |
-| `FT`         | Fabric Token                               |                  |
-| `FC`         | Facecoin                                   |                  |
-| `FACE`       | Faceter                                    |                  |
-| `FTR`        | FactR                                      |                  |
-| `FCT`        | Factoids                                   |                  |
-| `FAIR`       | FairCoin                                   |                  |
-| `FAIR*`      | FairGame                                   |                  |
-| `FAIRC`      | Faireum Token                              |                  |
-| `FAME`       | FameCoin                                   |                  |
-| `FAN`        | Fan360                                     |                  |
-| `FANZ`       | FanChain                                   |                  |
-| `XFT`        | Fantasy Cash                               |                  |
-| `FTM`        | Fantom                                     |                  |
-| `FCN`        | FantomCoin                                 |                  |
-| `FRD`        | Farad                                      |                  |
-| `F2K`        | Farm2Kitchen                               |                  |
-| `FTT`        | FarmaTrust                                 |                  |
-| `FST`        | FastCoin                                   |                  |
-| `FTUM`       | Fatum                                      |                  |
-| `DROP*`      | FaucetCoin                                 |                  |
-| `FAZZ`       | FazzCoin                                   |                  |
-| `FTC`        | FeatherCoin                                |                  |
-| `TIPS`       | FedoraCoin                                 |                  |
-| `FET`        | Fetch.AI                                   |                  |
-| `FIH`        | Fidelity House                             |                  |
-| `FLC`        | Fieldcoin                                  |                  |
-| `FIII`       | Fiii                                       |                  |
-| `FIL`        | FileCoin                                   |                  |
-| `FFM`        | Files.fm Library                           |                  |
-| `FILL`       | Fillit                                     |                  |
-| `FNTB`       | FinTab                                     |                  |
-| `FNX`        | FinanceX                                   |                  |
-| `FIND`       | FindCoin                                   |                  |
-| `FNL`        | Finlocale                                  |                  |
-| `FIN`        | Finom FIN Token                            |                  |
-| `NOM`        | Finom NOM Token                            |                  |
-| `FTX`        | FintruX                                    |                  |
-| `FIRE`       | FireCoin                                   |                  |
-| `FLOT`       | FireLotto                                  |                  |
-| `FRC`        | FireRoosterCoin                            |                  |
-| `FFC`        | FireflyCoin                                |                  |
-| `1ST`        | FirstBlood                                 |                  |
-| `FIRST`      | FirstCoin                                  |                  |
-| `FRST`       | FirstCoin                                  |                  |
-| `FIST`       | FistBump                                   |                  |
-| `FIT`        | Fitcoin                                    |                  |
-| `FRV`        | Fitrova                                    |                  |
-| `FLAP`       | Flappy Coin                                |                  |
-| `FLX`        | Flash                                      |                  |
-| `FLVR`       | FlavorCoin                                 |                  |
-| `FNP`        | FlipNpik                                   |                  |
-| `FLIXX`      | Flixxo                                     |                  |
-| `FLO`        | Flo                                        |                  |
-| `FLT`        | FlutterCoin                                |                  |
-| `FLUZ`       | FluzFluz                                   |                  |
-| `FLY`        | FlyCoin                                    |                  |
-| `FYP`        | FlypMe                                     |                  |
-| `FOAM`       | Foam                                       |                  |
-| `FLDC`       | Folding Coin                               |                  |
-| `FLLW`       | Follow Coin                                |                  |
-| `FNO`        | Fonero                                     |                  |
-| `FONZ`       | FonzieCoin                                 |                  |
-| `FOOD`       | FoodCoin                                   |                  |
-| `FOPA`       | Fopacoin                                   |                  |
-| `FOR`        | Force Coin                                 |                  |
-| `XFC`        | Forever Coin                               |                  |
-| `FML`        | FormulA                                    |                  |
-| `FFCT`       | FortFC                                     |                  |
-| `FOTA`       | Fortuna                                    |                  |
-| `FSBT`       | Forty Seven Bank                           |                  |
-| `FOXT`       | Fox Trading                                |                  |
-| `FRAC`       | FractalCoin                                |                  |
-| `FRN`        | Francs                                     |                  |
-| `FRK`        | Franko                                     |                  |
-| `FRWC`       | Frankywillcoin                             |                  |
-| `FRAZ`       | FrazCoin                                   |                  |
-| `FGZ`        | Free Game Zone                             |                  |
-| `FRE`        | FreeCoin                                   |                  |
-| `FRECN`      | Freldo                                     |                  |
-| `FREC`       | Freyrchain                                 |                  |
-| `FSC`        | FriendshipCoin                             |                  |
-| `FDZ`        | Friendz                                    |                  |
-| `FUCK`       | Fuck Token                                 |                  |
-| `FC2`        | Fuel2Coin                                  |                  |
-| `FJC`        | FujiCoin                                   |                  |
-| `NTO`        | Fujinto                                    |                  |
-| `FLS`        | Fuloos Coin                                |                  |
-| `FUNC`       | FunCoin                                    |                  |
-| `FUN`        | FunFair                                    |                  |
-| `FUND`       | Fund Platform                              |                  |
-| `FUNDZ`      | FundFantasy                                |                  |
-| `FND`        | FundRequest                                |                  |
-| `FYN`        | FundYourselfNow                            |                  |
-| `ATON`       | Further Network                            |                  |
-| `FSN*`       | Fusion                                     |                  |
-| `FSN`        | Fusion                                     |                  |
-| `FUTC`       | FutCoin                                    |                  |
-| `FTRC`       | FutureCoin                                 |                  |
-| `FTP`        | FuturePoints                               |                  |
-| `FTW`        | FutureWorks                                |                  |
-| `FPC`        | Futurepia                                  |                  |
-| `FTO`        | FuturoCoin                                 |                  |
-| `FXT`        | FuzeX                                      |                  |
-| `FUZZ`       | Fuzzballs                                  |                  |
-| `GAIA`       | GAIA Platform                              |                  |
-| `GAKH`       | GAKHcoin                                   |                  |
-| `GTX`        | GALLACTIC                                  |                  |
-| `GMB`        | GAMB                                       |                  |
-| `GAT`        | GATCOIN                                    |                  |
-| `GBRC`       | GBR Coin                                   |                  |
-| `GGP`        | GGPro                                      |                  |
-| `GGR`        | GGRocket                                   |                  |
-| `GTO`        | GIFTO                                      | rgb(137,52,255)  |
-| `GIN`        | GINcoin                                    |                  |
-| `GIZ`        | GIZMOcoin                                  |                  |
-| `GMC*`       | GMC Coin                                   |                  |
-| `GPU`        | GPU Coin                                   |                  |
-| `GSM`        | GSM Coin                                   |                  |
-| `GXS`        | GXChain                                    |                  |
-| `GBO`        | Gabro.io                                   |                  |
-| `GEP`        | Gaia                                       |                  |
-| `GNR`        | Gainer                                     |                  |
-| `ORE`        | Galactrum                                  |                  |
-| `GES`        | Galaxy eSolutions                          |                  |
-| `GLX`        | GalaxyCoin                                 |                  |
-| `GALI`       | Galilel                                    |                  |
-| `GLN`        | Galion Token                               |                  |
-| `GAM`        | Gambit coin                                |                  |
-| `GMCN`       | GambleCoin                                 |                  |
-| `GTC`        | Game                                       |                  |
-| `GXT`        | Game Protocol                              |                  |
-| `GBT`        | GameBetCoin                                |                  |
-| `GML`        | GameLeagueCoin                             |                  |
-| `GST`        | GameStars                                  |                  |
-| `UNITS`      | GameUnits                                  |                  |
-| `GX`         | GameX                                      |                  |
-| `GAME`       | Gamecredits                                |                  |
-| `GDX`        | Gamedex                                    |                  |
-| `FLP`        | Gameflip                                   |                  |
-| `GNJ`        | GanjaCoin V2                               |                  |
-| `GAP`        | Gapcoin                                    |                  |
-| `GRLC`       | Garlicoin                                  |                  |
-| `GAS`        | Gas                                        |                  |
-| `FORK`       | Gastro Advisor Token                       |                  |
-| `GBA`        | Geeba                                      |                  |
-| `GEMA`       | Gemera                                     |                  |
-| `GUSD`       | Gemini Dollar                              |                  |
-| `GEM`        | Gems                                       |                  |
-| `GMS`        | Gemstra                                    |                  |
-| `GEMZ`       | Gemz Social                                |                  |
-| `GXC*`       | GenXCoin                                   |                  |
-| `GNX`        | Genaro Network                             |                  |
-| `GENX`       | Genesis Network                            |                  |
-| `GVT`        | Genesis Vision                             |                  |
-| `XGS`        | GenesisX                                   |                  |
-| `GSY`        | GenesysCoin                                |                  |
-| `GEN`        | Genstake                                   |                  |
-| `GEO`        | GeoCoin                                    |                  |
-| `GUNS`       | GeoFunders                                 |                  |
-| `GEON`       | Geon                                       |                  |
-| `GER`        | GermanCoin                                 |                  |
-| `SPKTR`      | Ghost Coin                                 |                  |
-| `GHC`        | GhostCoin                                  |                  |
-| `GHOUL`      | Ghoul Coin                                 |                  |
-| `GIC`        | Giant                                      |                  |
-| `GIFT`       | GiftNet                                    |                  |
-| `GFT`        | Giftcoin                                   |                  |
-| `GIG`        | GigCoin                                    |                  |
-| `GBTC`       | GigTricks                                  |                  |
-| `WTT`        | Giga Watt                                  |                  |
-| `GZB`        | Gigzi                                      |                  |
-| `GGS`        | Gilgam                                     |                  |
-| `GIM`        | Gimli                                      |                  |
-| `GMR`        | Gimmer                                     |                  |
-| `GGC`        | Gingr                                      |                  |
-| `GOT`        | Giotto Coin                                |                  |
-| `GIVE`       | GiveCoin                                   |                  |
-| `GLA`        | Gladius                                    |                  |
-| `GLOBE`      | Global                                     |                  |
-| `GCR`        | Global Currency Reserve                    |                  |
-| `GJC`        | Global Jobcoin                             |                  |
-| `GSC`        | Global Social Chain                        |                  |
-| `GTC*`       | Global Tour Coin                           |                  |
-| `GTIB`       | Global Trust Coin                          |                  |
-| `BSTY`       | GlobalBoost                                |                  |
-| `GLC`        | GlobalCoin                                 |                  |
-| `GLT`        | GlobalToken                                |                  |
-| `GVE`        | Globalvillage Ecosystem                    |                  |
-| `GSI`        | Globex SCI                                 |                  |
-| `GBXT`       | Globitex Token                             |                  |
-| `GSX`        | GlowShares                                 |                  |
-| `GLYPH`      | GlyphCoin                                  |                  |
-| `GNO`        | Gnosis                                     |                  |
-| `xGOx`       | Go!                                        |                  |
-| `GBX`        | GoByte                                     |                  |
-| `GO`         | GoChain                                    |                  |
-| `GOT*`       | GoToken                                    |                  |
-| `GOA`        | GoaCoin                                    |                  |
-| `GOAL`       | Goal Bonanza                               |                  |
-| `GOAT`       | Goat                                       |                  |
-| `GBE`        | Godbex                                     |                  |
-| `GDL`        | GodlyCoin                                  |                  |
-| `XR`         | Gofind XR                                  |                  |
-| `GPL`        | Gold Pressed Latinum                       |                  |
-| `GRX`        | Gold Reward Token                          |                  |
-| `GB`         | GoldBlocks                                 |                  |
-| `GLD`        | GoldCoin                                   |                  |
-| `MNTP`       | GoldMint                                   |                  |
-| `GP`         | GoldPieces                                 |                  |
-| `XGR`        | GoldReserve                                |                  |
-| `GMA`        | Goldchip Mining Asset                      |                  |
-| `GEA`        | Goldea                                     |                  |
-| `XGH`        | Golden Hash                                |                  |
-| `XGB`        | GoldenBird                                 |                  |
-| `GLDR`       | Golder Coin                                |                  |
-| `GMX`        | Goldmaxcoin                                |                  |
-| `GNT`        | Golem Network Token                        |                  |
-| `GOLF`       | GolfCoin                                   |                  |
-| `GOLOS`      | Golos                                      |                  |
-| `GBG`        | Golos Gold                                 |                  |
-| `GOOD`       | GoodCoin                                   |                  |
-| `GOOD*`      | Goodomy                                    |                  |
-| `GOON`       | Goonies                                    |                  |
-| `BUCKS*`     | GorillaBucks                               |                  |
-| `GOTX`       | GothicCoin                                 |                  |
-| `GRFT`       | Graft Blockchain                           |                  |
-| `GDC`        | GrandCoin                                  |                  |
-| `GAI`        | GraphGrail AI                              |                  |
-| `77G`        | GraphenTech                                |                  |
-| `GRAV`       | Graviton                                   |                  |
-| `GBIT`       | GravityBit                                 |                  |
-| `WPP`        | Green Energy Token                         |                  |
-| `GRE`        | GreenCoin                                  |                  |
-| `GRMD`       | GreenMed                                   |                  |
-| `GEX`        | GreenX                                     |                  |
-| `GNC`        | Greencoin                                  |                  |
-| `GTN`        | Greentoken                                 |                  |
-| `GREXIT`     | GrexitCoin                                 |                  |
-| `GC`         | Gric Coin                                  |                  |
-| `GRID`       | Grid+                                      |                  |
-| `GRC`        | GridCoin                                   |                  |
-| `GRM`        | GridMaster                                 |                  |
-| `GMC`        | Gridmaster                                 |                  |
-| `GRIN`       | Grin                                       |                  |
-| `GRS`        | Groestlcoin                                |                  |
-| `GRO`        | Gron Digital                               |                  |
-| `GRWI`       | Growers International                      |                  |
-| `GROW`       | GrownCoin                                  |                  |
-| `GRW`        | GrowthCoin                                 |                  |
-| `GTR`        | Gturbo                                     |                  |
-| `GET`        | Guaranteed Entrance Token                  |                  |
-| `GETX`       | Guaranteed Ethurance Token Extra           |                  |
-| `GUAR`       | Guarium                                    |                  |
-| `GCC`        | GuccioneCoin                               |                  |
-| `GUE`        | GuerillaCoin                               |                  |
-| `NLG`        | Gulden                                     |                  |
-| `GUN`        | GunCoin                                    |                  |
-| `GUP`        | Guppy                                      |                  |
-| `GXC`        | Gx Coin                                    |                  |
-| `HIDU`       | H-Education World                          |                  |
-| `HART`       | HARA                                       |                  |
-| `HBZ`        | HBZ Coin                                   |                  |
-| `HIX`        | HELIX Orange                               |                  |
-| `HELL`       | HELL COIN                                  |                  |
-| `HRO`        | HEROIC.com                                 |                  |
-| `PLAY`       | HEROcoin                                   |                  |
-| `HOLD`       | HOLD                                       |                  |
-| `HLDY`       | HOLIDAY                                    |                  |
-| `HQX`        | HOQU                                       |                  |
-| `HODL`       | HOdlcoin                                   |                  |
-| `HTML`       | HTML Coin                                  |                  |
-| `HTML5`      | HTML5 Coin                                 |                  |
-| `HUS`        | HUSSY                                      |                  |
-| `HYC`        | HYCON                                      |                  |
-| `HYGH`       | HYGH                                       |                  |
-| `HKN`        | Hacken                                     |                  |
-| `HKG`        | Hacker Gold                                |                  |
-| `HAC`        | Hackspace Capital                          |                  |
-| `HPAY`       | HadePay                                    |                  |
-| `HLC`        | Halal-Chain                                |                  |
-| `HAL`        | Halcyon                                    |                  |
-| `HALLO`      | Halloween Coin                             |                  |
-| `HALO`       | Halo Platform                              |                  |
-| `HMT`        | Hamster Marketplace Token                  |                  |
-| `HAMS`       | HamsterCoin                                |                  |
-| `HANA`       | Hanacoin                                   |                  |
-| `HPC`        | HappyCoin                                  |                  |
-| `HCC`        | HappyCreatorCoin                           |                  |
-| `HRBE`       | Harambee Token                             |                  |
-| `HRB`        | Harbour DAO                                |                  |
-| `HMN`        | Harvest Masternode Coin                    |                  |
-| `HSC`        | HashCoin                                   |                  |
-| `HGS`        | HashGains                                  |                  |
-| `HASH`       | Hashbon                                    |                  |
-| `GARD`       | Hashgard                                   |                  |
-| `XHV`        | Haven Protocol                             |                  |
-| `HAT`        | Hawala.Exchange                            |                  |
-| `HZT`        | HazMatCoin                                 |                  |
-| `HAZE`       | HazeCoin                                   |                  |
-| `HDAC`       | Hdac                                       |                  |
-| `HHEM`       | Healthureum                                |                  |
-| `WORM`       | HealthyWorm                                |                  |
-| `HB`         | HeartBout                                  |                  |
-| `HEAT`       | Heat Ledger                                |                  |
-| `HVC`        | HeavyCoin                                  |                  |
-| `HDG`        | Hedge Token                                |                  |
-| `HEDG`       | HedgeTrade                                 |                  |
-| `HEDGE`      | Hedgecoin                                  |                  |
-| `HEEL`       | HeelCoin                                   |                  |
-| `HYS`        | Heiss Shares                               |                  |
-| `HLM`        | Helium                                     |                  |
-| `HLX`        | Helix3                                     |                  |
-| `HNC`        | Hellenic Coin                              |                  |
-| `HGT`        | Hello Gold                                 |                  |
-| `HMP`        | HempCoin                                   |                  |
-| `HERB`       | HerbCoin                                   |                  |
-| `HERO`       | Hero                                       |                  |
-| `HER`        | Hero Node                                  |                  |
-| `HETA`       | HetaChain                                  |                  |
-| `HEX`        | HexCoin                                    |                  |
-| `HXC`        | HexanCoin                                  |                  |
-| `HXT`        | HextraCoin                                 |                  |
-| `HXX`        | HexxCoin                                   |                  |
-| `HMC`        | Hi Mutual Society                          |                  |
-| `XHI`        | HiCoin                                     |                  |
-| `HIH`        | HiHealth                                   |                  |
-| `HPB`        | High Performance Blockchain                |                  |
-| `HVCO`       | High Voltage Coin                          |                  |
-| `AIMS`       | HighCastle Token                           |                  |
-| `HV`         | HighVibe.Network                           |                  |
-| `HGO`        | HireGo                                     |                  |
-| `HIRE`       | HireMatch                                  |                  |
-| `HFT`        | Hirefreehands                              |                  |
-| `HIT`        | HitChain                                   |                  |
-| `HTC`        | Hitcoin                                    |                  |
-| `HIVE`       | Hive                                       |                  |
-| `HVN`        | Hiveterminal Token                         |                  |
-| `HBN`        | HoboNickels                                |                  |
-| `HWC`        | HollyWoodCoin                              |                  |
-| `HOT*`       | Holo                                       |                  |
-| `HBC`        | HomeBlockCoin                              |                  |
-| `HMD`        | Homelend                                   |                  |
-| `HONEY`      | Honey                                      |                  |
-| `HZ`         | Horizon                                    |                  |
-| `HSP`        | Horse Power                                |                  |
-| `HORUS`      | HorusPay                                   |                  |
-| `HYT`        | HoryouToken                                |                  |
-| `HSR`        | Hshare                                     | rgb(90,69,141)   |
-| `HBT`        | Hubii Network                              |                  |
-| `HMQ`        | Humaniq                                    |                  |
-| `HNC*`       | Huncoin                                    |                  |
-| `HUC`        | HunterCoin                                 |                  |
-| `HT`         | Huobi Token                                |                  |
-| `HUR`        | Hurify                                     |                  |
-| `HUSH`       | Hush                                       |                  |
-| `HOT`        | Hydro Protocol                             |                  |
-| `HYDRO`      | Hydrogen                                   |                  |
-| `H2O`        | Hydrominer                                 |                  |
-| `H3O`        | Hydrominer                                 |                  |
-| `HC`         | HyperCash                                  |                  |
-| `HYPER`      | HyperCoin                                  |                  |
-| `HLD`        | HyperLending                               |                  |
-| `HQT`        | HyperQuant                                 |                  |
-| `HBX`        | Hyperbridge                                |                  |
-| `TREE`       | HyperionX                                  |                  |
-| `HPSP`       | Hyperspace                                 |                  |
-| `HYP`        | Hyperstake                                 |                  |
-| `IHT`        | I-House Token                              |                  |
-| `I0C`        | I0coin                                     |                  |
-| `IAG`        | IAGON                                      |                  |
-| `IAM`        | IAME Identity                              |                  |
-| `ICASH`      | ICASH                                      |                  |
-| `ICOO`       | ICO OpenLedger                             |                  |
-| `ICOS`       | ICOBox                                     |                  |
-| `ICX`        | ICON Project                               |                  |
-| `ICST`       | ICST                                       |                  |
-| `IDAC`       | IDAC                                       |                  |
-| `IDAP`       | IDAP                                       |                  |
-| `IDXM`       | IDEX Membership                            |                  |
-| `IDM`        | IDM                                        |                  |
-| `IG`         | IG Token                                   |                  |
-| `IGTT`       | IGT                                        |                  |
-| `ILC`        | ILCoin                                     |                  |
-| `ILCT`       | ILCoin Token                               |                  |
-| `IML`        | IMMLA                                      |                  |
-| `ITR`        | INTRO                                      |                  |
-| `IOC`        | IOCoin                                     |                  |
-| `IOST`       | IOS token                                  |                  |
-| `IOT`        | IOTA                                       |                  |
-| `IOTW`       | IOTW                                       |                  |
-| `IOUX`       | IOU                                        |                  |
-| `IOU`        | IOU1                                       |                  |
-| `IOV`        | IOV                                        |                  |
-| `IPSX`       | IP Exchange                                |                  |
-| `IPC*`       | IPChain                                    |                  |
-| `IQN`        | IQeon                                      |                  |
-| `IRC`        | IRONCOIN                                   |                  |
-| `IVN`        | IVN Security                               |                  |
-| `IXC`        | IXcoin                                     |                  |
-| `IZX`        | IZX                                        |                  |
-| `ROCK2`      | Ice Rock Mining                            |                  |
-| `ICB`        | IceBergCoin                                |                  |
-| `ICHX`       | IceChain                                   |                  |
-| `ICOB`       | Icobid                                     |                  |
-| `ICON`       | Iconic                                     |                  |
-| `ICN`        | Iconomi                                    |                  |
-| `IDC`        | IdealCoin                                  |                  |
-| `IGNIS`      | Ignis                                      |                  |
-| `IC`         | Ignition                                   |                  |
-| `REX`        | Imbrex                                     |                  |
-| `IMGZ`       | Imigize                                    |                  |
-| `IMVR`       | ImmVRse                                    |                  |
-| `IMX`        | Impact                                     |                  |
-| `IMPCH`      | Impeach                                    |                  |
-| `IPC`        | ImperialCoin                               |                  |
-| `XIM`        | Impresso                                   |                  |
-| `IMPS`       | Impulse Coin                               |                  |
-| `IN`         | InCoin                                     |                  |
-| `INX`        | InMax                                      |                  |
-| `NKA`        | IncaKoin                                   |                  |
-| `INCNT`      | Incent                                     |                  |
-| `INCP`       | InceptionCoin                              |                  |
-| `INC`        | Incrementum                                |                  |
-| `IDH`        | IndaHash                                   |                  |
-| `IMS`        | Independent Money System                   |                  |
-| `ERC20`      | Index ERC20                                |                  |
-| `INDI`       | IndiCoin                                   |                  |
-| `IND`        | Indorse                                    |                  |
-| `IFX`        | Infinex                                    |                  |
-| `IFC`        | Infinite Coin                              |                  |
-| `XIN`        | Infinity Economics                         |                  |
-| `INF8`       | Infinium-8                                 |                  |
-| `IFLT`       | InflationCoin                              |                  |
-| `IFUM`       | Infleum                                    |                  |
-| `INFLR`      | Inflr                                      |                  |
-| `INTO`       | Influ Token                                |                  |
-| `INFX`       | Influxcoin                                 |                  |
-| `INK`        | Ink                                        |                  |
-| `XNK`        | Ink Protocol                               |                  |
-| `ILK`        | Inlock                                     |                  |
-| `SOUND`      | Inmusik                                    |                  |
-| `INN`        | Innova                                     |                  |
-| `MINX`       | InnovaMinex                                |                  |
-| `INSN`       | Insane Coin                                |                  |
-| `INSANE`     | InsaneCoin                                 |                  |
-| `WOLF`       | Insanity Coin                              |                  |
-| `INSTAR`     | Insights Network                           |                  |
-| `INS`        | Insolar                                    |                  |
-| `ICC`        | Insta Cash Coin                            |                  |
-| `MINE`       | Instamine Nuggets                          |                  |
-| `SPON`       | Instant Sponsor Token                      |                  |
-| `INSUR`      | InsurChain Coin                            |                  |
-| `IPL`        | InsurePal                                  |                  |
-| `ISR`        | Insureum                                   |                  |
-| `IQB`        | Intelligence Quotient Benefit              |                  |
-| `ITT`        | Intelligent Trading                        |                  |
-| `XID*`       | International Diamond Coin                 |                  |
-| `INT`        | Internet Node Token                        |                  |
-| `IOP`        | Internet of People                         |                  |
-| `INXT`       | Internxt                                   |                  |
-| `ISH`        | Interstellar Holdings                      |                  |
-| `ITZ`        | Interzone                                  |                  |
-| `ICT`        | Intrachain                                 |                  |
-| `INV*`       | Invacio                                    |                  |
-| `IDT`        | InvestDigital                              |                  |
-| `IFT`        | InvestFeed                                 |                  |
-| `INVX`       | Investx                                    |                  |
-| `IVC`        | Investy Coin                               |                  |
-| `INV`        | Invictus                                   |                  |
-| `IHF`        | Invictus Hyperion Fund                     |                  |
-| `IVZ`        | InvisibleCoin                              |                  |
-| `INVOX`      | Invox Finance                              |                  |
-| `IZA`        | Inzura                                     |                  |
-| `ITC`        | IoT Chain                                  |                  |
-| `IOTX`       | IoTeX Network                              |                  |
-| `ION`        | Ionomy                                     |                  |
-| `TLU`        | Irene Energy                               |                  |
-| `IRL`        | IrishCoin                                  |                  |
-| `ISL`        | IslaCoin                                   |                  |
-| `ITL`        | Italian Lira                               |                  |
-| `ITA`        | Italocoin                                  |                  |
-| `ING`        | Iungo                                      |                  |
-| `IEC`        | IvugeoEvolutionCoin                        |                  |
-| `IVY`        | IvyKoin                                    |                  |
-| `IWT`        | IwToken                                    |                  |
-| `J8T`        | JET8                                       |                  |
-| `JEX`        | JEX Token                                  |                  |
-| `JIO`        | JIO Token                                  |                  |
-| `JOYS`       | JOYS                                       |                  |
-| `JOY*`       | JOYSO                                      |                  |
-| `JSE`        | JSEcoin                                    |                  |
-| `JANE`       | JaneCoin                                   |                  |
-| `JNS`        | Janus                                      |                  |
-| `JVY`        | Javvy                                      |                  |
-| `JC`         | JesusCoin                                  |                  |
-| `JET`        | Jetcoin                                    |                  |
-| `JWL`        | Jewels                                     |                  |
-| `JIB`        | Jibbit                                     |                  |
-| `JNT`        | Jibrel Network Token                       |                  |
-| `JIF`        | JiffyCoin                                  |                  |
-| `JCR`        | Jincor                                     |                  |
-| `JINN`       | Jinn                                       |                  |
-| `JOBS`       | JobsCoin                                   |                  |
-| `J`          | JoinCoin                                   |                  |
-| `JOINT`      | Joint Ventures                             |                  |
-| `JOK`        | JokerCoin                                  |                  |
-| `XJO`        | JouleCoin                                  |                  |
-| `JOYT`       | JoyToken                                   |                  |
-| `JOY`        | Joycoin                                    |                  |
-| `JUDGE`      | JudgeCoin                                  |                  |
-| `JBS`        | JumBucks Coin                              |                  |
-| `JUMP`       | Jumpcoin                                   |                  |
-| `JKC`        | JunkCoin                                   |                  |
-| `JMC`        | Junson Ming Chan Coin                      |                  |
-| `JDC`        | JustDatingSite                             |                  |
-| `KSYS`       | K-Systems                                  |                  |
-| `KAAS`       | KAASY.AI                                   |                  |
-| `KAT`        | KATZcoin                                   |                  |
-| `KEC`        | KEYCO                                      |                  |
-| `KIBIS`      | KIBIS                                      |                  |
-| `TOS`        | KRATOS                                     |                  |
-| `KRC`        | KRCoin                                     |                  |
-| `KREDS`      | KREDS                                      |                  |
-| `KUBO`       | KUBO                                       |                  |
-| `KWH`        | KWHCoin                                    |                  |
-| `KZC`        | KZCash                                     |                  |
-| `KLKS`       | Kalkulus                                   |                  |
-| `KAPU`       | Kapu                                       |                  |
-| `KBC`        | Karatgold coin                             |                  |
-| `KRB`        | Karbo                                      |                  |
-| `KRM`        | Karma                                      |                  |
-| `KARMA`      | Karma                                      |                  |
-| `K2G`        | Kasko2go                                   |                  |
-| `KAYI`       | Kayı                                       |                  |
-| `KCASH`      | Kcash                                      |                  |
-| `KEK`        | KekCoin                                    |                  |
-| `KEN`        | Kencoin                                    |                  |
-| `KEP`        | Kepler                                     |                  |
-| `KC`         | Kernalcoin                                 |                  |
-| `KETAN`      | Ketan                                      |                  |
-| `KEX`        | KexCoin                                    |                  |
-| `KEY*`       | KeyCoin                                    |                  |
-| `KMX`        | KiMex                                      |                  |
-| `KICK`       | KickCoin                                   |                  |
-| `KLC`        | KiloCoin                                   |                  |
-| `KIN`        | Kin                                        |                  |
-| `KIND`       | Kind Ads                                   |                  |
-| `KVT`        | Kinesis Velocity Token                     |                  |
-| `KING`       | King93                                     |                  |
-| `KNC**`      | KingN Coin                                 |                  |
-| `MEOW`       | Kittehcoin                                 |                  |
-| `KLK`        | Klickzie                                   |                  |
-| `KED`        | Klingon Empire Darsek                      |                  |
-| `KDC`        | Klondike Coin                              |                  |
-| `KNW`        | Knowledge                                  |                  |
-| `KOBO`       | KoboCoin                                   |                  |
-| `KOLION`     | Kolion                                     |                  |
-| `KMD`        | Komodo                                     |                  |
-| `KORE`       | Kore                                       |                  |
-| `KOTO`       | Koto                                       |                  |
-| `KUSD`       | Kowala                                     |                  |
-| `KRAK`       | Kraken                                     |                  |
-| `KRONE`      | Kronecoin                                  |                  |
-| `KSS`        | Krosscoin                                  |                  |
-| `KGC`        | KrugerCoin                                 |                  |
-| `KRL`        | Kryll                                      |                  |
-| `KTK`        | KryptCoin                                  |                  |
-| `KRP`        | Kryptoin                                   |                  |
-| `KR`         | Krypton                                    |                  |
-| `KBX`        | KuBitX                                     |                  |
-| `KBR`        | Kubera Coin                                |                  |
-| `KUBOS`      | KubosCoin                                  |                  |
-| `KCS`        | Kucoin                                     |                  |
-| `KUE`        | Kuende                                     |                  |
-| `KURT`       | Kurrent                                    |                  |
-| `KUSH`       | KushCoin                                   |                  |
-| `KUV`        | Kuverit                                    |                  |
-| `KVT*`       | Kvantor                                    |                  |
-| `KNC`        | Kyber Network                              |                  |
-| `LAX`        | LAPO                                       |                  |
-| `LA`         | LATOKEN                                    |                  |
-| `LBC`        | LBRY Credits                               |                  |
-| `LAO`        | LC Token                                   |                  |
-| `LEO`        | LEOcoin                                    |                  |
-| `LGBTQ`      | LGBTQoin                                   |                  |
-| `LHC`        | LHCoin                                     |                  |
-| `LIFE`       | LIFE                                       |                  |
-| `LN`         | LINK                                       |                  |
-| `LNKC`       | LINKCHAIN                                  |                  |
-| `VEEN`       | LIVEEN                                     |                  |
-| `LIPC`       | LIpcoin                                    |                  |
-| `LTBC`       | LTBCoin                                    |                  |
-| `LTO`        | LTO Network                                |                  |
-| `LUMA`       | LUMA Token                                 |                  |
-| `LUX`        | LUXCoin                                    |                  |
-| `LVX`        | LVX                                        |                  |
-| `LYN`        | LYNCHPIN Token                             |                  |
-| `LALA`       | LaLa World                                 |                  |
-| `LBR`        | LaborCrypto                                |                  |
-| `LAB`        | Labrys                                     |                  |
-| `BAC*`       | LakeBanker                                 |                  |
-| `TAU`        | Lamden Tau                                 |                  |
-| `PIX`        | Lampix                                     |                  |
-| `LANA`       | LanaCoin                                   |                  |
-| `AXIS`       | LaneAxis                                   |                  |
-| `LTH`        | Lathaan                                    |                  |
-| `LAT`        | Latium                                     |                  |
-| `LATX`       | LatiumX                                    |                  |
-| `LAZ`        | Lazarus                                    |                  |
-| `LEPEN`      | LePenCoin                                  |                  |
-| `LEA`        | LeaCoin                                    |                  |
-| `LDC`        | LeadCoin                                   |                  |
-| `LEAF`       | LeafCoin                                   |                  |
-| `LGD`        | Legends Cryptocurrency                     |                  |
-| `LGO`        | Legolas Exchange                           |                  |
-| `LELE`       | Lelecoin                                   |                  |
-| `LEMON`      | LemonCoin                                  |                  |
-| `LCT`        | LendConnect                                |                  |
-| `LND`        | Lendingblock                               |                  |
-| `LOAN`       | Lendoit                                    |                  |
-| `LST`        | Lendroid Support Token                     |                  |
-| `LENIN`      | LeninCoin                                  |                  |
-| `LIR`        | Let it Ride                                |                  |
-| `LTHN`       | Lethean                                    |                  |
-| `LVL*`       | LevelNet Token                             |                  |
-| `LVG`        | Leverage Coin                              |                  |
-| `LEV`        | Leverj                                     |                  |
-| `XLC`        | LeviarCoin                                 |                  |
-| `LIB`        | Libellum                                   |                  |
-| `XLB`        | LibertyCoin                                |                  |
-| `LBA`        | Libra Credit                               |                  |
-| `LXC`        | LibrexCoin                                 |                  |
-| `LIGER`      | Ligercoin                                  |                  |
-| `LSD`        | LightSpeedCoin                             |                  |
-| `LPC*`       | Lightpaycoin                               |                  |
-| `LIKE`       | LikeCoin                                   |                  |
-| `LK`         | Liker                                      |                  |
-| `LIMX`       | LimeCoinX                                  |                  |
-| `LTD`        | Limited Coin                               |                  |
-| `LINDA`      | Linda                                      |                  |
-| `LET`        | LinkEye                                    |                  |
-| `LNC*`       | Linker Coin                                |                  |
-| `LINX`       | Linx                                       |                  |
-| `LIPS`       | LipChain                                   |                  |
-| `LEN`        | Liqnet                                     |                  |
-| `LQD`        | Liquid                                     |                  |
-| `LQ8`        | Liquid8                                    |                  |
-| `LQDN`       | Liquidity Network                          |                  |
-| `LSK`        | Lisk                                       |                  |
-| `LTCC`       | Listerclassic Coin                         |                  |
-| `LBTC`       | LiteBitcoin                                |                  |
-| `LTG`        | LiteCoin Gold                              |                  |
-| `LTCU`       | LiteCoin Ultra                             |                  |
-| `LCWP`       | LiteCoinW Plus                             |                  |
-| `LTCR`       | LiteCreed                                  |                  |
-| `LDOGE`      | LiteDoge                                   |                  |
-| `LTB`        | Litebar                                    |                  |
-| `LTC`        | Litecoin                                   | rgb(190,190,190) |
-| `LTCH`       | Litecoin Cash                              |                  |
-| `LCP`        | Litecoin Plus                              |                  |
-| `LCASH`      | LitecoinCash                               |                  |
-| `LCC`        | LitecoinCash                               |                  |
-| `LTCD`       | LitecoinDark                               |                  |
-| `LTCP`       | LitecoinPro                                |                  |
-| `LTCX`       | LitecoinX                                  |                  |
-| `LTZ`        | Litecoinz                                  |                  |
-| `LNT`        | Litenett                                   |                  |
-| `LTS`        | Litestar Coin                              |                  |
-| `LIT`        | Lithium                                    |                  |
-| `LITION`     | Lition                                     |                  |
-| `LTA`        | Litra                                      |                  |
-| `LPC`        | Little Phil                                |                  |
-| `LIVE`       | Live Stars                                 |                  |
-| `LVN`        | LivenPay                                   |                  |
-| `LPT`        | Livepeer                                   |                  |
-| `LIV`        | LiviaCoin                                  |                  |
-| `LIZ`        | Lizus Payment                              |                  |
-| `LTE`        | Local Token Exchange                       |                  |
-| `LWF`        | Local World Forwarders                     |                  |
-| `LCS`        | LocalCoinSwap                              |                  |
-| `LOCI`       | LociCoin                                   |                  |
-| `LOC*`       | LockTrip                                   |                  |
-| `LOC`        | Loco                                       |                  |
-| `LGR`        | Logarithm                                  |                  |
-| `LOKI`       | Loki                                       |                  |
-| `LLG`        | Loligo                                     |                  |
-| `LMC`        | LomoCoin                                   |                  |
-| `LOOK`       | LookCoin                                   |                  |
-| `LOOM`       | Loom Network                               |                  |
-| `LRC`        | Loopring                                   |                  |
-| `LOT`        | LottoCoin                                  |                  |
-| `LYK`        | Loyakk Vega                                |                  |
-| `LYL`        | LoyalCoin                                  |                  |
-| `BASH`       | LuckChain                                  |                  |
-| `LCK`        | Luckbox                                    |                  |
-| `LK7`        | Lucky7Coin                                 |                  |
-| `LUCKY`      | LuckyBlocks                                |                  |
-| `LKY`        | LuckyCoin                                  |                  |
-| `LCR`        | Lucre                                      |                  |
-| `LDM`        | Ludum token                                |                  |
-| `LNL`        | LunarLink                                  |                  |
-| `LUN`        | Lunyr                                      |                  |
-| `LC`         | Lutetium Coin                              |                  |
-| `LUX**`      | Luxmi Coin                                 |                  |
-| `LYC`        | LycanCoin                                  |                  |
-| `LDN`        | Lydiancoin                                 |                  |
-| `LYFE`       | Lyfe                                       |                  |
-| `LKK`        | Lykke                                      |                  |
-| `LYM`        | Lympo                                      |                  |
-| `LYNK`       | Lynked.World                               |                  |
-| `LYNX`       | Lynx                                       |                  |
-| `LYB`        | LyraBar                                    |                  |
-| `M2O`        | M2O Token                                  |                  |
-| `MDN`        | MADANA                                     |                  |
-| `MAKE`       | MAKE                                       |                  |
-| `MRK`        | MARK.SPACE                                 |                  |
-| `MCAP`       | MCAP                                       |                  |
-| `MCV`        | MCV Token                                  |                  |
-| `MTEL`       | MEDoctor                                   |                  |
-| `MEETONE`    | MEET.ONE                                   |                  |
-| `MFX`        | MFChain                                    |                  |
-| `MIMI`       | MIMI Money                                 |                  |
-| `MIODIO`     | MIODIOCOIN                                 |                  |
-| `MIS`        | MIScoin                                    |                  |
-| `MILC`       | MIcro Licensing Coin                       |                  |
-| `MMNXT`      | MMNXT                                      |                  |
-| `MMO`        | MMOCoin                                    |                  |
-| `MMXVI`      | MMXVI                                      |                  |
-| `MOAC`       | MOAC                                       |                  |
-| `MOBU`       | MOBU                                       |                  |
-| `MODEX`      | MODEX Token                                |                  |
-| `MOS`        | MOS Coin                                   |                  |
-| `XDMC`       | MPCX                                       |                  |
-| `MSD`        | MSD                                        |                  |
-| `MTCMN`      | MTC Mesh                                   |                  |
-| `MUN`        | MUNcoin                                    |                  |
-| `MUSD`       | MUSDcoin                                   |                  |
-| `MUST`       | MUST Protocol                              |                  |
-| `MVL`        | MVL                                        |                  |
-| `YCE`        | MYCE                                       |                  |
-| `MAC`        | MachineCoin                                |                  |
-| `MCRN`       | MacronCoin                                 |                  |
-| `MRV`        | Macroverse                                 |                  |
-| `MDC*`       | MadCoin                                    |                  |
-| `ART`        | Maecenas                                   |                  |
-| `MAP`        | Maester Protocol                           |                  |
-| `MAG**`      | Maggie Token                               |                  |
-| `MGN`        | MagnaCoin                                  |                  |
-| `MAG`        | Magnet                                     |                  |
-| `MAG*`       | Magos                                      |                  |
-| `MAID`       | MaidSafe Coin                              |                  |
-| `MMXIV`      | MaieutiCoin                                |                  |
-| `MNC`        | MainCoin                                   |                  |
-| `MFT`        | Mainframe                                  |                  |
-| `MSC*`       | MaisCoin                                   |                  |
-| `MIV`        | MakeItViral                                |                  |
-| `MKR`        | Maker                                      |                  |
-| `MAT*`       | Manet Coin                                 |                  |
-| `MANNA`      | Manna                                      |                  |
-| `MAPC`       | MapCoin                                    |                  |
-| `MAR`        | MarijuanaCoin                              |                  |
-| `MASP`       | Market.space                               |                  |
-| `MRS`        | MarsCoin                                   |                  |
-| `MARS`       | MarsCoin                                   |                  |
-| `MXT`        | MartexCoin                                 |                  |
-| `MARV`       | Marvelous                                  |                  |
-| `MARX`       | MarxCoin                                   |                  |
-| `MARYJ`      | MaryJane Coin                              |                  |
-| `MSR`        | Masari                                     |                  |
-| `MC`         | Mass Coin                                  |                  |
-| `MASS`       | Mass.Cloud                                 |                  |
-| `MGD`        | MassGrid                                   |                  |
-| `MCAR`       | MasterCar                                  |                  |
-| `MSC`        | MasterCoin                                 |                  |
-| `MM`         | MasterMint                                 |                  |
-| `MTR`        | MasterTraderCoin                           |                  |
-| `MAN*`       | Matrix AI Network                          |                  |
-| `MTX`        | Matryx                                     |                  |
-| `MPG`        | Max Property Group                         |                  |
-| `MAX`        | MaxCoin                                    |                  |
-| `MYC`        | MayaCoin                                   |                  |
-| `MZC`        | MazaCoin                                   |                  |
-| `MBIT`       | Mbitbooks                                  |                  |
-| `MLITE`      | MeLite                                     |                  |
-| `MDT*`       | Measurable Data Token                      |                  |
-| `MED*`       | MediBloc                                   |                  |
-| `MEDI`       | MediBond                                   |                  |
-| `MCU`        | MediChain                                  |                  |
-| `MDS`        | MediShares                                 |                  |
-| `MNT*`       | Media Network Coin                         |                  |
-| `MPT`        | Media Protocol Token                       |                  |
-| `MEDX`       | Mediblock                                  |                  |
-| `MDC`        | MedicCoin                                  |                  |
-| `MEDIC`      | MedicCoin                                  |                  |
-| `MTN*`       | Medicalchain                               |                  |
-| `MHP`        | MedicoHealth                               |                  |
-| `MED`        | MediterraneanCoin                          |                  |
-| `MPRO`       | MediumProject                              |                  |
-| `MEC`        | MegaCoin                                   |                  |
-| `MEGA`       | MegaFlash                                  |                  |
-| `XMS`        | Megastake                                  |                  |
-| `MEL`        | Melior AI                                  |                  |
-| `MLN`        | Melon                                      |                  |
-| `MBN`        | Membrana                                   |                  |
-| `MET`        | Memessenger                                |                  |
-| `EMT*`       | Memority                                   |                  |
-| `MMC`        | MemoryCoin                                 |                  |
-| `MPAY`       | Menapay                                    |                  |
-| `ONE`        | Menlo One                                  |                  |
-| `MENU`       | MenuBuzz                                   |                  |
-| `MRN`        | Mercoin                                    |                  |
-| `MVP`        | Merculet                                   |                  |
-| `MER`        | Mercury                                    |                  |
-| `GMT`        | Mercury Protocol                           |                  |
-| `MHC`        | MetaHash                                   |                  |
-| `METM`       | MetaMorph                                  |                  |
-| `META`       | Metadium                                   |                  |
-| `MTL`        | Metal                                      |                  |
-| `MTLM3`      | Metal Music v3                             |                  |
-| `METAL`      | MetalCoin                                  |                  |
-| `ETP`        | Metaverse                                  |                  |
-| `MET*`       | Metronome                                  |                  |
-| `MIT`        | MiMiner                                    |                  |
-| `MBTC`       | MicroBitcoin                               |                  |
-| `AMM`        | MicroMoney                                 |                  |
-| `MDT`        | Midnight                                   |                  |
-| `MON`        | MilionCoin                                 |                  |
-| `MUU`        | MilkCoin                                   |                  |
-| `MIL`        | Milllionaire Coin                          |                  |
-| `MILO`       | MiloCoin                                   |                  |
-| `MINC`       | MinCoin                                    |                  |
-| `MG`         | Mind Gene                                  |                  |
-| `MND`        | MindCoin                                   |                  |
-| `MIC`        | Mindexcoin                                 |                  |
-| `MAI`        | Mindsync                                   |                  |
-| `MINT*`      | Mineable Token                             |                  |
-| `MIO`        | Miner One token                            |                  |
-| `MIN`        | Minerals Coin                              |                  |
-| `MNE`        | Minereum                                   |                  |
-| `MRT`        | MinersReward                               |                  |
-| `MNM`        | Mineum                                     |                  |
-| `MINEX`      | Minex                                      |                  |
-| `MNX`        | MinexCoin                                  |                  |
-| `MAT`        | MiniApps                                   |                  |
-| `MNTS`       | Mint                                       |                  |
-| `MINT`       | MintCoin                                   |                  |
-| `BIP`        | Minter                                     |                  |
-| `MITH`       | Mithril                                    | rgb(147,147,200) |
-| `XIN*`       | Mixin                                      |                  |
-| `MIB`        | Mobile Integrated Blockchain               |                  |
-| `CHF*`       | MobileBridge Momentum                      |                  |
-| `MGO`        | MobileGo                                   |                  |
-| `MOLK`       | Mobilink Token                             |                  |
-| `MOBI`       | Mobius                                     |                  |
-| `MTRC`       | ModulTrade                                 |                  |
-| `MDL*`       | Modulum                                    |                  |
-| `MOD`        | Modum                                      |                  |
-| `MDA`        | Moeda                                      |                  |
-| `MOIN`       | MoinCoin                                   |                  |
-| `MOJO`       | Mojocoin                                   |                  |
-| `MOF`        | Molecular Future                           |                  |
-| `MOL`        | Molecule                                   |                  |
-| `TAB`        | MollyCoin                                  |                  |
-| `MMTM`       | Momentum                                   |                  |
-| `MONA`       | MonaCoin                                   |                  |
-| `MNZ`        | Monaize                                    |                  |
-| `XMR`        | Monero                                     | rgb(255,102,1)   |
-| `ZMR`        | Monero 0                                   |                  |
-| `XMC`        | Monero Classic                             |                  |
-| `XMRG`       | Monero Gold                                |                  |
-| `XMO`        | Monero Original                            |                  |
-| `XMV`        | MoneroV                                    |                  |
-| `MONETA`     | Moneta                                     |                  |
-| `MNV`        | MonetaVerde                                |                  |
-| `MUE`        | MonetaryUnit                               |                  |
-| `MTH`        | Monetha                                    |                  |
-| `MTZ`        | Monetizr                                   |                  |
-| `MNB`        | MoneyBag                                   |                  |
-| `MONEY`      | MoneyCoin                                  |                  |
-| `MRP*`       | MoneyRebel                                 |                  |
-| `IMT`        | MoneyToken                                 |                  |
-| `MNY`        | Monkey                                     |                  |
-| `MONK`       | Monkey Project                             |                  |
-| `XMCC`       | Monoeci                                    |                  |
-| `MNR`        | Monoreto                                   |                  |
-| `MBI`        | Monster Byte Inc                           |                  |
-| `MBLC`       | Mont Blanc                                 |                  |
-| `MOON`       | MoonCoin                                   |                  |
-| `LX`         | Moonlight                                  |                  |
-| `MZG`        | Moozicore                                  |                  |
-| `MITX`       | Morpheus Infrastructure Token              |                  |
-| `MRPH`       | Morpheus Network                           |                  |
-| `MRP`        | MorpheusCoin                               |                  |
-| `MZX`        | Mosaic Network                             |                  |
-| `MOAT`       | Mother Of All Tokens                       |                  |
-| `MSP`        | Mothership                                 |                  |
-| `XMN`        | Motion                                     |                  |
-| `MTN**`      | Motion                                     |                  |
-| `MOTO`       | Motocoin                                   |                  |
-| `MOV`        | MovieCoin                                  |                  |
-| `MTK`        | Moya Token                                 |                  |
-| `MRSA`       | MrsaCoin                                   |                  |
-| `MUDRA`      | MudraCoin                                  |                  |
-| `MTT`        | MulTra                                     |                  |
-| `MLT`        | MultiGames                                 |                  |
-| `MWC`        | MultiWallet Coin                           |                  |
-| `MBT`        | Multibot                                   |                  |
-| `MTCN`       | Multiven                                   |                  |
-| `MRY`        | MurrayCoin                                 |                  |
-| `MUSE`       | Muse                                       |                  |
-| `MITC`       | MusicLife                                  |                  |
-| `MUSIC`      | Musicoin                                   |                  |
-| `MCI`        | Musiconomi                                 |                  |
-| `MST`        | MustangCoin                                |                  |
-| `MUT`        | Mutual Coin                                |                  |
-| `MBC`        | My Big Coin                                |                  |
-| `MYB`        | MyBit                                      |                  |
-| `MCB`        | MyCryptoBank                               |                  |
-| `MYDFS`      | MyDFS                                      |                  |
-| `MAZC`       | MyMazzu                                    |                  |
-| `MT*`        | MyToken                                    |                  |
-| `WISH`       | MyWish                                     |                  |
-| `MT`         | Mycelium Token                             |                  |
-| `MYO`        | Mycro                                      |                  |
-| `MPXT`       | Myplacex                                   |                  |
-| `XMY`        | MyriadCoin                                 |                  |
-| `MYST`       | Mysterium                                  |                  |
-| `NANJ`       | NANJCOIN                                   |                  |
-| `XEM`        | NEM                                        |                  |
-| `NEO`        | NEO                                        | rgb(123,184,81)  |
-| `NEOG`       | NEO Gold                                   |                  |
-| `NEXO`       | NEXO                                       |                  |
-| `NOX`        | NITRO                                      |                  |
-| `NIX`        | NIX                                        |                  |
-| `NKN`        | NKN                                        |                  |
-| `NOAH`       | NOAHCOIN                                   |                  |
-| `NBAR`       | NOBAR                                      |                  |
-| `NOIA`       | NOIA Network                               |                  |
-| `NOIZ`       | NOIZ                                       |                  |
-| `CHFN`       | NOKU CHF                                   |                  |
-| `EURN`       | NOKU EUR                                   |                  |
-| `NOKU`       | NOKU Master token                          |                  |
-| `NSP`        | NOMAD.space                                |                  |
-| `NOW`        | NOW Token                                  |                  |
-| `NPC`        | NPCcoin                                    |                  |
-| `NPER`       | NPER                                       |                  |
-| `NVST`       | NVO                                        |                  |
-| `NWP`        | NWPSolution                                |                  |
-| `NXE`        | NXEcoin                                    |                  |
-| `NXTI`       | NXTI                                       |                  |
-| `NXTTY`      | NXTTY                                      |                  |
-| `NYN`        | NYNJA                                      |                  |
-| `NYX`        | NYXCOIN                                    |                  |
-| `NFN`        | Nafen                                      |                  |
-| `NGC`        | NagaCoin                                   |                  |
-| `NZE`        | Nagezeni                                   |                  |
-| `NKT`        | NakomotoDark                               |                  |
-| `NAM`        | Namacoin                                   |                  |
-| `NMH`        | Namahe                                     |                  |
-| `NMC`        | Namecoin                                   |                  |
-| `NMK`        | Namek                                      |                  |
-| `NAMO`       | NamoCoin                                   |                  |
-| `NANO`       | Nano                                       |                  |
-| `NHCT`       | Nano Healthcare Token                      |                  |
-| `NAN`        | NanoToken                                  |                  |
-| `NPX`        | Napoleon X                                 |                  |
-| `NRVE`       | Narrative                                  |                  |
-| `NAS2`       | Nas2Coin                                   |                  |
-| `NAUT`       | Nautilus Coin                              |                  |
-| `NAV`        | NavCoin                                    |                  |
-| `NAVI`       | NaviAddress                                |                  |
-| `NAVIB`      | Navibration                                |                  |
-| `NEBL`       | Neblio                                     |                  |
-| `NEBU`       | Nebuchadnezzar                             |                  |
-| `NBAI`       | Nebula AI                                  |                  |
-| `NAS`        | Nebulas                                    |                  |
-| `NDC*`       | NeedleCoin                                 |                  |
-| `NEF`        | NefariousCoin                              |                  |
-| `NRX`        | Neironix                                   |                  |
-| `NEC`        | NeoCoin                                    |                  |
-| `NEX`        | Neonexchange                               |                  |
-| `NEOS`       | NeosCoin                                   |                  |
-| `NTCC`       | NeptuneClassic                             |                  |
-| `NBIT`       | NetBit                                     |                  |
-| `NET`        | NetCoin                                    |                  |
-| `NTM`        | NetM                                       |                  |
-| `NETKO`      | Netko                                      |                  |
-| `OUT`        | Netscouters                                |                  |
-| `NTWK`       | Network Token                              |                  |
-| `NETC`       | NetworkCoin                                |                  |
-| `NEU*`       | NeuCoin                                    |                  |
-| `NEU`        | Neumark                                    |                  |
-| `NRP`        | Neural Protocol                            |                  |
-| `NRO`        | Neuro                                      |                  |
-| `NRC`        | Neurocoin                                  |                  |
-| `NRM`        | Neuromachine                               |                  |
-| `NTK`        | Neurotoken                                 |                  |
-| `NTRN`       | Neutron                                    |                  |
-| `NEVA`       | NevaCoin                                   |                  |
-| `NDC`        | NeverDie                                   |                  |
-| `NIC`        | NewInvestCoin                              |                  |
-| `NYC`        | NewYorkCoin                                |                  |
-| `NZC`        | NewZealandCoin                             |                  |
-| `NEWB`       | Newbium                                    |                  |
-| `NEW`        | Newton                                     |                  |
-| `NCP`        | Newton Coin                                |                  |
-| `NXC`        | Nexium                                     |                  |
-| `NEXT`       | Next.exchange Token                        |                  |
-| `Pakka`      | NextPakk                                   |                  |
-| `NXS`        | Nexus                                      |                  |
-| `NEXXO`      | Nexxo                                      |                  |
-| `NGIN`       | Ngin                                       |                  |
-| `NICE`       | NiceCoin                                   |                  |
-| `NIHL`       | Nihilo Coin                                |                  |
-| `NMB`        | Nimbus Coin                                |                  |
-| `NIMFA`      | Nimfamoney                                 |                  |
-| `NIM`        | Nimiq                                      |                  |
-| `NTC`        | NineElevenTruthCoin                        |                  |
-| `NDOGE`      | NinjaDoge                                  |                  |
-| `NBR`        | Niobio Cash                                |                  |
-| `NBC`        | Niobium                                    |                  |
-| `$NOBS`      | No BS Crypto                               |                  |
-| `NLC`        | NoLimitCoin                                |                  |
-| `NLC2`       | NoLimitCoin                                |                  |
-| `NOBL`       | NobleCoin                                  |                  |
-| `NODE`       | Node                                       |                  |
-| `NODIS`      | Nodis                                      |                  |
-| `NVDX`       | Nodvix                                     |                  |
-| `NRB`        | NoirBits                                   |                  |
-| `NRS`        | NoirShares                                 |                  |
-| `NUSD`       | Nomin USD                                  |                  |
-| `NZO`        | NonZero                                    |                  |
-| `NOO`        | Noocoin                                    |                  |
-| `NVC`        | NovaCoin                                   |                  |
-| `MNVM`       | Novam                                      |                  |
-| `NWCN`       | NowCoin                                    |                  |
-| `NBX`        | Noxbox                                     |                  |
-| `NBT`        | NuBits                                     |                  |
-| `NSR`        | NuShares                                   |                  |
-| `NUBIS`      | NubisCoin                                  |                  |
-| `NCASH`      | Nucleus Vision                             |                  |
-| `NUKE`       | NukeCoin                                   |                  |
-| `NKC`        | Nukecoinz                                  |                  |
-| `NLX`        | Nullex                                     |                  |
-| `NULS`       | Nuls                                       |                  |
-| `N7`         | Number7                                    |                  |
-| `NUM`        | NumbersCoin                                |                  |
-| `NMR`        | Numeraire                                  |                  |
-| `XNC*`       | Numismatic Collections                     |                  |
-| `NMS`        | Numus                                      |                  |
-| `NXT`        | Nxt                                        |                  |
-| `NYAN`       | NyanCoin                                   |                  |
-| `NBL`        | Nybble                                     |                  |
-| `OATH`       | OATH Protocol                              |                  |
-| `ODE`        | ODEM                                       |                  |
-| `ODMC`       | ODMCoin                                    |                  |
-| `OK`         | OKCash                                     |                  |
-| `OKOIN`      | OKOIN                                      |                  |
-| `ONAM`       | ONAM                                       |                  |
-| `OPC`        | OP Coin                                    |                  |
-| `OPP*`       | OPP Open WiFi                              |                  |
-| `ORET`       | ORET Token                                 |                  |
-| `ORM`        | ORIUM                                      |                  |
-| `ORS`        | ORS Group                                  |                  |
-| `OASC`       | Oasis City                                 |                  |
-| `OBITS`      | Obits Coin                                 |                  |
-| `OBS`        | Obscurebay                                 |                  |
-| `ODN`        | Obsidian                                   |                  |
-| `OCL`        | Oceanlab                                   |                  |
-| `OTX`        | Octanox                                    |                  |
-| `OCTO*`      | OctoBit Coin                               |                  |
-| `OCTO`       | OctoCoin                                   |                  |
-| `OWC`        | Oduwa                                      |                  |
-| `OCN`        | Odyssey                                    |                  |
-| `OFCR`       | OfficerCoin                                |                  |
-| `OJX`        | Ojooo                                      |                  |
-| `OKB`        | Okex                                       | rgb(90,148,255)  |
-| `OLM`        | Olam                                       |                  |
-| `ODNT`       | Old Dogs New Tricks                        |                  |
-| `OLDSF`      | OldSafeCoin                                |                  |
-| `OLV`        | OldV                                       |                  |
-| `OLE`        | Olive                                      |                  |
-| `OLYMP`      | OlympCoin                                  |                  |
-| `MOT`        | Olympus Labs                               |                  |
-| `OMA`        | OmegaCoin                                  |                  |
-| `OMGC`       | OmiseGO Classic                            |                  |
-| `OMG`        | OmiseGo                                    | rgb(27,83,240)   |
-| `OMNI`       | Omni                                       |                  |
-| `OMC`        | OmniCron                                   |                  |
-| `ECOM`       | Omnitude                                   |                  |
-| `ONL`        | On.Live                                    |                  |
-| `OGT`        | One Game                                   |                  |
-| `OSF`        | One Solution                               |                  |
-| `OLT`        | OneLedger                                  |                  |
-| `RNT`        | OneRoot Network                            |                  |
-| `ONX`        | Onix                                       |                  |
-| `OIO`        | Online                                     |                  |
-| `ONT`        | Ontology                                   |                  |
-| `ONGAS`      | Ontology Gas                               |                  |
-| `OPQ`        | Opacity                                    |                  |
-| `XPO`        | Opair                                      |                  |
-| `OPAL`       | OpalCoin                                   |                  |
-| `OPEN`       | Open Platform                              |                  |
-| `OTN`        | Open Trading Network                       |                  |
-| `OAX`        | OpenANX                                    |                  |
-| `BRIX`       | OpenBrix                                   |                  |
-| `CHAT`       | OpenChat                                   |                  |
-| `OSC`        | OpenSourceCoin                             |                  |
-| `ZNT`        | OpenZen                                    |                  |
-| `OPES`       | Opes                                       |                  |
-| `OPP`        | Opporty                                    |                  |
-| `OPEX`       | Optherium Token                            |                  |
-| `OSA`        | Optimal Shelf Availability Token           |                  |
-| `OPTION`     | OptionCoin                                 |                  |
-| `OPU`        | Opu Coin                                   |                  |
-| `OPT`        | Opus                                       |                  |
-| `OCT`        | OracleChain                                |                  |
-| `OC`         | OrangeCoin                                 |                  |
-| `ORBS`       | Orbis                                      |                  |
-| `ORB`        | Orbitcoin                                  |                  |
-| `RDC`        | Ordocoin                                   |                  |
-| `ORGT`       | Organic Token                              |                  |
-| `ORC`        | Organicco                                  |                  |
-| `ORI`        | Origami                                    |                  |
-| `ORS*`       | OriginSport                                |                  |
-| `TRAC`       | OriginTrail                                |                  |
-| `OCC`        | Original Crypto Coin                       |                  |
-| `ORLY`       | OrlyCoin                                   |                  |
-| `ORME`       | Ormeus Coin                                |                  |
-| `ORO`        | OroCoin                                    |                  |
-| `OROC`       | Orocrypt                                   |                  |
-| `ORV`        | Orvium                                     |                  |
-| `OICOIN`     | Osmium Investment Coin                     |                  |
-| `OS76`       | OsmiumCoin                                 |                  |
-| `OWD`        | Owlstand                                   |                  |
-| `ZXC`        | Oxcert                                     |                  |
-| `OXY`        | Oxycoin                                    |                  |
-| `PRL`        | Oyster Pearl                               |                  |
-| `OYS`        | Oyster Platform                            |                  |
-| `SHL`        | Oyster Shell                               |                  |
-| `P2PS`       | P2P Solutions Foundation                   |                  |
-| `GENE`       | PARKGENE                                   |                  |
-| `PAT`        | PATRON                                     |                  |
-| `PAXEX`      | PAXEX                                      |                  |
-| `PQT`        | PAquarium                                  |                  |
-| `PAI`        | PCHAIN                                     |                  |
-| `PGF7T`      | PGF500                                     |                  |
-| `PHI`        | PHI Token                                  |                  |
-| `PITCH`      | PITCH                                      |                  |
-| `PLNC`       | PLNCoin                                    |                  |
-| `PCH`        | POPCHAIN                                   |                  |
-| `PPOVR`      | POVR                                       |                  |
-| `TOSS`       | PROOF OF TOSS                              |                  |
-| `PROUD`      | PROUD Money                                |                  |
-| `PROOF`      | PROVER                                     |                  |
-| `PSI`        | PSIcoin                                    |                  |
-| `PVP`        | PVPChain                                   |                  |
-| `PWR`        | PWR Coin                                   |                  |
-| `PX`         | PXcoin                                     |                  |
-| `PCS`        | Pabyosi Coin                               |                  |
-| `PBC`        | PabyosiCoin                                |                  |
-| `PAC`        | PacCoin                                    |                  |
-| `PAK`        | Pakcoin                                    |                  |
-| `PLMT`       | Pallium                                    |                  |
-| `PND`        | PandaCoin                                  |                  |
-| `PINKX`      | PantherCoin                                |                  |
-| `PAN`        | Pantos                                     |                  |
-| `PRT`        | Papusha                                    |                  |
-| `PRP`        | Papyrus                                    |                  |
-| `PRG`        | Paragon                                    |                  |
-| `DUO`        | ParallelCoin                               |                  |
-| `PARA`       | ParanoiaCoin                               |                  |
-| `PARETO`     | Pareto Network Token                       |                  |
-| `PKB`        | ParkByte                                   |                  |
-| `PAR`        | Parlay                                     |                  |
-| `PART`       | Particl                                    |                  |
-| `PASC`       | Pascal Coin                                |                  |
-| `PASL`       | Pascal Lite                                |                  |
-| `PAS`        | Passive Coin                               |                  |
-| `PTO`        | Patentico                                  |                  |
-| `PTOY`       | Patientory                                 |                  |
-| `PAVO`       | Pavocoin                                   |                  |
-| `PAX`        | Paxos Standard                             | rgb(230,228,56)  |
-| `PBLK`       | PayBlock                                   |                  |
-| `PYC`        | PayCoin                                    |                  |
-| `XPY`        | PayCoin                                    |                  |
-| `PFR`        | PayFair                                    |                  |
-| `PAYP`       | PayPeer                                    |                  |
-| `PPP`        | PayPie                                     |                  |
-| `PYP`        | PayPro                                     |                  |
-| `PYN`        | Paycentos                                  |                  |
-| `CON_`       | Paycon                                     |                  |
-| `PGC*`       | Paygine                                    |                  |
-| `PMNT`       | Paymon                                     |                  |
-| `PYT`        | Payther                                    |                  |
-| `PEC`        | PeaceCoin                                  |                  |
-| `PRLPAY`     | PearlPay                                   |                  |
-| `XPB`        | Pebble Coin                                |                  |
-| `PBL`        | Pebbles                                    |                  |
-| `PCL`        | Peculium                                   |                  |
-| `PCO`        | Pecunio                                    |                  |
-| `PCN`        | PeepCoin                                   |                  |
-| `PMTN`       | Peer Mountain                              |                  |
-| `PPC`        | PeerCoin                                   |                  |
-| `GUESS`      | Peerguess                                  |                  |
-| `PPY`        | Peerplays                                  |                  |
-| `PGC`        | Pegascoin                                  |                  |
-| `PEN*`       | PenCoin                                    |                  |
-| `PNT`        | Penta                                      |                  |
-| `PTA`        | PentaCoin                                  |                  |
-| `PNY`        | Peony Coin                                 |                  |
-| `MAN`        | People                                     |                  |
-| `MEME`       | Pepe                                       |                  |
-| `PEPECASH`   | Pepe Cash                                  |                  |
-| `XPR`        | Permian                                    |                  |
-| `PIE`        | Persistent Information Exchange            |                  |
-| `PERU`       | PeruCoin                                   |                  |
-| `PTC`        | PesetaCoin                                 |                  |
-| `PSB`        | PesoBit                                    |                  |
-| `PETL`       | Petlife                                    |                  |
-| `PTR`        | Petro                                      |                  |
-| `XPD`        | PetroDollar                                |                  |
-| `PXL`        | Phalanx                                    |                  |
-| `SOUL*`      | Phantasma                                  |                  |
-| `PNX`        | PhantomX                                   |                  |
-| `XPH`        | PharmaCoin                                 |                  |
-| `PHS`        | PhilosophersStone                          |                  |
-| `PXC`        | PhoenixCoin                                |                  |
-| `PHM`        | Phomeum                                    |                  |
-| `PHR*`       | Phore                                      |                  |
-| `PHTC`       | Photochain                                 |                  |
-| `PHO`        | Photon                                     |                  |
-| `PHT`        | Photon Token                               |                  |
-| `PHR`        | Phreak                                     |                  |
-| `PGN`        | Pigeoncoin                                 |                  |
-| `PIGGY`      | Piggy Coin                                 |                  |
-| `PKC`        | Pikciochain                                |                  |
-| `PLR`        | Pillar                                     |                  |
-| `PTT`        | Pink Taxi Token                            |                  |
-| `PINK`       | PinkCoin                                   |                  |
-| `PINMO`      | Pinmo                                      |                  |
-| `PCOIN`      | Pioneer Coin                               |                  |
-| `PIO`        | Pioneershares                              |                  |
-| `SKULL`      | Pirate Blocks                              |                  |
-| `PIRATE`     | PirateCash                                 |                  |
-| `PIRL`       | Pirl                                       |                  |
-| `PIZZA`      | PizzaCoin                                  |                  |
-| `PLAI`       | Plair                                      |                  |
-| `PLAN`       | Plancoin                                   |                  |
-| `PLANET`     | PlanetCoin                                 |                  |
-| `PLNX`       | Planumex                                   |                  |
-| `XPT`        | Plata                                      |                  |
-| `PTNX`       | Platin                                     |                  |
-| `PLC*`       | PlatinCoin                                 |                  |
-| `PNC`        | PlatiniumCoin                              |                  |
-| `XPTX`       | PlatinumBAR                                |                  |
-| `LUC`        | Play 2 Live                                |                  |
-| `PLA`        | PlayChip                                   |                  |
-| `PXG`        | PlayGame                                   |                  |
-| `PKT`        | Playkey                                    |                  |
-| `DN8`        | Pldgr                                      |                  |
-| `PLG`        | Pledgecamp                                 |                  |
-| `PLX`        | PlexCoin                                   |                  |
-| `PLURA`      | PluraCoin                                  |                  |
-| `PLC`        | PlusCoin                                   |                  |
-| `PLUS1`      | PlusOneCoin                                |                  |
-| `GPPT`       | Pluto Project Coin                         |                  |
-| `PTC**`      | Plutocoin                                  |                  |
-| `PLU`        | Pluton                                     |                  |
-| `PLTX`       | PlutusX                                    |                  |
-| `POE`        | Po.et                                      |                  |
-| `POS`        | PoSToken                                   |                  |
-| `POA`        | Poa Network                                |                  |
-| `XPS`        | PoisonIvyCoin                              |                  |
-| `XPOKE`      | PokeChain                                  |                  |
-| `POKER`      | PokerCoin                                  |                  |
-| `XPST`       | PokerSports                                |                  |
-| `PAL`        | PolicyPal Network                          |                  |
-| `POLIS`      | PolisPay                                   |                  |
-| `POLY`       | PolyBit                                    |                  |
-| `NCT`        | PolySwarm                                  |                  |
-| `PLBT`       | Polybius                                   |                  |
-| `POLY*`      | Polymath Network                           |                  |
-| `PON`        | Ponder                                     |                  |
-| `PSK`        | Pool of Stake                              |                  |
-| `XSP`        | PoolStamp                                  |                  |
-| `PPS`        | PopulStay                                  |                  |
-| `POP`        | PopularCoin                                |                  |
-| `PPT`        | Populous                                   |                  |
-| `PEX`        | PosEx                                      |                  |
-| `PSD`        | Poseidon                                   |                  |
-| `PCCM`       | Poseidon Chain                             |                  |
-| `OCEAN`      | Poseidon Foundation                        |                  |
-| `POSQ`       | Poseidon Quark                             |                  |
-| `POST`       | PostCoin                                   |                  |
-| `POT`        | PotCoin                                    |                  |
-| `POWR`       | Power Ledger                               |                  |
-| `PSM`        | Prasm                                      |                  |
-| `PRE`        | Premium                                    |                  |
-| `ENTT`       | Presale Ventures                           |                  |
-| `PRE*`       | Presearch                                  |                  |
-| `HILL`       | President Clinton                          |                  |
-| `PRES`       | President Trump                            |                  |
-| `PBT`        | Primalbase                                 |                  |
-| `PST`        | Primas                                     |                  |
-| `PSF`        | Prime Shipping Foundation                  |                  |
-| `PXI`        | Prime-X1                                   |                  |
-| `PRIME`      | PrimeChain                                 |                  |
-| `XPM`        | PrimeCoin                                  |                  |
-| `PRX`        | Printerium                                 |                  |
-| `PRM`        | PrismChain                                 |                  |
-| `PIVX`       | Private Instant Verified Transaction       |                  |
-| `PRIX`       | Privatix                                   |                  |
-| `PZM`        | Prizm                                      |                  |
-| `PRA`        | ProChain                                   |                  |
-| `XPRO`       | ProCoin                                    |                  |
-| `PROC`       | ProCurrency                                |                  |
-| `PCM`        | Procom                                     |                  |
-| `PROD*`      | Productivist                               |                  |
-| `PHC`        | Profit Hunters Coin                        |                  |
-| `PDC`        | Project Decorum                            |                  |
-| `JTX`        | Project J                                  |                  |
-| `PAI*`       | Project Pai                                |                  |
-| `OMX`        | Project Shivom                             |                  |
-| `PRFT`       | Proof Suite Token                          |                  |
-| `PROPS`      | Props                                      |                  |
-| `PTC*`       | Propthereum                                |                  |
-| `PRO`        | Propy                                      |                  |
-| `VRP`        | Prosense.tv                                |                  |
-| `PGL`        | Prospectors                                |                  |
-| `PRC`        | ProsperCoin                                |                  |
-| `PROTON`     | Proton                                     |                  |
-| `XES`        | Proxeus                                    |                  |
-| `XPX`        | ProximaX                                   |                  |
-| `PSEUD`      | PseudoCash                                 |                  |
-| `PSY`        | Psilocybin                                 |                  |
-| `PULSE`      | Pulse                                      |                  |
-| `PMA`        | PumaPay                                    |                  |
-| `NPXS`       | Pundi X                                    |                  |
-| `PUPA`       | PupaCoin                                   |                  |
-| `PURA`       | Pura                                       |                  |
-| `PURE`       | Pure                                       |                  |
-| `VIDZ`       | PureVidz                                   |                  |
-| `PGT`        | Puregold token                             |                  |
-| `PURK`       | Purk                                       |                  |
-| `PRPL`       | Purple Token                               |                  |
-| `PRPS`       | Purpose                                    |                  |
-| `HLP`        | Purpose Coin                               |                  |
-| `PUSHI`      | Pushi                                      |                  |
-| `PUT`        | PutinCoin                                  |                  |
-| `PYLNT`      | Pylon Network                              |                  |
-| `QLC`        | QLC Chain                                  |                  |
-| `QTUM`       | QTUM                                       | rgb(208,201,234) |
-| `QUSD`       | QUSD                                       |                  |
-| `QBT*`       | Qbao                                       |                  |
-| `QOBI`       | Qobit                                      |                  |
-| `QORA`       | QoraCoin                                   |                  |
-| `XQR`        | Qredit                                     |                  |
-| `QBK`        | QuBuck Coin                                |                  |
-| `eQUAD`      | Quadrant Protocol                          |                  |
-| `QNT`        | Quant                                      |                  |
-| `QNTU`       | Quanta                                     |                  |
-| `QUANT`      | Quantler                                   |                  |
-| `QNTR`       | Quantor                                    |                  |
-| `QSP`        | Quantstamp                                 |                  |
-| `QAU`        | Quantum                                    |                  |
-| `QRL`        | Quantum Resistant Ledger                   |                  |
-| `Q1S`        | Quantum1Net                                |                  |
-| `QKC`        | QuarkChain                                 |                  |
-| `QRK`        | QuarkCoin                                  |                  |
-| `QTZ`        | Quartz                                     |                  |
-| `QUA`        | Quasa                                      |                  |
-| `QTL`        | Quatloo                                    |                  |
-| `QCN`        | Quazar Coin                                |                  |
-| `Q2C`        | QubitCoin                                  |                  |
-| `QBC`        | Quebecoin                                  |                  |
-| `QCX`        | QuickX Protocol                            |                  |
-| `QSLV`       | Quicksilver coin                           |                  |
-| `QUIZ`       | Quizando                                   |                  |
-| `QUN`        | QunQun                                     |                  |
-| `QASH`       | Quoine Liquid                              |                  |
-| `XQN`        | Quotient                                   |                  |
-| `QVT`        | Qvolta                                     |                  |
-| `QWARK`      | Qwark                                      |                  |
-| `QWC`        | Qwertycoin                                 |                  |
-| `RFL`        | RAFL                                       |                  |
-| `RAIZER`     | RAIZER                                     |                  |
-| `KRX`        | RAVN Korrax                                |                  |
-| `RAWG`       | RAWG                                       |                  |
-| `RAC`        | RAcoin                                     |                  |
-| `RHOC`       | RChain                                     |                  |
-| `RCN*`       | RCoin                                      |                  |
-| `REAL`       | REAL                                       |                  |
-| `REBL`       | REBL                                       |                  |
-| `MWAT`       | RED MegaWatt                               |                  |
-| `RST`        | REGA Risk Sharing Token                    |                  |
-| `REME`       | REME-Coin                                  |                  |
-| `REM`        | REMME                                      |                  |
-| `RENC`       | RENC                                       |                  |
-| `RGC`        | RG Coin                                    |                  |
-| `RIF`        | RIF Token                                  |                  |
-| `ROI`        | ROIcoin                                    |                  |
-| `ROS`        | ROS Coin                                   |                  |
-| `RFT`        | RYFTS                                      |                  |
-| `RADI`       | RadicalCoin                                |                  |
-| `RADS`       | Radium                                     |                  |
-| `RDN`        | RadonPay                                   |                  |
-| `RDN*`       | Raiden Network                             |                  |
-| `RF`         | Raido Financial                            |                  |
-| `RAINC`      | RainCheck                                  |                  |
-| `RAP`        | Rapture                                    |                  |
-| `ROC`        | Rasputin Online Coin                       |                  |
-| `RTE`        | Rate3                                      |                  |
-| `XRA`        | Ratecoin                                   |                  |
-| `RATIO`      | Ratio                                      |                  |
-| `RAVE`       | Ravelous                                   |                  |
-| `RVN`        | Ravencoin                                  | rgb(55,64,130)   |
-| `RAYS`       | Rays Network                               |                  |
-| `RZR`        | RazorCoin                                  |                  |
-| `RWE`        | Real-World Evidence                        |                  |
-| `RCT`        | RealChain                                  |                  |
-| `REA`        | Realisto                                   |                  |
-| `RCC`        | Reality Clash                              |                  |
-| `XRK`        | RecordsKeeper                              |                  |
-| `RRT`        | Recovery Right Tokens                      |                  |
-| `RRC`        | Recycling Regeneration Chain               |                  |
-| `PHX`        | Red Pulse Phoenix                          |                  |
-| `REDC`       | RedCab                                     |                  |
-| `RCX`        | RedCrowCoin                                |                  |
-| `RED`        | Redcoin                                    |                  |
-| `RDD`        | Reddcoin                                   |                  |
-| `REDN`       | Reden                                      |                  |
-| `REE`        | ReeCoin                                    |                  |
-| `REF`        | RefToken                                   |                  |
-| `RFR`        | Refereum                                   |                  |
-| `REC`        | Regalcoin                                  |                  |
-| `RDS`        | Reger Diamond                              |                  |
-| `RLX`        | Relex                                      |                  |
-| `REL`        | Reliance                                   |                  |
-| `REMCO`      | Remco                                      |                  |
-| `RPM`        | Render Payment                             |                  |
-| `RNDR`       | Render Token                               |                  |
-| `RNS`        | RenosCoin                                  |                  |
-| `BERRY`      | Rentberry                                  |                  |
-| `REPO`       | Repo Coin                                  |                  |
-| `RPB`        | Republia                                   |                  |
-| `REN`        | Republic Token                             |                  |
-| `REPUX`      | Repux                                      |                  |
-| `REQ`        | Request Network                            |                  |
-| `RMS`        | Resumeo Shares                             |                  |
-| `RGT`        | Retail.Global                              |                  |
-| `RBIT`       | ReturnBit                                  |                  |
-| `RNC`        | ReturnCoin                                 |                  |
-| `R`          | Revain                                     |                  |
-| `REV`        | Revenu                                     |                  |
-| `RVR`        | Revolution VR                              |                  |
-| `XRE`        | RevolverCoin                               |                  |
-| `RWD`        | Reward Vision                              |                  |
-| `RMOB`       | RewardMob                                  |                  |
-| `RHEA`       | Rhea                                       |                  |
-| `XRL`        | Rialto.AI                                  |                  |
-| `RBR`        | Ribbit Rewards                             |                  |
-| `RICE`       | RiceCoin                                   |                  |
-| `RIDE`       | Ride My Car                                |                  |
-| `RIC`        | Riecoin                                    |                  |
-| `RMESH`      | RightMesh                                  |                  |
-| `RBT`        | Rimbit                                     |                  |
-| `RING`       | RingCoin                                   |                  |
-| `RIPO`       | RipOffCoin                                 |                  |
-| `RIPAX`      | RipaEx                                     |                  |
-| `RCN`        | Ripio                                      |                  |
-| `RIPT`       | RiptideCoin                                |                  |
-| `RBX`        | RiptoBuX                                   |                  |
-| `RISE`       | Rise                                       |                  |
-| `RVT`        | Rivetz                                     |                  |
-| `RAC**`      | RoBET                                      |                  |
-| `ROBET`      | RoBet                                      |                  |
-| `RBDT`       | RoBust Defense Token                       |                  |
-| `PUT*`       | Robin8 Profile Utility Token               |                  |
-| `RAC*`       | RoboAdvisorCoin                            |                  |
-| `ROX`        | Robotina                                   |                  |
-| `RKT`        | Rock Token                                 |                  |
-| `ROK`        | Rockchain                                  |                  |
-| `ROCK*`      | RocketCoin                                 |                  |
-| `RPC`        | RonPaulCoin                                |                  |
-| `RSC`        | Ronaldinho Soccer Coin                     |                  |
-| `ROOT`       | RootCoin                                   |                  |
-| `ROOTS`      | RootProject                                |                  |
-| `RT2`        | RotoCoin                                   |                  |
-| `ROUND`      | RoundCoin                                  |                  |
-| `ROE`        | Rover Coin                                 |                  |
-| `RKC`        | Royal Kingdom Coin                         |                  |
-| `RYC`        | RoyalCoin                                  |                  |
-| `ROYAL`      | RoyalCoin                                  |                  |
-| `RYCN`       | RoyalCoin 2.0                              |                  |
-| `RBIES`      | Rubies                                     |                  |
-| `RUBY`       | Rubius                                     |                  |
-| `RUBIT`      | Rublebit                                   |                  |
-| `RBY`        | RubyCoin                                   |                  |
-| `RUFF`       | Ruff                                       |                  |
-| `RUPX`       | Rupaya                                     |                  |
-| `RUP`        | Rupee                                      |                  |
-| `RC`         | Russiacoin                                 |                  |
-| `RMC`        | Russian Mining Coin                        |                  |
-| `RUST`       | RustCoin                                   |                  |
-| `RUSTBITS`   | Rustbits                                   |                  |
-| `RYO`        | Ryo                                        |                  |
-| `S8C`        | S88 Coin                                   |                  |
-| `SABR`       | SABR Coin                                  |                  |
-| `SGA`        | SAGA                                       |                  |
-| `SAR*`       | SARCoin                                    |                  |
-| `SLY`        | SELFLLERY                                  |                  |
-| `SGAT`       | SGAT                                       |                  |
-| `SGP`        | SGPay                                      |                  |
-| `XSH`        | SHIELD                                     |                  |
-| `SIDT`       | SID Token                                  |                  |
-| `SKYFT`      | SKYFchain                                  |                  |
-| `SMNX`       | SMNX                                       |                  |
-| `SSX`        | SOMESING                                   |                  |
-| `SNM`        | SONM                                       |                  |
-| `SXDT`       | SPECTRE Dividend Token                     |                  |
-| `SXUT`       | SPECTRE Utility Token                      |                  |
-| `SPICE`      | SPiCE Venture Capital                      |                  |
-| `SRCOIN`     | SRCoin                                     |                  |
-| `SSV`        | SSVCoin                                    |                  |
-| `STAC`       | STAC                                       |                  |
-| `STACS`      | STACS Token                                |                  |
-| `STRS`       | STARS                                      |                  |
-| `EURS`       | STASIS EURS                                |                  |
-| `STEX`       | STEX                                       |                  |
-| `STK`        | STK Token                                  |                  |
-| `STS`        | STRESScoin                                 |                  |
-| `STRY`       | STRYKZ                                     |                  |
-| `SUQA`       | SUQA                                       |                  |
-| `SaTT`       | SaTT                                       |                  |
-| `HAVEN`      | Safe Haven                                 |                  |
-| `XSTC`       | Safe Trade Coin                            |                  |
-| `SAFE`       | SafeCoin                                   |                  |
-| `SAFEX`      | SafeExchangeCoin                           |                  |
-| `SFR`        | SaffronCoin                                |                  |
-| `SAF`        | Safinus                                    |                  |
-| `SAGA`       | SagaCoin                                   |                  |
-| `SFU`        | Saifu                                      |                  |
-| `SKB*`       | Sakura Bloom                               |                  |
-| `SKR`        | Sakuracoin                                 |                  |
-| `SAL`        | SalPay                                     |                  |
-| `SALT`       | Salt Lending                               |                  |
-| `SLS`        | SaluS                                      |                  |
-| `SMSR`       | Samsara Coin                               |                  |
-| `SND`        | Sandcoin                                   |                  |
-| `SAN`        | Santiment                                  |                  |
-| `SPN*`       | Sapien Network                             |                  |
-| `XAI`        | SapienceCoin                               |                  |
-| `XRF`        | Sarf                                       |                  |
-| `XRN`        | Saronite                                   |                  |
-| `SAT`        | Satisfaction Token                         |                  |
-| `STV`        | Sativa Coin                                |                  |
-| `MAD*`       | SatoshiMadness                             |                  |
-| `SAT2`       | Saturn2Coin                                |                  |
-| `STO`        | Save The Ocean                             |                  |
-| `SANDG`      | Save and Gain                              |                  |
-| `SWC`        | Scanetchain Token                          |                  |
-| `ST`         | Scienceroot                                |                  |
-| `SNcoin`     | ScientificCoin                             |                  |
-| `SCOOBY`     | Scooby coin                                |                  |
-| `SCORE`      | Scorecoin                                  |                  |
-| `SCOR`       | Scorista                                   |                  |
-| `SCR*`       | Scorum                                     |                  |
-| `SCOT`       | Scotcoin                                   |                  |
-| `SCRIBE`     | Scribe Network                             |                  |
-| `SCRL`       | Scroll                                     |                  |
-| `DDD`        | Scry.info                                  |                  |
-| `SCRPT`      | ScryptCoin                                 |                  |
-| `SCT`        | ScryptToken                                |                  |
-| `SRT`        | Scrypto                                    |                  |
-| `SEAL`       | Seal Network                               |                  |
-| `SECI`       | Seci                                       |                  |
-| `SCRT`       | SecretCoin                                 |                  |
-| `SRC`        | SecureCoin                                 |                  |
-| `SEC`        | SecureCryptoPayments                       |                  |
-| `SRXIO`      | Securix                                    |                  |
-| `SET`        | Securosys                                  |                  |
-| `SEEDS`      | SeedShares                                 |                  |
-| `SEELE`      | Seele                                      |                  |
-| `B2X`        | SegWit2x                                   |                  |
-| `SEL`        | SelenCoin                                  |                  |
-| `STOR`       | Self Storage Coin                          |                  |
-| `KEY`        | SelfKey                                    | rgb(47,53,69)    |
-| `SSC`        | SelfSell                                   |                  |
-| `SGO`        | Selfie GO                                  |                  |
-| `SEM`        | Semux                                      |                  |
-| `SDRN`       | Senderon                                   |                  |
-| `SNS`        | Sense                                      |                  |
-| `SENSE`      | Sense Token                                |                  |
-| `SEN`        | Sentaro                                    |                  |
-| `EMOT`       | Sentigraph.io                              |                  |
-| `SENT`       | Sentinel                                   |                  |
-| `SENC`       | Sentinel Chain                             |                  |
-| `UPP`        | Sentinel Protocol                          |                  |
-| `SNTVT`      | Sentivate                                  |                  |
-| `SEQ`        | Sequence                                   |                  |
-| `SERA`       | Seraph                                     |                  |
-| `SRNT`       | Serenity                                   |                  |
-| `SRV`        | ServAdvisor                                |                  |
-| `SETH`       | Sether                                     |                  |
-| `SP`         | Sex Pistols                                |                  |
-| `SXC`        | SexCoin                                    |                  |
-| `SHA`        | Shacoin                                    |                  |
-| `SHADE`      | ShadeCoin                                  |                  |
-| `SDC`        | ShadowCash                                 |                  |
-| `SHARD`      | ShardCoin                                  |                  |
-| `SS`         | Sharder                                    |                  |
-| `SSS`        | ShareChain                                 |                  |
-| `eSwitch`    | ShareMeAll                                 |                  |
-| `SHR`        | ShareRing                                  |                  |
-| `SAK`        | SharkCoin                                  |                  |
-| `SHKG`       | SharkGate                                  |                  |
-| `SHP*`       | Sharpe Capital                             |                  |
-| `JEW`        | Shekel                                     |                  |
-| `SHLD`       | ShieldCoin                                 |                  |
-| `SHIFT`      | Shift                                      |                  |
-| `SH`         | Shilling                                   |                  |
-| `SHE`        | Shine Chain                                |                  |
-| `SHIP`       | ShipChain                                  |                  |
-| `SHPT`       | Shipit                                     |                  |
-| `SHORTY`     | ShortyCoin                                 |                  |
-| `SHOW`       | ShowCoin                                   |                  |
-| `HAND`       | ShowHand                                   |                  |
-| `SHPING`     | Shping Coin                                |                  |
-| `SHREK`      | ShrekCoin                                  |                  |
-| `SCH`        | Sia Cash Coin                              |                  |
-| `SC`         | Siacoin                                    |                  |
-| `SIB`        | SibCoin                                    |                  |
-| `SGL`        | Sigil                                      |                  |
-| `SIG`        | Signal                                     |                  |
-| `SGN`        | Signals Network                            |                  |
-| `SIGT`       | Signatum                                   |                  |
-| `SNTR`       | Silent Notary                              |                  |
-| `SILKT`      | SilkChain                                  |                  |
-| `SILK`       | SilkCoin                                   |                  |
-| `OST`        | Simple Token                               |                  |
-| `SPLB`       | SimpleBank                                 |                  |
-| `SIGU`       | Singular                                   |                  |
-| `SNGLS`      | SingularDTV                                |                  |
-| `AGI`        | SingularityNET                             |                  |
-| `SRN`        | SirinLabs                                  |                  |
-| `SKC`        | Skeincoin                                  |                  |
-| `SKI`        | Skillchain                                 |                  |
-| `SKIN`       | Skincoin                                   |                  |
-| `SKRP`       | Skraps                                     |                  |
-| `SKR*`       | Skrilla Token                              |                  |
-| `SKM`        | Skrumble Network                           |                  |
-| `SKB`        | SkullBuzz                                  |                  |
-| `SKYM`       | SkyMap                                     |                  |
-| `SKY`        | Skycoin                                    |                  |
-| `SLX`        | Slate                                      |                  |
-| `SLM`        | SlimCoin                                   |                  |
-| `SLING`      | Sling Coin                                 |                  |
-| `RBTC`       | Smart Bitcoin                              |                  |
-| `SIFT`       | Smart Investment Fund Token                |                  |
-| `POD`        | Smart League                               |                  |
-| `TASH`       | Smart Trip Platform                        |                  |
-| `VALOR`      | Smart Valor                                |                  |
-| `SMART*`     | SmartBillions                              |                  |
-| `SMART`      | SmartCash                                  |                  |
-| `SMC`        | SmartCoin                                  |                  |
-| `SLST`       | SmartLands                                 |                  |
-| `SMT*`       | SmartMesh                                  |                  |
-| `SMLY`       | SmileyCoin                                 |                  |
-| `SMILO`      | Smilo                                      |                  |
-| `SMOKE`      | Smoke                                      |                  |
-| `SMF`        | SmurfCoin                                  |                  |
-| `SNPC`       | SnapCoin                                   |                  |
-| `SNIP`       | SnipCoin                                   |                  |
-| `SNOV`       | Snovio                                     |                  |
-| `XSG`        | Snowgem                                    |                  |
-| `ONG`        | SoMee.Social                               |                  |
-| `SOAR`       | Soarcoin                                   |                  |
-| `SLT`        | Social Lending Network                     |                  |
-| `SMAC`       | Social Media Coin                          |                  |
-| `SMT`        | Social Media Market                        |                  |
-| `SEND`       | Social Send                                |                  |
-| `SOCC`       | SocialCoin                                 |                  |
-| `SG`         | SocialGood                                 |                  |
-| `SREUR`      | SocialRemit                                |                  |
-| `XBOT`       | SocialXbotCoin                             |                  |
-| `SCL`        | Sociall                                    |                  |
-| `SOIL`       | SoilCoin                                   |                  |
-| `SOJ`        | Sojourn Coin                               |                  |
-| `SOL`        | Sola                                       |                  |
-| `SDAO`       | Solar DAO                                  |                  |
-| `SLR`        | SolarCoin                                  |                  |
-| `CELL`       | SolarFarm                                  |                  |
-| `SRX`        | Solarex                                    |                  |
-| `SFC`        | Solarflarecoin                             |                  |
-| `XLR`        | Solaris                                    |                  |
-| `SOLE`       | SoleCoin                                   |                  |
-| `SOLID`      | Solidified                                 |                  |
-| `SCT*`       | Soma                                       |                  |
-| `SONG`       | Song Coin                                  |                  |
-| `SSD`        | Sonic Screw Driver Coin                    |                  |
-| `SOON`       | SoonCoin                                   |                  |
-| `SPHTX`      | SophiaTX                                   |                  |
-| `SNK`        | Sosnovkino                                 |                  |
-| `SOUL`       | SoulCoin                                   |                  |
-| `SPX`        | Sp8de                                      |                  |
-| `SCASH`      | SpaceCash                                  |                  |
-| `SPC*`       | SpaceChain                                 |                  |
-| `SPACE`      | SpaceCoin                                  |                  |
-| `SPA`        | SpainCoin                                  |                  |
-| `SPANK`      | SpankChain                                 |                  |
-| `SPK`        | SparksPay                                  |                  |
-| `SPEC`       | SpecCoin                                   |                  |
-| `SPX*`       | Specie                                     |                  |
-| `XSPEC`      | Spectre                                    |                  |
-| `SPEND`      | Spend                                      |                  |
-| `SPHR`       | Sphere Coin                                |                  |
-| `XID`        | Sphre AIR                                  |                  |
-| `SPIKE`      | Spiking                                    |                  |
-| `SPC`        | SpinCoin                                   |                  |
-| `SPD*`       | Spindle                                    |                  |
-| `SPKZ`       | Spokkz                                     |                  |
-| `SPORT`      | SportsCoin                                 |                  |
-| `SFT`        | SportsFix                                  |                  |
-| `SPF`        | SportyCo                                   |                  |
-| `SPOT`       | Spotcoin                                   |                  |
-| `SPT`        | Spots                                      |                  |
-| `SPOTS`      | Spots                                      |                  |
-| `SPR`        | Spreadcoin                                 |                  |
-| `SPRTZ`      | SpritzCoin                                 |                  |
-| `SPRTS`      | Sprouts                                    |                  |
-| `SQP`        | SqPay                                      |                  |
-| `SQL`        | Squall Coin                                |                  |
-| `SQR`        | Squeezer                                   |                  |
-| `XSI`        | Stability Shares                           |                  |
-| `SBC`        | StableCoin                                 |                  |
-| `USDS`       | StableUSD                                  |                  |
-| `DSLA`       | Stacktical                                 |                  |
-| `STCN`       | Stakecoin                                  |                  |
-| `XSN`        | Stakenet                                   |                  |
-| `STA*`       | Stakers                                    |                  |
-| `STHR`       | Stakerush                                  |                  |
-| `LABX`       | Stakinglab                                 |                  |
-| `STALIN`     | StalinCoin                                 |                  |
-| `STC`        | StarChain                                  |                  |
-| `STR*`       | StarCoin                                   |                  |
-| `STAR*`      | StarCoin                                   |                  |
-| `SRC*`       | StarCredits                                |                  |
-| `KST`        | StarKST                                    |                  |
-| `STT`        | Staramba                                   |                  |
-| `STAR`       | Starbase                                   |                  |
-| `START`      | StartCoin                                  |                  |
-| `STA`        | Starta                                     |                  |
-| `STP`        | StashPay                                   |                  |
-| `SQOIN`      | StasyQ                                     |                  |
-| `SNT`        | Status Network Token                       |                  |
-| `STAX`       | Staxcoin                                   |                  |
-| `XST`        | StealthCoin                                |                  |
-| `PNK`        | SteamPunk                                  |                  |
-| `STEEM`      | Steem                                      |                  |
-| `SBD*`       | Steem Backed Dollars                       |                  |
-| `XLM`        | Stellar                                    | rgb(221,223,252) |
-| `XTL`        | Stellite                                   |                  |
-| `SCIA`       | Stem Cell                                  |                  |
-| `STN`        | Steneum Coin                               |                  |
-| `STEPS`      | Steps                                      |                  |
-| `SLG`        | SterlingCoin                               |                  |
-| `SPD`        | Stipend                                    |                  |
-| `STIPS`      | Stips                                      |                  |
-| `STOCKBET`   | StockBet                                   |                  |
-| `SCC`        | StockChain Coin                            |                  |
-| `STQ`        | Storiqa Token                              |                  |
-| `STORJ`      | Storj                                      |                  |
-| `SJCX`       | StorjCoin                                  |                  |
-| `STORM`      | Storm                                      |                  |
-| `STX`        | Stox                                       |                  |
-| `STAK`       | Straks                                     |                  |
-| `SISA`       | Strategic Investments in Significant Areas |                  |
-| `STRAT`      | Stratis                                    |                  |
-| `SSH`        | StreamSpace                                |                  |
-| `STM`        | Streamity                                  |                  |
-| `DATA`       | Streamr DATAcoin                           |                  |
-| `SHND`       | StrongHands                                |                  |
-| `SUT`        | Suapp                                      |                  |
-| `SUB*`       | Subscriptio                                |                  |
-| `SUB`        | Substratum Network                         |                  |
-| `SUCR`       | Sucre                                      |                  |
-| `SGC`        | Sudan Gold Coin                            |                  |
-| `SGR`        | Sugar Exchange                             |                  |
-| `SUMO`       | Sumokoin                                   |                  |
-| `SNC`        | SunContract                                |                  |
-| `SSTC`       | SunShotCoin                                |                  |
-| `SUP`        | Supcoin                                    |                  |
-| `SBTC`       | Super Bitcoin                              |                  |
-| `SUPER`      | SuperCoin                                  |                  |
-| `UNITY`      | SuperNET                                   |                  |
-| `SEED`       | Superbloom                                 |                  |
-| `M1`         | SupplyShock                                |                  |
-| `SPM`        | Supreme                                    |                  |
-| `RMT`        | SureRemit                                  |                  |
-| `SUR`        | Suretly                                    |                  |
-| `SWA`        | Swace                                      |                  |
-| `SWACH`      | Swachhcoin                                 |                  |
-| `BUCKS`      | SwagBucks                                  |                  |
-| `SWT`        | Swarm City Token                           |                  |
-| `SWM`        | Swarm Fund                                 |                  |
-| `SWARM`      | SwarmCoin                                  |                  |
-| `SWEET`      | SweetStake                                 |                  |
-| `SWFTC`      | SwftCoin                                   |                  |
-| `SWING`      | SwingCoin                                  |                  |
-| `SCN`        | Swiscoin                                   |                  |
-| `CHSB`       | SwissBorg                                  |                  |
-| `SRC**`      | SwissRealCoin                              |                  |
-| `SIC`        | Swisscoin                                  |                  |
-| `SWTH`       | Switcheo                                   |                  |
-| `SDP`        | SydPakCoin                                 |                  |
-| `SYLO`       | Sylo                                       |                  |
-| `SYNC`       | SyncCoin                                   |                  |
-| `MFG`        | SyncFab                                    |                  |
-| `SYC`        | SynchroCoin                                |                  |
-| `SYNCO`      | Synco                                      |                  |
-| `SYNX`       | Syndicate                                  |                  |
-| `AMP`        | Synereo                                    |                  |
-| `SNRG`       | Synergy                                    |                  |
-| `SNX`        | Synthetix                                  |                  |
-| `SYS`        | SysCoin                                    |                  |
-| `TBT`        | T-BOT                                      |                  |
-| `TCX`        | T-Coin                                     |                  |
-| `TZO`        | TANZŌ                                      |                  |
-| `BAR`        | TBIS token                                 |                  |
-| `TDFB`       | TDFB                                       |                  |
-| `TFD`        | TE-FOOD                                    |                  |
-| `TKY`        | THEKEY Token                               |                  |
-| `TTN`        | TITA Project                               |                  |
-| `TXM`        | TMONEY                                     |                  |
-| `TOA`        | TOA Coin                                   |                  |
-| `TPC`        | TPCash                                     |                  |
-| `TRX`        | TRON                                       | rgb(228,7,20)    |
-| `XTROPTIONS` | TROPTIONS                                  |                  |
-| `TTV`        | TV-TWO                                     |                  |
-| `TWISTR`     | TWIST                                      |                  |
-| `TTU`        | TaTaTu                                     |                  |
-| `TCHN`       | Tachain                                    |                  |
-| `TAG`        | TagCoin                                    |                  |
-| `TAJ`        | TajCoin                                    |                  |
-| `TAK`        | TakCoin                                    |                  |
-| `TKLN`       | Taklimakan                                 |                  |
-| `TALAO`      | Talao                                      |                  |
-| `TLNT`       | Talent Token                               |                  |
-| `TCOIN`      | Talenthon                                  |                  |
-| `TAL`        | Talentico                                  |                  |
-| `TAM`        | TamaGucci                                  |                  |
-| `XTO`        | Tao                                        |                  |
-| `TTT`        | Tap Project                                |                  |
-| `TAP`        | TappingCoin                                |                  |
-| `TGT`        | TargetCoin                                 |                  |
-| `TAT`        | Tatiana Coin                               |                  |
-| `TSE`        | TattooCoin                                 |                  |
-| `TEC`        | TeCoin                                     |                  |
-| `TCHB`       | Teachers Blockchain                        |                  |
-| `TEAM`       | TeamUP                                     |                  |
-| `TECH`       | TechCoin                                   |                  |
-| `THS`        | TechShares                                 |                  |
-| `TEK`        | TekCoin                                    |                  |
-| `TEL`        | Telcoin                                    |                  |
-| `GRAM`       | Telegram Open Network                      |                  |
-| `TELL`       | Tellurion                                  |                  |
-| `PAY`        | TenX                                       |                  |
-| `TENNET`     | Tennet                                     |                  |
-| `TENZ`       | Tenzorum                                   |                  |
-| `LED`        | Terawatt                                   |                  |
-| `TERN`       | Ternio                                     |                  |
-| `TRN`        | Ternion                                    |                  |
-| `TVA`        | Terra Virtua                               |                  |
-| `TRC`        | TerraCoin                                  |                  |
-| `TECO`       | TerraEcoCoin                               |                  |
-| `TGN`        | TerraGreen                                 |                  |
-| `TER`        | TerraNovaCoin                              |                  |
-| `TESLA`      | TeslaCoilCoin                              |                  |
-| `TES`        | TeslaCoin                                  |                  |
-| `USDT`       | Tether                                     | rgb(38,161,23)   |
-| `TRA`        | Tetra                                      |                  |
-| `XTZ`        | Tezos                                      |                  |
-| `THNX`       | ThankYou                                   |                  |
-| `0xDIARY`    | The 0xDiary Token                          |                  |
-| `ABYSS`      | The Abyss                                  |                  |
-| `EFX`        | The EFFECT Network                         |                  |
-| `TFC`        | The Freedom Coin                           |                  |
-| `GOVT`       | The Government Network                     |                  |
-| `THC`        | The Hempcoin                               |                  |
-| `SUNEX`      | The Sun Exchange                           |                  |
-| `XVE`        | The Vegan Initiative                       |                  |
-| `CHIEF`      | TheChiefCoin                               |                  |
-| `GCC*`       | TheGCCcoin                                 |                  |
-| `VIG`        | TheVig                                     |                  |
-| `TCR`        | Thecreed                                   |                  |
-| `MAY`        | Theresa May Coin                           |                  |
-| `THETA`      | Theta                                      |                  |
-| `TAGR`       | Think And Get Rich Coin                    |                  |
-| `THRT`       | ThriveToken                                |                  |
-| `TSC`        | ThunderStake                               |                  |
-| `TIA`        | Tianhe                                     |                  |
-| `TBRS`       | Tiberius                                   |                  |
-| `TDX`        | Tidex Token                                |                  |
-| `TNT`        | Tierion                                    |                  |
-| `TIE`        | Ties Network                               |                  |
-| `TCH`        | TigerCash                                  |                  |
-| `TGC`        | TigerCoin                                  |                  |
-| `TIG`        | Tigereum                                   |                  |
-| `XTC`        | TileCoin                                   |                  |
-| `BILL`       | TillBilly                                  |                  |
-| `TIME`       | Time                                       |                  |
-| `TNB`        | Time New Bank                              |                  |
-| `TME`        | Timereum                                   |                  |
-| `TMC`        | TimesCoin                                  |                  |
-| `TIMI`       | Timicoin                                   |                  |
-| `TIO*`       | Tio Tour Guides                            |                  |
-| `TIP`        | Tip Blockchain                             |                  |
-| `TTC`        | TitCoin                                    |                  |
-| `TITAN`      | Titan                                      |                  |
-| `TBAR`       | Titanium BAR                               |                  |
-| `TIT`        | TittieCoin                                 |                  |
-| `TMT*`       | ToTheMoon                                  |                  |
-| `TODAY`      | TodayCoin                                  |                  |
-| `TKD`        | Tokedo                                     |                  |
-| `TAAS`       | Token as a Service                         |                  |
-| `TKN`        | TokenCard                                  |                  |
-| `TCT`        | TokenClub                                  |                  |
-| `TDS`        | TokenDesk                                  |                  |
-| `TPAY*`      | TokenPay                                   |                  |
-| `ACE`        | TokenStars                                 |                  |
-| `TEAMT`      | TokenStars TEAM Token                      |                  |
-| `AIRE`       | Tokenaire                                  |                  |
-| `TBX`        | Tokenbox                                   |                  |
-| `TEN`        | Tokenomy                                   |                  |
-| `TGTC`       | Tokensgate                                 |                  |
-| `TKS`        | Tokes                                      |                  |
-| `TKA`        | Tokia                                      |                  |
-| `TOK`        | TokugawaCoin                               |                  |
-| `TOKC`       | Tokyo Coin                                 |                  |
-| `TOM`        | Tomahawkcoin                               |                  |
-| `TBL`        | Tombola                                    |                  |
-| `TOMO`       | TomoChain                                  |                  |
-| `TOPC`       | Topchain                                   |                  |
-| `TOR`        | TorCoin                                    |                  |
-| `TOT`        | TotCoin                                    |                  |
-| `TRET`       | Tourist Review                             |                  |
-| `BBC`        | TraDove B2BCoin                            |                  |
-| `MTN`        | TrackNetToken                              |                  |
-| `TRCT`       | Tracto                                     |                  |
-| `TXP`        | Trade Pharma Network                       |                  |
-| `TIOX`       | Trade Token X                              |                  |
-| `TIO`        | Trade.io                                   |                  |
-| `EXTP`       | TradePlace                                 |                  |
-| `TDZ`        | Tradelize                                  |                  |
-| `TRAID`      | Traid                                      |                  |
-| `TRAK`       | TrakInvest                                 |                  |
-| `TX`         | Transfer                                   |                  |
-| `TBCX`       | TrashBurn                                  |                  |
-| `AVALA`      | Travala                                    |                  |
-| `TRV`        | Travel Coin                                |                  |
-| `TT`         | TravelChain                                |                  |
-| `TLT`        | Travelertoken                              |                  |
-| `TRF`        | Travelflex                                 |                  |
-| `TRAVEL`     | Travelvee                                  |                  |
-| `TMT**`      | Traxia Membership Token                    |                  |
-| `TOT*`       | Trecento Blockchain Capital                |                  |
-| `TREX`       | TreeBlock                                  |                  |
-| `TZC`        | TrezarCoin                                 |                  |
-| `FORCE`      | TriForce Tokens                            |                  |
-| `TRIA`       | Triaconta                                  |                  |
-| `TRI`        | Triangles Coin                             |                  |
-| `TRIBE`      | TribeToken                                 |                  |
-| `TRICK`      | TrickyCoin                                 |                  |
-| `TRDT`       | Trident                                    |                  |
-| `GPS`        | Triffic                                    |                  |
-| `ID`         | TrigID                                     |                  |
-| `TRIG`       | Trigger                                    |                  |
-| `TIIM`       | TriipMiles                                 |                  |
-| `TNC`        | Trinity Network Credit                     |                  |
-| `TRIO`       | Tripio                                     |                  |
-| `TRIP`       | Trippki                                    |                  |
-| `TRVC`       | Trivecoin                                  |                  |
-| `TRVR`       | Trivver                                    |                  |
-| `TRW`        | Triwer                                     |                  |
-| `TPG`        | Troll Payment                              |                  |
-| `TKN*`       | TrollTokens                                |                  |
-| `TROLL`      | Trollcoin                                  |                  |
-| `TRK`        | TruckCoin                                  |                  |
-| `TRCK`       | Truckcoin                                  |                  |
-| `TRUE`       | True Chain                                 | rgb(30,107,186)  |
-| `TFL`        | True Flip Lottery                          |                  |
-| `TUSD`       | True USD                                   |                  |
-| `TDP`        | TrueDeck                                   |                  |
-| `TGAME`      | TrueGame                                   |                  |
-| `TIC`        | TrueInvestmentCoin                         |                  |
-| `TRUMP`      | TrumpCoin                                  |                  |
-| `TRST`       | TrustCoin                                  |                  |
-| `TRUST`      | TrustPlus                                  |                  |
-| `TTB`        | TrustaBit                                  |                  |
-| `FLEX`       | TrustedCars FLEX                           |                  |
-| `WHO`        | Truwho                                     |                  |
-| `TYM`        | Tryvium                                    |                  |
-| `TLP`        | TulipCoin                                  |                  |
-| `TUR`        | Turron                                     |                  |
-| `TRTL`       | TurtleCoin                                 |                  |
-| `TUT`        | Tutellus                                   |                  |
-| `TRT`        | TuurnT                                     |                  |
-| `TWLV`       | Twelve Coin                                |                  |
-| `TWC`        | Twilight                                   |                  |
-| `TWIST`      | TwisterCoin                                |                  |
-| `UUU`        | U Network                                  |                  |
-| `UCASH`      | U.CASH                                     |                  |
-| `UCN`        | UC Coin                                    |                  |
-| `UCOINT`     | UCOIN                                      |                  |
-| `UCT`        | UCOT                                       |                  |
-| `UFO`        | UFO Coin                                   |                  |
-| `HVE`        | UHIVE                                      |                  |
-| `UMK`        | UMKA                                       |                  |
-| `UNX`        | UNEOX                                      |                  |
-| `XUP`        | UPcoin                                     |                  |
-| `UR`         | UR                                         |                  |
-| `URX`        | URANIUMX                                   |                  |
-| `USAT`       | USAT                                       |                  |
-| `USCOIN`     | USCoin                                     |                  |
-| `USDC`       | USD Coin                                   |                  |
-| `USDCT`      | USDCT                                      |                  |
-| `USOAMIC`    | USOAMIC                                    |                  |
-| `UBC`        | Ubcoin                                     |                  |
-| `UBEX`       | Ubex                                       |                  |
-| `UBQ`        | Ubiq                                       |                  |
-| `UBIQ`       | Ubiqoin                                    |                  |
-| `U`          | Ucoin                                      |                  |
-| `USC`        | Ultimate Secure Cash                       |                  |
-| `UTC`        | UltraCoin                                  |                  |
-| `XUN`        | UltraNote                                  |                  |
-| `ULTC`       | Umbrella                                   |                  |
-| `UMC`        | Umbrella Coin                              |                  |
-| `UNC`        | UnCoin                                     |                  |
-| `UNAT`       | Unattanium                                 |                  |
-| `NBOX`       | Unboxed                                    |                  |
-| `UNB`        | UnbreakableCoin                            |                  |
-| `UNF`        | Unfed Coin                                 |                  |
-| `UBT`        | UniBright                                  |                  |
-| `CANDY`      | UnicornGo Candy                            |                  |
-| `USX`        | Unified Society USDEX                      |                  |
-| `UNIFY`      | Unify                                      |                  |
-| `UKG`        | UnikoinGold                                |                  |
-| `UNIQ`       | Uniqredit                                  |                  |
-| `USDE`       | UnitaryStatus Dollar                       |                  |
-| `UAEC`       | United Arab Emirates Coin                  |                  |
-| `UEC`        | United Emirates Coin                       |                  |
-| `UTT`        | United Traders Token                       |                  |
-| `UBTC`       | UnitedBitcoin                              | rgb(61,183,247)  |
-| `GOALS`      | UnitedFans                                 |                  |
-| `UIS`        | Unitus                                     |                  |
-| `UTNP`       | Universa                                   |                  |
-| `UNIT`       | Universal Currency                         |                  |
-| `UMO`        | Universal Molecule                         |                  |
-| `URT`        | Universal Recognition Token                |                  |
-| `URP`        | Universal Reward Protocol                  |                  |
-| `UNRC`       | UniversalRoyalCoin                         |                  |
-| `UNI`        | Universe                                   |                  |
-| `UNO`        | Unobtanium                                 |                  |
-| `UP`         | UpToken                                    |                  |
-| `UFR`        | Upfiring                                   |                  |
-| `UQC`        | Uquid Coin                                 |                  |
-| `URALS`      | Urals Coin                                 |                  |
-| `URB`        | Urbit Data                                 |                  |
-| `URO`        | UroCoin                                    |                  |
-| `USE`        | Usechain Token                             |                  |
-| `UETL`       | Useless Eth Token Lite                     |                  |
-| `UET`        | Useless Ethereum Token                     |                  |
-| `UTH`        | Uther                                      |                  |
-| `UTL`        | Utile Network                              |                  |
-| `UTIL`       | Utility Coin                               |                  |
-| `OOT`        | Utrum                                      |                  |
-| `UTK`        | Utrust                                     |                  |
-| `UWC`        | Uwezocoin                                  |                  |
-| `VIDT`       | V-ID                                       |                  |
-| `VANIG`      | VANIG                                      |                  |
-| `VANM`       | VANM                                       |                  |
-| `VAR`        | VARcrypt                                   |                  |
-| `VEGA`       | VEGA                                       |                  |
-| `VNTY`       | VENOTY                                     |                  |
-| `VRX Token`  | VIARIUM                                    |                  |
-| `VIBE`       | VIBEHub                                    |                  |
-| `VIP`        | VIP Tokens                                 |                  |
-| `VITE`       | VITE                                       |                  |
-| `VIVO`       | VIVO Coin                                  |                  |
-| `VLUX`       | VLUX                                       |                  |
-| `VTOS`       | VTOS                                       |                  |
-| `VTUUR`      | VTUUR                                      |                  |
-| `VTRD`       | VTradeExchange                             |                  |
-| `VVI`        | VV Coin                                    |                  |
-| `VLD`        | Valid                                      |                  |
-| `VALID`      | Validator Token                            |                  |
-| `VAL`        | Valorbit                                   |                  |
-| `VLR`        | Valorem                                    |                  |
-| `VANY`       | Vanywhere                                  |                  |
-| `VPRC`       | VapersCoin                                 |                  |
-| `VAPOR`      | Vaporcoin                                  |                  |
-| `VAD`        | Varanida                                   |                  |
-| `VLTC`       | VaultCoin                                  |                  |
-| `XVC`        | Vcash                                      |                  |
-| `VTHO`       | VeChainThor                                |                  |
-| `VC`         | Vecap                                      |                  |
-| `VET`        | Vechain                                    |                  |
-| `VEC2`       | VectorCoin 2.0                             |                  |
-| `VLX`        | Velox                                      |                  |
-| `VLT`        | Veltor                                     |                  |
-| `VENA`       | Vena Network                               |                  |
-| `VNS`        | Venus                                      |                  |
-| `VENUS`      | VenusEnergy                                |                  |
-| `VRA`        | Verasity                                   |                  |
-| `VNT`        | Veredictum                                 |                  |
-| `XVG`        | Verge                                      |                  |
-| `VRC`        | VeriCoin                                   |                  |
-| `VME`        | VeriME                                     |                  |
-| `VRF`        | Verifier                                   |                  |
-| `SPY`        | Verifier                                   |                  |
-| `CRED`       | Verify                                     |                  |
-| `VERI`       | Veritaseum                                 |                  |
-| `VRTY`       | Verity                                     |                  |
-| `VRM`        | Verium                                     |                  |
-| `VRN`        | Vernam                                     |                  |
-| `VRS`        | Veros                                      |                  |
-| `VERSA`      | Versa Token                                |                  |
-| `VTC`        | Vertcoin                                   |                  |
-| `VTX`        | Vertex                                     |                  |
-| `VTEX`       | Vertex                                     |                  |
-| `VTL`        | Vertical                                   |                  |
-| `VEST`       | VestChain                                  |                  |
-| `VST`        | Vestarin                                   |                  |
-| `VEX`        | Vexanium                                   |                  |
-| `VZT`        | Vezt                                       |                  |
-| `VIA`        | ViaCoin                                    |                  |
-| `VIAZ`       | Viaz                                       |                  |
-| `VIB`        | Viberate                                   |                  |
-| `VIT`        | Vice Industry Token                        |                  |
-| `VTM`        | Victorieum                                 |                  |
-| `VTY`        | Victoriouscoin                             |                  |
-| `VIC`        | Victorium                                  |                  |
-| `VID`        | VideoCoin                                  |                  |
-| `VDO`        | VidioCoin                                  |                  |
-| `VIDI`       | Vidion                                     |                  |
-| `VIDY`       | Vidy                                       |                  |
-| `VIEW`       | Viewly                                     |                  |
-| `VEOT`       | Viewo                                      |                  |
-| `VIN`        | VinChain                                   |                  |
-| `VIOR`       | ViorCoin                                   |                  |
-| `IDORU`      | Vip2Fan                                    |                  |
-| `VIRAL`      | Viral Coin                                 |                  |
-| `VUC`        | Virta Unique Coin                          |                  |
-| `VTA`        | VirtaCoin                                  |                  |
-| `XVP`        | VirtacoinPlus                              |                  |
-| `VRT`        | Virtual Reality Technology                 |                  |
-| `VRH`        | Virtual Rehab                              |                  |
-| `VMC`        | VirtualMining Coin                         |                  |
-| `VISIO`      | Visio                                      |                  |
-| `VNX`        | VisionX                                    |                  |
-| `VITAE`      | Vitae                                      |                  |
-| `VIU`        | Viuly                                      |                  |
-| `OGO`        | VogoV                                      |                  |
-| `VOISE`      | Voise                                      |                  |
-| `VOL`        | VolAir                                     |                  |
-| `VLTX`       | Volentix                                   |                  |
-| `VLP`        | Volpo                                      |                  |
-| `VTN`        | Voltroon                                   |                  |
-| `VOOT`       | VootCoin                                   |                  |
-| `VOT`        | Votecoin                                   |                  |
-| `VOYA`       | Voyacoin                                   |                  |
-| `VSX`        | Vsync                                      |                  |
-| `VTR`        | Vtorrent                                   |                  |
-| `VULC`       | Vulcano                                    |                  |
-| `W12`        | W12 Protocol                               |                  |
-| `W3C`        | W3Coin                                     |                  |
-| `WAB`        | WABnetwork                                 |                  |
-| `WIN`        | WCoin                                      |                  |
-| `WETH`       | WETH                                       |                  |
-| `WRL`        | WHIRL                                      |                  |
-| `WMC`        | WMCoin                                     |                  |
-| `WOM`        | WOM                                        |                  |
-| `WOWX`       | WOWX                                       |                  |
-| `WRT`        | WRTcoin                                    |                  |
-| `WTXH`       | WTX HUB                                    |                  |
-| `WU`         | WULET                                      |                  |
-| `WABI`       | WaBi                                       |                  |
-| `WGR`        | Wagerr                                     |                  |
-| `WTC`        | Waltonchain                                |                  |
-| `WAN`        | Wanchain                                   |                  |
-| `WAND`       | WandX                                      |                  |
-| `WRC*`       | WarCoin                                    |                  |
-| `WARP`       | WarpCoin                                   |                  |
-| `WASH`       | WashingtonCoin                             |                  |
-| `WUG`        | WatchUGot                                  |                  |
-| `WMB`        | WatermelonBlock                            |                  |
-| `WAVES`      | Waves                                      |                  |
-| `WCT`        | Waves Community Token                      |                  |
-| `WGO`        | WavesGO                                    |                  |
-| `WNET`       | Wavesnode.net                              |                  |
-| `WAY`        | WayCoin                                    |                  |
-| `WSX`        | WeAreSatoshi                               |                  |
-| `WBY`        | WeBuy                                      |                  |
-| `WPR`        | WePower                                    |                  |
-| `WT`         | WeToken                                    |                  |
-| `WEALTH`     | WealthCoin                                 |                  |
-| `WVR`        | Weave                                      |                  |
-| `WEB*`       | Webchain                                   |                  |
-| `WEB`        | Webcoin                                    |                  |
-| `WDX`        | WeiDex                                     |                  |
-| `WELL`       | Well                                       |                  |
-| `WLME`       | Wellmee                                    |                  |
-| `WTL`        | Welltrado                                  |                  |
-| `WMK`        | Wemark                                     |                  |
-| `WEX`        | Wexcoin                                    |                  |
-| `WHL`        | WhaleCoin                                  |                  |
-| `AWT`        | WhatsOnPic                                 |                  |
-| `WHEN`       | WhenHub                                    |                  |
-| `WC`         | WhiteCoin                                  |                  |
-| `XWC`        | WhiteCoin                                  |                  |
-| `WIC`        | Wi Coin                                    |                  |
-| `WIIX`       | Wiix                                       |                  |
-| `WBB`        | Wild Beast Coin                            |                  |
-| `WILD`       | Wild Crypto                                |                  |
-| `WINS`       | WinStars                                   |                  |
-| `WHN`        | Windhan Energy                             |                  |
-| `LIF`        | Winding Tree                               |                  |
-| `WINE`       | WineCoin                                   |                  |
-| `WINGS`      | Wings DAO                                  |                  |
-| `WINK`       | Wink                                       |                  |
-| `WISC`       | WisdomCoin                                 |                  |
-| `WSC`        | WiserCoin                                  |                  |
-| `WSH`        | Wish Finance                               |                  |
-| `WISH*`      | WishFinance                                |                  |
-| `WIT`        | Witcoin                                    |                  |
-| `WLK`        | Wolk                                       |                  |
-| `WOMEN`      | WomenCoin                                  |                  |
-| `LOG`        | Wood Coin                                  |                  |
-| `WBBC`       | World Bit Bank                             |                  |
-| `WCG`        | World Crypto Gold                          |                  |
-| `WGC`        | World Gold Coin                            |                  |
-| `XWT`        | World Trade Funds                          |                  |
-| `WOBTC`      | WorldBTC                                   |                  |
-| `WDC`        | WorldCoin                                  |                  |
-| `WOP`        | WorldPay                                   |                  |
-| `WRC`        | Worldcore                                  |                  |
-| `WPT`        | Worldopoly                                 |                  |
-| `WAX`        | Worldwide Asset eXchange                   |                  |
-| `WBTC`       | Wrapped Bitcoin                            |                  |
-| `WYR`        | Wyrify                                     |                  |
-| `WYS`        | Wysker                                     |                  |
-| `XRED`       | X Real Estate Development                  |                  |
-| `XCASH`      | X-CASH                                     |                  |
-| `XC`         | X11 Coin                                   |                  |
-| `X2`         | X2Coin                                     |                  |
-| `X8X`        | X8Currency                                 |                  |
-| `CHI`        | XAYA                                       |                  |
-| `XCZ`        | XCOYNZ                                     |                  |
-| `XCO`        | XCoin                                      |                  |
-| `XDE2`       | XDE II                                     |                  |
-| `XDNA`       | XDNA                                       |                  |
-| `XELS`       | XELS Coin                                  |                  |
-| `XTN`        | XEND token                                 |                  |
-| `XG`         | XG Sports                                  |                  |
-| `XMX`        | XMax                                       |                  |
-| `XOV`        | XOVBank                                    |                  |
-| `XRP`        | XRP                                        | rgb(210,210,210) |
-| `XBY`        | XTRABYTES                                  |                  |
-| `XUEZ`       | XUEZ                                       |                  |
-| `XXX`        | XXXCoin                                    |                  |
-| `XYO`        | XY Oracle                                  |                  |
-| `XNX`        | XanaxCoin                                  |                  |
-| `XAU`        | XauCoin                                    |                  |
-| `XAUR`       | Xaurum                                     |                  |
-| `XCSH`       | Xcash                                      |                  |
-| `XCEL`       | XcelTrip                                   |                  |
-| `XCG`        | Xchange                                    |                  |
-| `XNC`        | XenCoin                                    |                  |
-| `XEN`        | XenixCoin                                  |                  |
-| `XNN`        | Xenon                                      |                  |
-| `XNB`        | Xeonbit                                    |                  |
-| `MI`         | XiaoMiCoin                                 |                  |
-| `XDCE`       | XinFin Coin                                |                  |
-| `XIOS`       | Xios                                       |                  |
-| `XT3`        | Xt3ch                                      |                  |
-| `XRBT`       | Xtribe                                     |                  |
-| `YAY`        | YAYcoin                                    |                  |
-| `YAC`        | YAcCoin                                    |                  |
-| `YACHTCO`    | Yachtco                                    |                  |
-| `YMC`        | YamahaCoin                                 |                  |
-| `YMZ`        | Yamzu                                      |                  |
-| `YBC`        | YbCoin                                     |                  |
-| `YDY`        | Ydentity                                   |                  |
-| `YEE`        | Yee                                        |                  |
-| `YBT`        | YellowBetter                               |                  |
-| `YES`        | YesCoin                                    |                  |
-| `YOC`        | YoCoin                                     |                  |
-| `YOVI`       | YobitVirtualCoin                           |                  |
-| `YON`        | YondoCoin                                  |                  |
-| `YSH`        | Yoshi                                      |                  |
-| `U42`        | You42                                      |                  |
-| `YOYOW`      | Yoyow                                      |                  |
-| `YUM`        | Yumerium                                   |                  |
-| `Z2`         | Z2 Coin                                    |                  |
-| `ZAB`        | ZABERcoin                                  |                  |
-| `ZAZA`       | ZAZA                                       |                  |
-| `ZT`         | ZB Global                                  |                  |
-| `ZCC`        | ZCC Coin                                   |                  |
-| `ZEC`        | ZCash                                      | rgb(215,149,45)  |
-| `ZECD`       | ZCashDarkCoin                              |                  |
-| `ZCG`        | ZCashGOLD                                  |                  |
-| `ZCL`        | ZClassic                                   |                  |
-| `XZC`        | ZCoin                                      |                  |
-| `ZEN`        | ZEN                                        |                  |
-| `ZEPH`       | ZEPHYR                                     |                  |
-| `ZINC`       | ZINC                                       |                  |
-| `ZIX`        | ZIX Token                                  |                  |
-| `ZLQ`        | ZLiteQubit                                 |                  |
-| `ZMN`        | ZMINE                                      |                  |
-| `ZNAQ`       | ZNAQ                                       |                  |
-| `ZPR`        | ZPER                                       |                  |
-| `ZSE`        | ZSEcoin                                    |                  |
-| `ZEX`        | Zaddex                                     |                  |
-| `ZAP`        | Zap                                        |                  |
-| `ZAT`        | ZatGo                                      |                  |
-| `ZYD`        | ZayedCoin                                  |                  |
-| `ZXT`        | Zcrypt                                     |                  |
-| `NZL`        | Zealium                                    |                  |
-| `ZCO`        | Zebi Coin                                  |                  |
-| `ZED`        | ZedCoins                                   |                  |
-| `ZPT`        | Zeepin                                     |                  |
-| `ZEEW`       | Zeew                                       |                  |
-| `ZEIT`       | ZeitCoin                                   |                  |
-| `ZEL`        | Zelcash                                    |                  |
-| `ZP`         | Zen Protocol                               |                  |
-| `ZND`        | Zenad                                      |                  |
-| `ZENI`       | Zennies                                    |                  |
-| `ZNA`        | Zenome                                     |                  |
-| `ZER`        | Zero                                       |                  |
-| `ZCC1`       | ZeroCarbon                                 |                  |
-| `ZSC*`       | ZeroState                                  |                  |
-| `ZEST`       | ZestCoin                                   |                  |
-| `ZET2`       | Zeta2Coin                                  |                  |
-| `ZET`        | ZetaCoin                                   |                  |
-| `ZSC`        | Zeusshield                                 |                  |
-| `ZUC`        | Zeux                                       |                  |
-| `ZCN*`       | Zichain                                    |                  |
-| `ZBC`        | Zilbercoin                                 |                  |
-| `ZLA`        | Zilla                                      |                  |
-| `ZIL`        | Zilliqa                                    |                  |
-| `ZIP`        | Zipper                                     |                  |
-| `ZIPT`       | Zippie                                     |                  |
-| `ZOI`        | Zoin                                       |                  |
-| `ZNE`        | ZoneCoin                                   |                  |
-| `ZOOM`       | ZoomCoin                                   |                  |
-| `ZRC`        | ZrCoin                                     |                  |
-| `ZUP`        | Zupply Token                               |                  |
-| `ZUR`        | Zurcoin                                    |                  |
-| `ZUUM`       | Zuum                                       |                  |
-| `AQU`        | aQuest                                     |                  |
-| `AXPR`       | aXpire                                     |                  |
-| `ELF`        | aelf                                       |                  |
-| `AXC`        | autoXchange                                |                  |
-| `BPN`        | beepnow                                    |                  |
-| `OX`         | betbox                                     |                  |
-| `BITCNY`     | bitCNY                                     |                  |
-| `BITGOLD`    | bitGold                                    |                  |
-| `BITSILVER`  | bitSilver                                  |                  |
-| `BITUSD`     | bitUSD                                     |                  |
-| `CSQ`        | cosquare                                   |                  |
-| `DCS`        | deCLOUDs                                   |                  |
-| `DNT`        | district0x                                 |                  |
-| `ECHT`       | e-Chat                                     |                  |
-| `EBIT`       | eBit                                       |                  |
-| `EBTC`       | eBitcoin                                   |                  |
-| `EBST`       | eBoost                                     |                  |
-| `ELTC2`      | eLTC                                       |                  |
-| `LYQD`       | eLYQD                                      |                  |
-| `DEM`        | eMark                                      |                  |
-| `EMU`        | eMusic                                     |                  |
-| `ePRX`       | eProxy                                     |                  |
-| `EREAL`      | eREAL                                      |                  |
-| `EMPR`       | empowr                                     |                  |
-| `BLACK`      | eosBLACK                                   |                  |
-| `EOSDAC`     | eosDAC                                     |                  |
-| `XEP`        | ephelants360                               |                  |
-| `FDX`        | fidentiaX                                  |                  |
-| `GCN`        | gCn Coin                                   |                  |
-| `FFUEL`      | getFIFO                                    |                  |
-| `HBE`        | healthbank                                 |                  |
-| `ICHN`       | i-chain                                    |                  |
-| `IBANK`      | iBankCoin                                  |                  |
-| `DEAL`       | iDealCash                                  |                  |
-| `ICE`        | iDice                                      |                  |
-| `IETH`       | iEthereum                                  |                  |
-| `RLC`        | iEx.ec                                     |                  |
-| `ILT`        | iOlite                                     |                  |
-| `ITU`        | iTrue                                      |                  |
-| `IW`         | iWallet                                    |                  |
-| `IXT`        | iXledger                                   |                  |
-| `IMU`        | imusify                                    |                  |
-| `ITM`        | intimate.io                                |                  |
-| `MCN`        | mCoin                                      |                  |
-| `MVU`        | meVu                                       |                  |
-| `MIBO`       | miBoodle                                   |                  |
-| `MOOLYA`     | moolyacoin                                 |                  |
-| `NOS`        | nOS                                        |                  |
-| `redBUX`     | redBUX                                     |                  |
-| `SUSD`       | sUSD                                       |                  |
-| `SVD`        | savedroid                                  |                  |
-| `SBA`        | simplyBrand                                |                  |
-| `UFT`        | ufoodo                                     |                  |
-| `UGC`        | ugChain                                    |                  |
-| `VSL`        | vSlice                                     |                  |
-| `VTAG`       | veriTAG Token                              |                  |
-| `WBTC*`      | wBTC                                       |                  |
-| `OPET`       | ÕpetFoundation                             |                  |
+There are currently **1926 cryptocurrencies** represented\*:
+| Symbol      | Name                                   | RGB         |
+| :---------- | :------------------------------------- | :---------- |
+| `42`        | 42 Coin                                | 212,212,212 |
+| `300`       | 300 token                              | 123,76,23   |
+| `365`       | 365Coin                                | 28,29,30    |
+| `404`       | 404Coin                                | 4,4,4       |
+| `433`       | 433 Token                              | 30,55,83    |
+| `611`       | SixEleven                              | 28,29,29    |
+| `808`       | 808                                    | 249,49,22   |
+| `888`       | Octocoin                               | 35,29,35    |
+| `1337`      | EliteCoin                              | 75,19,19    |
+| `2015`      | 2015 coin                              | 9,7,7       |
+| `ZRX`       | 0x                                     | 28,23,37    |
+| `0xDIARY`   | The 0xDiary Token                      | 211,211,211 |
+| `0xBTC`     | 0xBitcoin                              | 251,119,14  |
+| `ABS`       | Absolute Coin                          | 208,49,57   |
+| `ACAT`      | Alphacat                               | 4,4,4       |
+| `ACC`       | AdCoin                                 | 239,249,248 |
+| `ACH`       | AchieveCoin                            | 234,246,246 |
+| `ACTN`      | Action Coin                            | 246,7,8     |
+| `ADH`       | Adhive                                 | 242,199,67  |
+| `ADI`       | Aditus                                 | 242,150,59  |
+| `ADK`       | Aidos Kuneen                           | 42,62,36    |
+| `ADZ`       | Adzcoin                                | 210,183,134 |
+| `AEC_`      | undefined                              | 201,68,69   |
+| `AET`       | AfterEther                             | 139,139,139 |
+| `AERGO`     | AERGO                                  | 237,237,237 |
+| `AIMS`      | HighCastle Token                       | 4,36,59     |
+| `AIT`       | AIChain Token                          | 235,245,245 |
+| `AKA`       | Akroma                                 | 216,132,163 |
+| `ALG`       | Algory                                 | 32,110,233  |
+| `ALT`       | ALTcoin                                | 195,119,102 |
+| `ALPS`      | Alpenschillling                        | 71,140,162  |
+| `ALX`       | ALAX                                   | 31,41,68    |
+| `AMN`       | Amon                                   | 16,191,229  |
+| `AMT`       | Acumen                                 | 35,187,155  |
+| `AMY`       | Amygws                                 | 31,31,31    |
+| `ANAL`      | AnalCoin                               | 242,131,56  |
+| `AMX`       | Amero                                  | 29,29,25    |
+| `ANGL`      | Angel Token                            | 47,72,105   |
+| `ANK`       | Ankorus Token                          | 7,11,20     |
+| `AOA`       | Aurora                                 | 44,47,47    |
+| `ANTS`      | ANTS Reloaded                          | 223,233,237 |
+| `AOP`       | Averopay                               | 7,24,27     |
+| `APH`       | Aphelion                               | 248,243,246 |
+| `APS`       | APRES                                  | 43,133,199  |
+| `APZ`       | Alprockz                               | 217,29,34   |
+| `ARE`       | ARENON                                 | 249,247,232 |
+| `ARO`       | Arionum                                | 241,248,247 |
+| `ARTE`      | Artemine                               | 245,241,248 |
+| `ATH`       | Atheios                                | 4,20,36     |
+| `ATMI`      | Atonomi                                | 234,248,249 |
+| `ATMOS`     | Atmos                                  | 4,5,5       |
+| `ATOM_`     | undefined                              | 17,17,17    |
+| `AUC_`      | undefined                              | 213,156,52  |
+| `AXYS`      | Axys                                   | 243,179,133 |
+| `AXS`       | AXS                                    | 6,162,148   |
+| `B2X`       | SegWit2x                               | 233,147,45  |
+| `BAX`       | BABB                                   | 227,222,228 |
+| `BBO`       | Bigbom                                 | 76,178,76   |
+| `BBN`       | BBNCOIN                                | 238,241,236 |
+| `BBK`       | BitBlocks                              | 45,200,216  |
+| `BBN_`      | undefined                              | 20,58,98    |
+| `BCA`       | Bitcoin Atom                           | 242,188,61  |
+| `BCI`       | Bitcoin Interest                       | 226,122,8   |
+| `BCR_`      | undefined                              | 5,5,28      |
+| `BEAM`      | Beam                                   | 12,21,38    |
+| `BEER`      | BEER Coin                              | 174,130,41  |
+| `BEN`       | BitCOEN                                | 53,164,209  |
+| `BERRY`     | Rentberry                              | 13,159,237  |
+| `BEST`      | BestChain                              | 126,117,156 |
+| `BETT`      | Bettium                                | 7,4,38      |
+| `BEZ`       | Bezop                                  | 9,190,248   |
+| `BFDT`      | Befund                                 | 18,56,95    |
+| `BID`       | BidCoin                                | 210,196,163 |
+| `BINS`      | Bitsense                               | 235,207,165 |
+| `BITG`      | Bitcoin Green                          | 236,246,235 |
+| `BITS_`     | undefined                              | 245,250,237 |
+| `BITOK`     | BitOKX                                 | 240,235,236 |
+| `BKC`       | Balkancoin                             | 57,46,35    |
+| `BMH`       | BlockMesh                              | 238,241,242 |
+| `BMG`       | Borneo                                 | 4,4,5       |
+| `BMX`       | BitMart Coin                           | 25,28,29    |
+| `BNT`       | Bancor Network Token                   | 12,12,43    |
+| `BOE`       | Bodhi                                  | 88,103,240  |
+| `BOLD`      | Bold                                   | 11,11,11    |
+| `BOU`       | Boulle                                 | 44,201,227  |
+| `BRIA`      | Briacoin                               | 198,151,42  |
+| `BRIX`      | OpenBrix                               | 227,47,88   |
+| `BST_`      | undefined                              | 102,59,185  |
+| `BSX`       | Bitspace                               | 32,125,185  |
+| `BTCE_`     | undefined                              | 249,247,236 |
+| `BTCGO`     | BitcoinGo                              | 246,168,72  |
+| `BTCH`      | Bitcoin Hush                           | 5,4,12      |
+| `BTCN`      | BitcoiNote                             | 246,238,237 |
+| `BTCS_`     | undefined                              | 235,203,113 |
+| `BTCUS`     | Bitcoinus                              | 58,164,217  |
+| `BTF`       | Blockchain Traded Fund                 | 14,46,18    |
+| `BTF_`      | undefined                              | 221,185,117 |
+| `BTL`       | Bitrolium                              | 214,218,206 |
+| `BTN`       | Bitcoin Nova                           | 8,86,136    |
+| `BTT`       | BitTorrent                             | 226,226,226 |
+| `BTU`       | BTU Protocol                           | 128,96,156  |
+| `BTMX`      | BitMax Token                           | 56,166,248  |
+| `BUBO`      | Budbo                                  | 111,97,154  |
+| `BWS`       | BitcoinWSpectrum                       | 241,246,245 |
+| `BWT2`      | Bitwin 2.0                             | 17,15,30    |
+| `BXC`       | BtcEX                                  | 248,243,224 |
+| `BZNT`      | Bezant                                 | 248,247,236 |
+| `CANDY`     | UnicornGo Candy                        | 37,66,61    |
+| `CAR`       | CarBlock                               | 25,123,143  |
+| `CARE`      | Carebit                                | 39,82,79    |
+| `CBC`       | CashBet Coin                           | 11,6,6      |
+| `CCC_`      | undefined                              | 127,203,45  |
+| `CDY`       | Bitcoin Candy                          | 228,101,179 |
+| `CEN`       | Coinsuper Ecosystem Network            | 28,29,99    |
+| `CFT_`      | undefined                              | 60,59,60    |
+| `CHART`     | BetOnChart                             | 251,216,12  |
+| `CHARM`     | Charm Coin                             | 249,247,250 |
+| `CHC`       | ChainCoin                              | 38,179,100  |
+| `CHFN`      | NOKU CHF                               | 68,68,235   |
+| `CHESS`     | ChessCoin                              | 234,168,97  |
+| `CHF_`      | undefined                              | 176,139,55  |
+| `CHP`       | CoinPoker Token                        | 201,53,83   |
+| `CINNI`     | CINNICOIN                              | 128,200,9   |
+| `CHX`       | Chainium                               | 240,245,245 |
+| `CMOS`      | Cosmo                                  | 11,46,61    |
+| `CMM`       | Commercium                             | 31,188,236  |
+| `CMZ`       | CRYPTOMAGZ                             | 243,137,33  |
+| `COG`       | Cognitio                               | 4,4,4       |
+| `COGS`      | Cogmento                               | 77,196,135  |
+| `COI`       | Coinnec                                | 32,249,192  |
+| `COMP`      | Compound Coin                          | 212,210,212 |
+| `COSX`      | Cosmecoin                              | 16,101,160  |
+| `COU`       | Couchain                               | 33,46,69    |
+| `CPX`       | Apex Token                             | 28,76,156   |
+| `CPT`       | Cryptaur                               | 58,138,242  |
+| `CRE__`     | undefined                              | 238,246,247 |
+| `CRON`      | Cryptocean                             | 239,248,247 |
+| `CRTM`      | Cryptum                                | 250,159,5   |
+| `CTKN`      | Curaizon                               | 241,248,248 |
+| `CST`       | Casper API                             | 219,237,236 |
+| `CTL`       | Citadel                                | 136,46,131  |
+| `CRS`       | Cryptoreal                             | 72,135,60   |
+| `CVTC`      | CavatCoin                              | 212,159,24  |
+| `CVT`       | CyberVein                              | 60,4,131    |
+| `DAC`       | DACash                                 | 28,116,187  |
+| `DAN`       | Daneel                                 | 4,147,251   |
+| `DAI`       | Dai                                    | 73,139,131  |
+| `DASC`      | DasCoin                                | 7,142,203   |
+| `DATX`      | DATx                                   | 43,36,43    |
+| `DBC_`      | undefined                              | 10,93,190   |
+| `DCC_`      | undefined                              | 4,4,4       |
+| `DEAL`      | iDealCash                              | 53,52,50    |
+| `DEI`       | Deimos                                 | 214,214,213 |
+| `DERO`      | Dero                                   | 210,210,211 |
+| `DEV`       | Deviant Coin                           | 224,155,61  |
+| `DGB`       | DigiByte                               | 242,247,246 |
+| `DIN`       | Dinero                                 | 243,244,246 |
+| `DIT`       | Ditcoin                                | 7,38,118    |
+| `DML`       | Decentralized Machine Learning         | 239,247,247 |
+| `DREAM_`    | undefined                              | 13,57,106   |
+| `DROP`      | Dropil                                 | 25,33,47    |
+| `DTH`       | Dether                                 | 61,61,61    |
+| `DXC`       | DixiCoin                               | 173,175,177 |
+| `Dow`       | DowCoin                                | 48,43,31    |
+| `DYC`       | Dycoin                                 | 29,29,29    |
+| `EC`        | Eclipse                                | 228,181,127 |
+| `EDG`       | Edgeless                               | 51,51,92    |
+| `EDRC`      | EDRCoin                                | 59,94,29    |
+| `EFX`       | The EFFECT Network                     | 32,97,112   |
+| `ECH`       | EthereCash                             | 16,120,130  |
+| `EGT`       | Egretia                                | 250,249,231 |
+| `EGCC`      | Engine                                 | 29,84,133   |
+| `EJAC`      | EJA Coin                               | 246,210,122 |
+| `ELI`       | Eligma                                 | 182,182,182 |
+| `ELEC`      | Electrify.Asia                         | 52,49,52    |
+| `ELLI`      | ElliotCoin                             | 56,111,197  |
+| `EMANATE`   | EMANATE                                | 9,29,48     |
+| `EMT_`      | undefined                              | 134,23,147  |
+| `EMV`       | Ethereum Movie Venture                 | 127,68,53   |
+| `ENTRC`     | ENTER COIN                             | 6,209,227   |
+| `ENT`       | Eternity                               | 14,175,216  |
+| `ENTRY`     | ENTRY                                  | 67,36,123   |
+| `ENU`       | Enumivo                                | 12,6,7      |
+| `EON`       | Exscudo                                | 8,145,138   |
+| `EQC`       | Ethereum Qchain Token                  | 237,237,237 |
+| `EQL`       | EQUAL                                  | 75,166,251  |
+| `ETHM`      | Ethereum Meta                          | 4,4,4       |
+| `ETHPR`     | Ethereum Premium                       | 37,37,37    |
+| `ETI`       | EtherInc                               | 39,171,226  |
+| `ETZ`       | EtherZero                              | 243,250,247 |
+| `EUNO`      | EUNO                                   | 94,106,225  |
+| `ETS`       | ETH Share                              | 158,157,159 |
+| `EXC`       | Eximchain                              | 35,107,251  |
+| `EXCC`      | ExchangeCoin                           | 179,104,193 |
+| `EXPR`      | Expercoin                              | 30,79,117   |
+| `EXTP`      | TradePlace                             | 236,239,241 |
+| `EXTN`      | Extensive Coin                         | 6,6,5       |
+| `EZT`       | EZToken                                | 212,30,45   |
+| `FACE`      | Faceter                                | 4,35,58     |
+| `FAIRC`     | Faireum Token                          | 25,110,192  |
+| `FARM`      | FARM Coin                              | 233,246,246 |
+| `FDX`       | fidentiaX                              | 246,251,251 |
+| `FDZ`       | Friendz                                | 97,226,211  |
+| `FFUEL`     | getFIFO                                | 12,55,208   |
+| `FIN`       | Finom FIN Token                        | 8,72,154    |
+| `FLUZ`      | FluzFluz                               | 198,87,75   |
+| `FLX_`      | undefined                              | 127,149,193 |
+| `FNP`       | FlipNpik                               | 238,242,242 |
+| `FLM`       | FOLM coin                              | 66,25,135   |
+| `FOPA`      | Fopacoin                               | 15,14,14    |
+| `FORCE`     | TriForce Tokens                        | 178,142,66  |
+| `FOXT`      | Fox Trading                            | 243,185,102 |
+| `FREC`      | Freyrchain                             | 75,62,78    |
+| `FRECN`     | Freldo                                 | 20,140,211  |
+| `FRV`       | Fitrova                                | 233,201,21  |
+| `FSC`       | FriendshipCoin                         | 250,188,6   |
+| `FT`        | Fabric Token                           | 240,161,165 |
+| `FTW`       | FutureWorks                            | 8,8,8       |
+| `FTX`       | FintruX                                | 237,248,248 |
+| `FTR`       | FactR                                  | 54,170,75   |
+| `FREE`      | FREE coin                              | 229,177,59  |
+| `FXT`       | FuzeX                                  | 43,38,35    |
+| `GARD`      | Hashgard                               | 45,115,179  |
+| `GAS`       | Gas                                    | 133,195,37  |
+| `GBTC`      | GigTricks                              | 241,160,74  |
+| `GCC`       | GuccioneCoin                           | 111,90,73   |
+| `GEM`       | Gems                                   | 13,20,44    |
+| `GFT`       | Giftcoin                               | 251,195,72  |
+| `GEX`       | GreenX                                 | 243,250,248 |
+| `GIN`       | GINcoin                                | 4,140,220   |
+| `GMB`       | GAMB                                   | 28,52,195   |
+| `GMCN`      | GambleCoin                             | 240,236,247 |
+| `GMX`       | Goldmaxcoin                            | 13,54,65    |
+| `GOAL`      | Goal Bonanza                           | 250,248,238 |
+| `GOLF`      | GolfCoin                               | 100,146,10  |
+| `GOOD_`     | undefined                              | 28,36,234   |
+| `GRMD`      | GreenMed                               | 101,212,207 |
+| `GUAR`      | Guarium                                | 33,113,179  |
+| `HAC`       | Hackspace Capital                      | 5,4,4       |
+| `HALO`      | Halo Platform                          | 39,39,38    |
+| `HART`      | HARA                                   | 4,219,123   |
+| `HB`        | HeartBout                              | 18,130,222  |
+| `HEAL`      | Etheal                                 | 243,231,223 |
+| `HER`       | Hero Node                              | 52,155,219  |
+| `HELL`      | HELL COIN                              | 126,19,19   |
+| `HERO`      | Hero                                   | 36,125,181  |
+| `HGT`       | Hello Gold                             | 46,46,45    |
+| `HIX`       | HELIX Orange                           | 228,86,37   |
+| `HKG`       | Hacker Gold                            | 49,48,47    |
+| `HMC`       | Hi Mutual Society                      | 51,36,61    |
+| `HMD`       | Homelend                               | 87,91,101   |
+| `HMT`       | Hamster Marketplace Token              | 221,62,99   |
+| `HOT_`      | undefined                              | 9,130,139   |
+| `HWC`       | HollyWoodCoin                          | 236,229,208 |
+| `HYDRO`     | Hydrogen                               | 11,115,243  |
+| `HXX`       | HexxCoin                               | 212,212,212 |
+| `HYS`       | Heiss Shares                           | 30,71,109   |
+| `HYT`       | HoryouToken                            | 236,140,43  |
+| `IAM`       | IAME Identity                          | 85,197,213  |
+| `ICE`       | iDice                                  | 232,236,233 |
+| `ICHX`      | IceChain                               | 30,143,242  |
+| `ICOO`      | ICO OpenLedger                         | 29,36,74    |
+| `IDM`       | IDM                                    | 239,239,241 |
+| `IFUM`      | Infleum                                | 245,242,240 |
+| `IHT`       | I-House Token                          | 128,165,63  |
+| `IMGZ`      | Imigize                                | 19,160,187  |
+| `IMP`       | CoinIMP                                | 58,112,196  |
+| `ILK`       | Inlock                                 | 202,219,161 |
+| `IDAP`      | IDAP                                   | 69,92,236   |
+| `IMPS`      | Impulse Coin                           | 28,37,26    |
+| `INS`       | Insolar                                | 248,245,245 |
+| `INSUR`     | InsurChain Coin                        | 24,60,124   |
+| `INTO`      | Influ Token                            | 36,36,36    |
+| `ION`       | Ionomy                                 | 18,22,25    |
+| `IOTX`      | IoTeX Network                          | 8,183,168   |
+| `IPC_`      | undefined                              | 139,102,48  |
+| `IQN`       | IQeon                                  | 4,12,68     |
+| `ITA`       | Italocoin                              | 238,229,182 |
+| `ITM`       | intimate.io                            | 83,156,203  |
+| `ITL`       | Italian Lira                           | 212,200,146 |
+| `ITT`       | Intelligent Trading                    | 43,76,147   |
+| `IVC`       | Investy Coin                           | 95,117,83   |
+| `IRC`       | IRONCOIN                               | 225,225,225 |
+| `JEX`       | JEX Token                              | 57,145,249  |
+| `IVY`       | IvyKoin                                | 108,188,81  |
+| `JOINT`     | Joint Ventures                         | 18,88,227   |
+| `JOY_`      | undefined                              | 224,113,42  |
+| `K2G`       | Kasko2go                               | 24,24,24    |
+| `KAAS`      | KAASY.AI                               | 48,107,144  |
+| `JUMP`      | Jumpcoin                               | 237,249,248 |
+| `KB3`       | B3Coin                                 | 13,31,39    |
+| `KETAN`     | Ketan                                  | 245,239,224 |
+| `KNG`       | BetKings                               | 10,18,33    |
+| `KRL`       | Kryll                                  | 69,54,91    |
+| `KWH`       | KWHCoin                                | 230,229,206 |
+| `LALA`      | LaLa World                             | 7,96,133    |
+| `LAX`       | LAPO                                   | 35,35,60    |
+| `LATX`      | LatiumX                                | 5,5,7       |
+| `LBA`       | Libra Credit                           | 56,50,50    |
+| `LCS`       | LocalCoinSwap                          | 57,94,216   |
+| `LCWP`      | LiteCoinW Plus                         | 33,62,132   |
+| `LDN`       | Lydiancoin                             | 235,240,241 |
+| `LEAF`      | LeafCoin                               | 179,204,194 |
+| `LET`       | LinkEye                                | 55,129,209  |
+| `LEU`       | CryptoLEU                              | 142,109,82  |
+| `LGR`       | Logarithm                              | 35,35,45    |
+| `LIF`       | Winding Tree                           | 212,241,233 |
+| `LIGER`     | Ligercoin                              | 190,168,82  |
+| `LIPS`      | LipChain                               | 35,68,85    |
+| `LIPC`      | LIpcoin                                | 250,249,234 |
+| `$NOBS`     | No BS Crypto                           | 4,4,4       |
+| `007`       | 007 coin                               | 22,22,23    |
+| `1ST`       | FirstBlood                             | 239,155,82  |
+| `1CR`       | 1Credit                                | 227,227,233 |
+| `1WO`       | 1World                                 | 117,131,180 |
+| `2BACCO`    | 2BACCO Coin                            | 216,216,216 |
+| `2GIVE`     | 2GiveCoin                              | 243,147,29  |
+| `2TF`       | 2TF                                    | 4,59,74     |
+| `3XD`       | 3DChain                                | 59,117,198  |
+| `3DES`      | 3DES                                   | 235,235,236 |
+| `77G`       | GraphenTech                            | 133,133,133 |
+| `32BIT`     | 32Bitcoin                              | 7,5,4       |
+| `8BIT`      | 8BIT Coin                              | 25,25,25    |
+| `8BT`       | 8 Circuit Studios                      | 92,71,77    |
+| `ABBC`      | Alibabacoin                            | 251,156,4   |
+| `AAC`       | Acute Angle Cloud                      | 247,202,9   |
+| `AAA`       | AAA Reserve Currency                   | 5,6,7       |
+| `ABC`       | AB-Chain                               | 76,4,132    |
+| `ABELE`     | Abele                                  | 245,250,243 |
+| `ABJ`       | Abjcoin                                | 54,146,67   |
+| `ABX`       | AutoBay                                | 4,4,4       |
+| `ABYSS`     | The Abyss                              | 61,86,116   |
+| `ABT`       | ArcBlock                               | 51,246,222  |
+| `ABY`       | ArtByte                                | 189,24,20   |
+| `AC3`       | AC3                                    | 103,218,221 |
+| `ACE`       | TokenStars                             | 226,212,204 |
+| `ACES`      | AcesCoin                               | 225,225,226 |
+| `ACC_`      | undefined                              | 248,246,239 |
+| `ACCO`      | Accolade                               | 191,219,128 |
+| `ACA`       | ACA Token                              | 248,241,238 |
+| `ACID`      | AcidCoin                               | 11,11,11    |
+| `ACN`       | AvonCoin                               | 221,214,183 |
+| `ACM`       | Actinium                               | 67,72,75    |
+| `ACOIN`     | ACoin                                  | 6,5,5       |
+| `ACT`       | ACT                                    | 21,64,98    |
+| `ACP`       | Anarchists Prime                       | 189,178,130 |
+| `ADA`       | Cardano                                | 19,28,44    |
+| `ACT_`      | undefined                              | 104,119,251 |
+| `ADB`       | Adbank                                 | 249,239,239 |
+| `ADAB`      | Adab Solutions                         | 62,109,52   |
+| `ADC`       | AudioCoin                              | 64,174,227  |
+| `ADL`       | Adelphoi                               | 51,123,131  |
+| `ADT`       | AdToken                                | 241,241,242 |
+| `ADCN`      | Asiadigicoin                           | 239,183,58  |
+| `ADST`      | Adshares                               | 4,12,52     |
+| `ADM`       | Adamant                                | 221,221,221 |
+| `ADX`       | AdEx                                   | 13,115,186  |
+| `AEC`       | AcesCoin                               | 160,147,144 |
+| `ADN`       | Aiden                                  | 74,144,178  |
+| `AENT`      | AEN                                    | 232,233,233 |
+| `AERO`      | Aero Coin                              | 212,238,249 |
+| `AER`       | Aeryus                                 | 38,170,225  |
+| `AERM`      | Aerium                                 | 4,5,6       |
+| `AGRS`      | Agoras Token                           | 251,156,27  |
+| `AGI`       | SingularityNET                         | 28,12,75    |
+| `AGM`       | Argoneum                               | 91,169,124  |
+| `AFO`       | AllForOneBusiness                      | 76,76,76    |
+| `AEON`      | AEON                                   | 41,76,91    |
+| `AEN`       | Aenco                                  | 241,249,245 |
+| `AHT_`      | undefined                              | 34,204,220  |
+| `AIB`       | AdvancedInternetBlock                  | 198,155,59  |
+| `AGS`       | Aegis                                  | 117,117,117 |
+| `AIBB`      | AiBB                                   | 71,124,191  |
+| `AGVC`      | AgaveCoin                              | 78,137,146  |
+| `AIDOC`     | AI Doctor                              | 220,218,217 |
+| `AIC`       | AI Crypto                              | 37,44,100   |
+| `AHT`       | Ahoolee                                | 67,60,60    |
+| `AID`       | AidCoin                                | 35,132,123  |
+| `AIM`       | Aimedis                                | 14,167,178  |
+| `AIOT`      | AIOT Token                             | 128,197,207 |
+| `AIRE`      | Tokenaire                              | 15,15,15    |
+| `AION`      | Aion                                   | 8,71,82     |
+| `AIRT`      | Aircraft                               | 141,86,160  |
+| `AITT`      | AITrading                              | 134,201,156 |
+| `AIR`       | AirToken                               | 41,114,188  |
+| `AIX`       | Aigang                                 | 153,70,201  |
+| `ALCE`      | Alcedo                                 | 25,30,37    |
+| `ALC`       | Arab League Coin                       | 219,202,147 |
+| `ALEX`      | Alexandrite                            | 107,58,129  |
+| `ALN`       | AlienCoin                              | 191,154,67  |
+| `ALIS`      | ALISmedia                              | 83,89,139   |
+| `ALTCOM`    | AltCommunity Coin                      | 51,187,240  |
+| `ALTOCAR`   | AltoCar                                | 67,152,228  |
+| `ALUX`      | Alux Bank                              | 236,225,236 |
+| `ALQO`      | Alqo                                   | 239,99,30   |
+| `AM`        | AeroMe                                 | 82,91,190   |
+| `AMBER`     | AmberCoin                              | 182,167,128 |
+| `AMIS`      | AMIS                                   | 202,190,190 |
+| `AMMO`      | Ammo Rewards                           | 27,11,13    |
+| `AMOS`      | Amos                                   | 95,155,168  |
+| `AMB`       | Ambrosus                               | 242,245,247 |
+| `AMBT`      | AMBT Token                             | 21,178,139  |
+| `AMM`       | MicroMoney                             | 241,247,243 |
+| `AMLT`      | AMLT                                   | 23,29,92    |
+| `AMP`       | Synereo                                | 108,108,116 |
+| `AMS`       | Amsterdam Coin                         | 4,4,4       |
+| `AMO`       | AMO Coin                               | 4,4,4       |
+| `ANCP`      | Anacrypt                               | 251,227,4   |
+| `AND`       | AndromedaCoin                          | 147,149,151 |
+| `ANI`       | Animecoin                              | 226,226,230 |
+| `ANT`       | Aragon                                 | 135,135,135 |
+| `ANTC`      | AntiLitecoin                           | 178,49,49   |
+| `ANGEL`     | Crypto Angel                           | 42,108,140  |
+| `ANON`      | ANON                                   | 164,171,171 |
+| `ANTI`      | Anti Bitcoin                           | 45,38,22    |
+| `APC`       | AlpaCoin                               | 182,146,70  |
+| `APEX`      | ApexCoin                               | 40,52,53    |
+| `APIS`      | APIS                                   | 155,28,43   |
+| `APL`       | Apollo Currency                        | 51,51,51    |
+| `APPC`      | AppCoins                               | 237,245,248 |
+| `APOD`      | AirPod                                 | 231,238,238 |
+| `APX`       | Apx                                    | 236,236,236 |
+| `APXT`      | ApolloX                                | 27,35,59    |
+| `APT`       | Aptcoin                                | 4,114,187   |
+| `AQU`       | aQuest                                 | 239,248,248 |
+| `AQUA`      | Aquachain                              | 43,161,251  |
+| `ARBI`      | Arbi                                   | 135,192,188 |
+| `ARAW`      | Araw                                   | 4,140,211   |
+| `ARB_`      | undefined                              | 219,164,35  |
+| `ARC`       | ArcticCoin                             | 4,180,156   |
+| `ARCH`      | ArchCoin                               | 4,34,74     |
+| `ARCT`      | ArbitrageCT                            | 23,28,61    |
+| `ARCX`      | ArcadierX                              | 179,36,28   |
+| `ARENA`     | Arena                                  | 56,56,63    |
+| `ARDR`      | Ardor                                  | 20,100,164  |
+| `ANKR`      | Ankr Network                           | 48,150,209  |
+| `ARC_`      | undefined                              | 27,4,44     |
+| `ARGUS`     | ArgusCoin                              | 51,68,85    |
+| `ARI`       | AriCoin                                | 4,156,228   |
+| `ARM`       | Armory Coin                            | 146,145,145 |
+| `ARK`       | ARK                                    | 37,138,180  |
+| `ARPA`      | ArpaCoin                               | 17,19,20    |
+| `ARN`       | Aeron                                  | 4,51,83     |
+| `ARMS`      | 2Acoin                                 | 171,156,80  |
+| `ARNA`      | ARNA Panacea                           | 168,27,33   |
+| `ARCO`      | AquariusCoin                           | 210,193,123 |
+| `ARQ`       | ArQmA                                  | 4,4,27      |
+| `ARR`       | ARROUND                                | 37,126,135  |
+| `ARY`       | Block Array                            | 4,4,4       |
+| `ARS`       | Artcoin                                | 10,8,6      |
+| `ASAFE2`    | Allsafe                                | 44,45,48    |
+| `AR_`       | undefined                              | 9,9,10      |
+| `ASGC`      | ASG                                    | 138,177,93  |
+| `AS`        | AmaStar                                | 17,12,8     |
+| `ASN`       | Ascension Coin                         | 197,182,119 |
+| `ASQT`      | ASQ Protocol                           | 10,9,8      |
+| `AST`       | AirSwap                                | 43,115,252  |
+| `AST_`      | undefined                              | 229,5,5     |
+| `ASTRO`     | Astronaut                              | 4,4,4       |
+| `AT`        | ABCC Token                             | 43,43,43    |
+| `ATC`       | AutoBlock                              | 35,19,99    |
+| `ATB`       | ATB coin                               | 207,208,209 |
+| `ATHK`      | AntiHACK.me                            | 29,24,26    |
+| `ATCC`      | ATC Coin                               | 204,144,35  |
+| `ATFS`      | ATFS Project                           | 223,101,66  |
+| `ATKN`      | A-Token                                | 7,8,8       |
+| `ATL`       | ATLANT                                 | 57,138,200  |
+| `ATM`       | ATMChain                               | 192,177,192 |
+| `ATM_`      | undefined                              | 25,35,18    |
+| `ATOM`      | Atomic Coin                            | 37,68,116   |
+| `ATON`      | Further Network                        | 4,4,4       |
+| `ART`       | Maecenas                               | 76,76,76    |
+| `ATS`       | Authorship                             | 169,204,137 |
+| `ATT`       | Aeternum                               | 40,168,179  |
+| `ATX_`      | undefined                              | 38,38,38    |
+| `AUC`       | Auctus                                 | 4,55,142    |
+| `AUA`       | ArubaCoin                              | 68,139,217  |
+| `ATX`       | ArtexCoin                              | 214,188,134 |
+| `ATP`       | ArtPro                                 | 20,36,45    |
+| `AUD`       | Aussie Digital                         | 7,132,219   |
+| `AUPC`      | Authpaper                              | 6,128,153   |
+| `ATTR`      | Attrace                                | 200,166,51  |
+| `AURS`      | Aureus                                 | 238,166,63  |
+| `AUK`       | Aukcecoin                              | 12,26,61    |
+| `AUN`       | Authoreon                              | 28,10,49    |
+| `AURA`      | Aurora                                 | 90,176,214  |
+| `AURUM`     | Aurum                                  | 30,30,30    |
+| `AUT`       | Autoria                                | 207,163,122 |
+| `AVA`       | Avalon                                 | 108,184,234 |
+| `AVALA`     | Travala                                | 248,248,249 |
+| `AUTO`      | Cube                                   | 246,182,56  |
+| `AVE`       | Avesta                                 | 33,55,148   |
+| `AWAX`      | AWAX                                   | 13,13,13    |
+| `AVT`       | AventCoin                              | 12,12,20    |
+| `AWT`       | WhatsOnPic                             | 52,187,147  |
+| `AVH`       | Animation Vision Cash                  | 204,131,157 |
+| `AX`        | AlphaX                                 | 4,4,11      |
+| `AWC`       | Atomic Wallet Coin                     | 38,50,77    |
+| `AXIOM`     | Axiom Coin                             | 22,38,65    |
+| `AXIS`      | LaneAxis                               | 212,36,44   |
+| `AXPR`      | aXpire                                 | 4,96,228    |
+| `AXT`       | AIX                                    | 4,75,99     |
+| `AXC`       | autoXchange                            | 46,121,81   |
+| `AXR`       | AXRON                                  | 19,41,56    |
+| `AZ`        | Azbit                                  | 180,64,110  |
+| `Auxilium`  | Auxilium                               | 52,59,91    |
+| `AV`        | Avatar Coin                            | 28,11,11    |
+| `B21`       | B21                                    | 57,155,154  |
+| `B2B`       | B2BX                                   | 186,213,214 |
+| `B2G`       | Bitcoiin2Gen                           | 4,4,4       |
+| `B@`        | BankCoin                               | 24,106,193  |
+| `B3`        | B3 Coin                                | 203,84,8    |
+| `BAAS`      | BaaSid                                 | 22,165,231  |
+| `BAC`       | BitalphaCoin                           | 228,210,144 |
+| `BAM`       | BAM                                    | 147,217,248 |
+| `BAN`       | Babes and Nerds                        | 158,96,108  |
+| `AZART`     | Azart                                  | 74,116,163  |
+| `BAC_`      | undefined                              | 202,235,247 |
+| `BAR`       | TBIS token                             | 19,22,37    |
+| `BASH`      | LuckChain                              | 215,215,206 |
+| `BAS`       | BitAsean                               | 41,21,122   |
+| `BANCA`     | BANCA                                  | 40,102,138  |
+| `BASIS`     | Basis                                  | 5,5,5       |
+| `BASHC`     | BashCoin                               | 197,220,233 |
+| `BAY`       | BitBay                                 | 4,135,194   |
+| `BAT`       | Basic Attention Token                  | 48,48,48    |
+| `BB1`       | Bitbond                                | 229,249,251 |
+| `BBCC`      | BaseballCardCoin                       | 133,109,84  |
+| `BBC`       | TraDove B2BCoin                        | 237,155,24  |
+| `BBOS`      | Blackbox Foundation                    | 19,19,19    |
+| `BBG`       | BigBang                                | 21,12,8     |
+| `BCAP`      | Blockchain Capital                     | 28,124,252  |
+| `BBP`       | BiblePay                               | 150,30,36   |
+| `BBT`       | BitBoost                               | 197,144,59  |
+| `BCAT`      | BlockCAT                               | 228,228,228 |
+| `BC`        | Beverage.cash                          | 223,173,73  |
+| `BCD`       | Bitcoin Diamond                        | 27,20,20    |
+| `BCCOIN`    | BitConnect Coin                        | 244,124,28  |
+| `BCH`       | Bitcoin Cash                           | 252,223,187 |
+| `BCD_`      | undefined                              | 99,196,243  |
+| `BBTC`      | BlakeBitcoin                           | 223,189,110 |
+| `BCDN`      | BlockCDN                               | 241,249,247 |
+| `BCDT`      | Blockchain Certified Data Token        | 17,157,220  |
+| `BCN`       | ByteCoin                               | 243,67,132  |
+| `BCIO`      | Blockchain.io                          | 68,75,155   |
+| `BCF`       | BitcoinFast                            | 249,6,4     |
+| `BCNA`      | BitCanna                               | 54,180,147  |
+| `BCOIN`     | BannerCoin                             | 21,59,93    |
+| `BCPT`      | BlockMason Credit Protocol             | 57,58,57    |
+| `BCR`       | BitCredit                              | 97,146,24   |
+| `BCO`       | BridgeCoin                             | 13,17,34    |
+| `BBR`       | Boolberry                              | 4,154,218   |
+| `BCX_`      | undefined                              | 76,76,73    |
+| `BCV`       | BCV Blue Chip                          | 44,38,100   |
+| `BDP`       | Bidipass                               | 92,98,162   |
+| `BCY`       | BitCrystals                            | 90,84,103   |
+| `BDG`       | BitDegree                              | 56,47,118   |
+| `BDB`       | Big Data Block                         | 244,244,241 |
+| `BDR`       | BlueDragon                             | 13,44,59    |
+| `BDL`       | Bitdeal                                | 227,76,67   |
+| `BEAN`      | BeanCash                               | 212,200,72  |
+| `BEC`       | Beauty Chain                           | 12,52,132   |
+| `BCT`       | Blockchain Terminal                    | 225,158,99  |
+| `BDT`       | Blockonix                              | 112,37,150  |
+| `BEE`       | Bee Token                              | 37,52,59    |
+| `BELA`      | Bela                                   | 106,195,242 |
+| `BENJI`     | BenjiRolls                             | 220,220,209 |
+| `BERN`      | BERNcash                               | 46,46,46    |
+| `BET_`      | undefined                              | 237,173,68  |
+| `BETHER`    | Bethereum                              | 91,52,179   |
+| `BETR`      | BetterBetting                          | 226,77,101  |
+| `BEX`       | BEX token                              | 81,70,238   |
+| `BFC`       | Betform                                | 59,59,59    |
+| `BEAT`      | BEAT Token                             | 223,34,78   |
+| `BF`        | BitForex Token                         | 36,92,171   |
+| `BFEX`      | BFEX                                   | 242,243,243 |
+| `BHC_`      | undefined                              | 24,135,198  |
+| `BGG`       | Bgogo Token                            | 37,141,217  |
+| `BFX`       | BitFinex Tokens                        | 236,237,231 |
+| `BHC`       | BighanCoin                             | 194,147,79  |
+| `BIC`       | Bikercoins                             | 189,185,177 |
+| `BIH`       | BitHostCoin                            | 198,176,115 |
+| `BHPC`      | BHPCash                                | 236,247,247 |
+| `BIFI`      | BitcoinFile                            | 227,211,6   |
+| `BILL`      | TillBilly                              | 100,100,100 |
+| `BIO`       | Biocoin                                | 25,128,32   |
+| `BIM`       | BitminerCoin                           | 112,74,59   |
+| `BIOB`      | BioBar                                 | 52,109,12   |
+| `BIGUP`     | BigUp                                  | 37,60,36    |
+| `BFT`       | BF Token                               | 71,28,88    |
+| `BIPC`      | BipCoin                                | 108,84,210  |
+| `BIOC`      | BioCrypt                               | 17,189,236  |
+| `BIS`       | Bismuth                                | 108,81,149  |
+| `BIT16`     | 16BitCoin                              | 67,53,37    |
+| `BIT`       | BitRewards                             | 252,121,70  |
+| `BIOS`      | BiosCrypto                             | 83,100,96   |
+| `BITCNY`    | bitCNY                                 | 189,189,195 |
+| `BITGOLD`   | bitGold                                | 4,172,228   |
+| `BITCAR`    | BitCar                                 | 213,199,172 |
+| `BITM`      | BitMoney                               | 247,147,34  |
+| `BITUSD`    | bitUSD                                 | 188,188,196 |
+| `BITSD`     | Bits Digit                             | 239,243,243 |
+| `BITTO`     | BITTO                                  | 23,201,251  |
+| `BITSILVER` | bitSilver                              | 4,172,228   |
+| `BLAS`      | BlakeStar                              | 4,4,5       |
+| `BIX`       | BiboxCoin                              | 19,26,30    |
+| `BKX`       | BANKEX                                 | 18,173,252  |
+| `BKT`       | Blocktrade token                       | 5,43,59     |
+| `BITX`      | BitScreener                            | 247,187,39  |
+| `BLACK`     | eosBLACK                               | 43,39,36    |
+| `BLAZR`     | BlazerCoin                             | 58,96,57    |
+| `BLK`       | BlackCoin                              | 221,177,92  |
+| `BLC`       | BlakeCoin                              | 209,155,59  |
+| `BLRY`      | BillaryCoin                            | 137,53,63   |
+| `BLKD`      | Blinked                                | 27,179,243  |
+| `BLN_`      | undefined                              | 10,9,9      |
+| `BLOCKPAY`  | BlockPay                               | 7,173,21    |
+| `BLOCK`     | BlockNet                               | 8,10,45     |
+| `BLT`       | Bloom Token                            | 101,124,234 |
+| `BLTG`      | Block-Logic                            | 172,166,149 |
+| `BLUE`      | Ethereum Blue                          | 21,30,89    |
+| `BLU`       | BlueCoin                               | 69,155,207  |
+| `BLV`       | Blockvest                              | 13,131,167  |
+| `BLZ`       | Bluzelle                               | 28,85,140   |
+| `BM`        | BitMoon                                | 219,97,39   |
+| `BLX`       | Blockchain Index                       | 73,106,138  |
+| `BMK`       | Benchmark                              | 215,221,222 |
+| `BLITZ`     | BlitzCoin                              | 10,56,123   |
+| `BMC`       | Blackmoon Crypto                       | 20,20,20    |
+| `BMT`       | BMChain                                | 26,26,26    |
+| `BNC`       | Benjacoin                              | 241,207,156 |
+| `BNB`       | Binance Coin                           | 244,188,44  |
+| `BNK`       | Bankera                                | 5,7,7       |
+| `BNTE`      | Bountie                                | 4,4,4       |
+| `BNR`       | BiNeuro                                | 232,244,245 |
+| `BMXT`      | Bitmxittz                              | 227,174,62  |
+| `BNTN`      | Blocnation                             | 55,175,193  |
+| `BNTY`      | Bounty0x                               | 81,91,112   |
+| `BM_`       | undefined                              | 117,149,190 |
+| `BNX`       | BnrtxCoin                              | 91,238,145  |
+| `BOLTT`     | BolttCoin                              | 24,25,28    |
+| `BOLI`      | BolivarCoin                            | 192,165,92  |
+| `BOAT`      | Doubloon                               | 169,182,205 |
+| `BOB`       | Bob's Repair                           | 4,37,76     |
+| `BOG`       | Bogcoin                                | 16,16,16    |
+| `BONA`      | Bonafi                                 | 232,243,247 |
+| `BON_`      | undefined                              | 238,238,238 |
+| `BON`       | Bonpay                                 | 13,40,103   |
+| `BOMB`      | BombCoin                               | 13,10,10    |
+| `BOS`       | BOScoin                                | 20,100,164  |
+| `BOSS`      | BitBoss                                | 251,171,6   |
+| `BOT`       | Bodhi                                  | 85,101,244  |
+| `BOSE`      | Bitbose                                | 234,200,129 |
+| `BOTS`      | ArkDAO                                 | 75,75,76    |
+| `BOUTS`     | BoutsPro                               | 232,226,226 |
+| `BOS_`      | undefined                              | 237,203,109 |
+| `BOXY`      | BoxyCoin                               | 242,216,58  |
+| `BOTC`      | BotChain                               | 24,81,128   |
+| `BPL`       | BlockPool                              | 232,248,250 |
+| `BOX`       | ContentBox                             | 244,103,58  |
+| `BPT`       | Blockport                              | 6,129,229   |
+| `BPN`       | beepnow                                | 233,231,229 |
+| `BRAT`      | BROTHER                                | 196,28,36   |
+| `BRAIN`     | BrainCoin                              | 36,35,39    |
+| `BQ`        | Bitqy                                  | 12,12,11    |
+| `BRC_`      | undefined                              | 16,4,4      |
+| `BQTX`      | BQT                                    | 12,13,12    |
+| `BOSON`     | BosonCoin                              | 12,12,12    |
+| `BRAZ`      | Brazio                                 | 31,113,120  |
+| `BRD`       | Bread token                            | 251,125,107 |
+| `BRIK`      | BrikBit                                | 196,197,217 |
+| `BRO`       | Bitradio                               | 231,189,53  |
+| `BRIT`      | BritCoin                               | 154,137,98  |
+| `BRK`       | BreakoutCoin                           | 13,16,23    |
+| `BRNX`      | Bronix                                 | 83,93,111   |
+| `BRC`       | BrightCoin                             | 234,182,54  |
+| `BRX`       | Breakout Stake                         | 196,200,167 |
+| `BSCH`      | BitSchool                              | 13,21,44    |
+| `BSC_`      | undefined                              | 7,34,95     |
+| `BRONZ`     | BitBronze                              | 70,50,35    |
+| `BS`        | BlackShadowCoin                        | 6,6,6       |
+| `BSTAR`     | Blackstar                              | 20,20,20    |
+| `BSC`       | BowsCoin                               | 247,213,235 |
+| `BSD`       | BitSend                                | 20,132,228  |
+| `BSR`       | BitSoar Coin                           | 140,187,99  |
+| `BSTK`      | BattleStake                            | 205,205,204 |
+| `BRDD`      | BeardDollars                           | 44,44,43    |
+| `BSV`       | Bitcoin SV                             | 235,181,38  |
+| `BT`        | BuildTeam                              | 4,204,252   |
+| `BTB`       | BitBar                                 | 220,202,110 |
+| `BTA`       | Bata                                   | 56,59,198   |
+| `BSTN`      | BitStation                             | 211,210,204 |
+| `BSTY`      | GlobalBoost                            | 195,197,194 |
+| `BTCC`      | Bitcoin Core                           | 250,246,233 |
+| `BTCE`      | EthereumBitcoin                        | 250,147,27  |
+| `BTCD`      | BitcoinDark                            | 249,101,6   |
+| `BTCA`      | Bitair                                 | 4,116,178   |
+| `BTCL`      | BTC Lite                               | 36,19,251   |
+| `BTCL_`     | undefined                              | 65,77,140   |
+| `BTCM`      | BTCMoon                                | 21,22,32    |
+| `BTCP`      | Bitcoin Private                        | 37,44,99    |
+| `BTCRY`     | BitCrystal                             | 55,36,12    |
+| `BTCS`      | Bitcoin Scrypt                         | 11,11,12    |
+| `BTCR`      | BitCurrency                            | 170,170,170 |
+| `BTCRED`    | Bitcoin Red                            | 179,27,12   |
+| `BTDX`      | Bitcloud 2.0                           | 97,57,130   |
+| `BTD`       | Bitcloud                               | 237,244,244 |
+| `BTE_`      | undefined                              | 196,93,76   |
+| `BTCZ`      | BitcoinZ                               | 239,198,78  |
+| `BTG`       | Bitcoin Gold                           | 9,36,106    |
+| `BTH`       | Bithereum                              | 244,203,107 |
+| `BTLC`      | BitLuckCoin                            | 217,219,220 |
+| `BTM`       | BitMark                                | 53,5,101    |
+| `BTPL`      | Bitcoin Planet                         | 155,170,94  |
+| `BTO`       | Bottos                                 | 153,153,153 |
+| `BTMG`      | Bitcademy Football                     | 244,206,101 |
+| `BTRM`      | Betrium Token                          | 13,13,13    |
+| `BTRN`      | Biotron                                | 238,247,248 |
+| `BTR`       | Bither                                 | 232,240,247 |
+| `BTSG`      | BitSong                                | 228,27,34   |
+| `BTS`       | Bitshares                              | 6,119,162   |
+| `BTTF`      | Coin to the Future                     | 210,140,79  |
+| `BTXC`      | Bettex coin                            | 139,171,139 |
+| `BTV`       | Bitvote                                | 96,143,210  |
+| `BTM_`      | undefined                              | 102,99,99   |
+| `BTMI`      | BitMiles                               | 189,205,216 |
+| `BTW`       | BitWhite                               | 75,41,111   |
+| `BTZ`       | BitzCoin                               | 186,65,64   |
+| `BTZC`      | BeatzCoin                              | 30,5,48     |
+| `BUCKS`     | SwagBucks                              | 209,173,158 |
+| `BUCKS_`    | undefined                              | 137,162,198 |
+| `BUD`       | Buddy                                  | 10,176,251  |
+| `BURST`     | BurstCoin                              | 36,36,36    |
+| `BTZN`      | Bitzon                                 | 221,246,249 |
+| `BUN`       | BunnyCoin                              | 222,160,50  |
+| `BTX`       | Bitcore                                | 189,46,157  |
+| `BUZZ`      | BuzzCoin                               | 5,5,4       |
+| `BVC`       | BeaverCoin                             | 142,106,59  |
+| `BWT`       | Bittwatt                               | 79,137,184  |
+| `BWK`       | Bulwark                                | 20,20,20    |
+| `BXM`       | Bixtrim                                | 80,188,227  |
+| `BYC`       | ByteCent                               | 232,31,40   |
+| `BXT`       | BitTokens                              | 42,43,48    |
+| `BXY`       | Beaxy                                  | 70,173,174  |
+| `BZKY`      | Bizkey                                 | 211,180,131 |
+| `BYTHER`    | Bytether                               | 249,186,72  |
+| `BZ`        | Bit-Z                                  | 244,246,244 |
+| `C20`       | Crypto20                               | 15,58,86    |
+| `BVO`       | BRAVO Pay                              | 4,172,187   |
+| `CAB`       | CabbageUnit                            | 211,212,216 |
+| `C25`       | C25 Coin                               | 223,238,243 |
+| `CABS_`     | undefined                              | 28,28,28    |
+| `CABS`      | CryptoABS                              | 230,232,235 |
+| `CAID`      | ClearAid                               | 60,187,251  |
+| `CAIx`      | CAIx                                   | 105,27,15   |
+| `CAM`       | Camcoin                                | 209,150,157 |
+| `CALC`      | CaliphCoin                             | 236,180,52  |
+| `CAG`       | Change                                 | 74,224,230  |
+| `CAN`       | CanYaCoin                              | 233,236,236 |
+| `CAND`      | Canlead                                | 12,147,163  |
+| `CAPP`      | Cappasity                              | 219,219,219 |
+| `CAP`       | BottleCaps                             | 214,99,81   |
+| `BULLS`     | BullshitCoin                           | 206,9,11    |
+| `CANN`      | CannabisCoin                           | 133,127,103 |
+| `CARE_`     | undefined                              | 237,237,237 |
+| `CARAT`     | Carats Token                           | 241,241,243 |
+| `CASH`      | CashCoin                               | 231,170,49  |
+| `CARD`      | Cardstack                              | 52,28,115   |
+| `CASH_`     | undefined                              | 197,197,197 |
+| `CAS`       | Cashaa                                 | 43,83,163   |
+| `CATT`      | Catex                                  | 85,139,187  |
+| `CAT_`      | undefined                              | 4,4,4       |
+| `CAV`       | Caviar                                 | 4,4,4       |
+| `CBC_`      | undefined                              | 248,186,48  |
+| `CBD`       | CBD Crystals                           | 7,47,6      |
+| `CAN_`      | undefined                              | 184,142,97  |
+| `CBT`       | CommerceBlock Token                    | 36,51,35    |
+| `CBP`       | ComBox                                 | 135,84,147  |
+| `CBX`       | CryptoBullion                          | 85,156,172  |
+| `CBUK`      | CurveBlock                             | 221,221,221 |
+| `CC`        | CyberCoin                              | 207,234,237 |
+| `CCH`       | Coinchase                              | 28,28,28    |
+| `CCC`       | CCCoin                                 | 203,203,204 |
+| `CCI`       | Cyber Capital Invest                   | 4,20,75     |
+| `CCCX`      | Clipper Coin Capital                   | 5,5,5       |
+| `CCIN`      | Cryptocoin Insurance                   | 48,127,210  |
+| `CCL`       | CyClean                                | 227,227,227 |
+| `CCOIN`     | Creditcoin                             | 107,227,198 |
+| `CCRB`      | CryptoCarbon                           | 219,171,43  |
+| `CCO`       | Ccore                                  | 68,60,163   |
+| `CCOS`      | CrowdCoinage                           | 5,86,193    |
+| `CBS`       | Cerberus                               | 249,235,244 |
+| `CDP`       | CrowdPrecision                         | 7,76,81     |
+| `CDPT`      | Creditor Data Platform                 | 19,71,149   |
+| `CCT`       | Crystal Clear Token                    | 217,234,248 |
+| `CCN`       | CannaCoin                              | 227,229,217 |
+| `CDN`       | Canada eCoin                           | 235,35,35   |
+| `CDT`       | Blox                                   | 12,12,12    |
+| `CDX_`      | undefined                              | 196,61,206  |
+| `CDRX`      | CDRX                                   | 6,206,209   |
+| `CEDEX`     | CEDEX Coin                             | 51,51,187   |
+| `CDX`       | CDX Network                            | 36,36,44    |
+| `CEFS`      | CryptopiaFeeShares                     | 76,76,76    |
+| `CEEK`      | CEEK Smart VR Token                    | 19,25,251   |
+| `CELL`      | SolarFarm                              | 201,205,202 |
+| `CCX`       | CoolDarkCoin                           | 42,42,42    |
+| `CEL`       | Celsius Network                        | 67,83,164   |
+| `CET_`      | undefined                              | 26,39,77    |
+| `CENNZ`     | Centrality Token                       | 4,132,251   |
+| `CET`       | CoinEx token                           | 18,212,194  |
+| `CFT`       | CryptoForecast                         | 5,5,5       |
+| `CFI`       | Cofound.it                             | 4,155,227   |
+| `CF`        | Californium                            | 37,36,35    |
+| `CFC`       | CoffeeCoin                             | 96,46,17    |
+| `CFD`       | Confido                                | 128,72,103  |
+| `CFTY`      | Crafty                                 | 4,164,211   |
+| `CGA`       | Cryptographic Anomaly                  | 6,8,10      |
+| `CETI`      | CETUS Coin                             | 189,190,185 |
+| `CGT`       | Coingrid                               | 68,83,195   |
+| `CHAN`      | ChanCoin                               | 159,199,140 |
+| `CHAO`      | 23 Skidoo                              | 78,91,68    |
+| `CHASH`     | CleverHash                             | 236,180,60  |
+| `CHBR`      | CryptoHub                              | 238,229,221 |
+| `CHAT`      | OpenChat                               | 27,161,248  |
+| `CHE`       | Cache                                  | 101,162,225 |
+| `CHFT`      | CustomCoin                             | 9,8,56      |
+| `CHIEF`     | TheChiefCoin                           | 245,195,15  |
+| `CHILD`     | ChildCoin                              | 184,188,176 |
+| `CHI`       | XAYA                                   | 4,4,4       |
+| `CHA`       | Charity Coin                           | 11,12,92    |
+| `CHIPS`     | CHIPS                                  | 251,180,44  |
+| `CHK`       | Chek                                   | 119,136,250 |
+| `CHOOF`     | ChoofCoin                              | 15,166,75   |
+| `CHSB`      | SwissBorg                              | 133,194,69  |
+| `CHW`       | Chrysalis Coin                         | 204,185,153 |
+| `CHT`       | Countinghouse Fund                     | 228,110,176 |
+| `CIN`       | CinderCoin                             | 85,148,59   |
+| `CIF`       | Crypto Improvement Fund                | 235,240,242 |
+| `CIC`       | CIChain                                | 74,140,240  |
+| `CINX`      | CINDX                                  | 36,35,59    |
+| `CIRC`      | CryptoCircuits                         | 75,113,33   |
+| `CIX100`    | Cryptoindex                            | 20,20,91    |
+| `CIX`       | Cryptonetix                            | 29,127,184  |
+| `CIR`       | CircuitCoin                            | 22,92,82    |
+| `CJ`        | CryptoJacks                            | 37,43,59    |
+| `CJR`       | Conjure                                | 68,27,116   |
+| `CJC`       | CryptoJournal                          | 230,194,55  |
+| `CJT`       | ConnectJob Token                       | 12,29,67    |
+| `CLAM`      | CLAMS                                  | 60,78,78    |
+| `CLD`       | Cloud                                  | 36,136,212  |
+| `CL`        | CoinLancer                             | 20,27,42    |
+| `CLIN`      | Clinicoin                              | 221,224,230 |
+| `CLICK`     | Clickcoin                              | 157,14,16   |
+| `CLN`       | Colu Local Network                     | 71,124,118  |
+| `CLOAK`     | CloakCoin                              | 220,68,36   |
+| `CLINT`     | Clinton                                | 229,198,140 |
+| `CLO`       | Callisto Network                       | 5,10,6      |
+| `CLOUT`     | Clout                                  | 5,146,161   |
+| `CLPX`      | Chynge.net                             | 45,64,184   |
+| `CLRTY`     | Clarity                                | 52,52,52    |
+| `CLUB`      | ClubCoin                               | 232,231,232 |
+| `CLUD`      | CludCoin                               | 244,244,236 |
+| `CLV`       | CleverCoin                             | 218,203,109 |
+| `CMCT`      | Crowd Machine                          | 22,115,130  |
+| `CMP`       | Compcoin                               | 6,15,6      |
+| `CMT`       | CyberMiles                             | 129,193,246 |
+| `CMC`       | CosmosCoin                             | 245,170,47  |
+| `CMS`       | COMSA                                  | 237,238,242 |
+| `CMTC`      | CometCoin                              | 249,186,45  |
+| `CNBC`      | Cash & Back Coin                       | 236,44,68   |
+| `CNCT`      | CONNECT                                | 4,4,4       |
+| `CNAB`      | Cannabium                              | 36,39,35    |
+| `CND`       | Cindicator                             | 211,211,211 |
+| `CMPCO`     | CampusCoin                             | 4,139,83    |
+| `CNC`       | ChinaCoin                              | 234,190,88  |
+| `CNL`       | ConcealCoin                            | 46,46,46    |
+| `CNMT`      | Coinomat                               | 242,243,243 |
+| `CNT`       | Centurion                              | 37,37,37    |
+| `CNN`       | Content Neutrality Network             | 35,44,69    |
+| `COAL`      | BitCoal                                | 159,159,159 |
+| `CNX`       | Cryptonex                              | 50,84,135   |
+| `CO2`       | CO2 Token                              | 206,169,65  |
+| `CNO`       | Coino                                  | 192,184,159 |
+| `COE`       | CoEval                                 | 43,68,84    |
+| `COC`       | Community Coin                         | 18,24,38    |
+| `COFI`      | CoinFi                                 | 21,167,233  |
+| `COB`       | Cobinhood                              | 5,186,140   |
+| `COGEN`     | Cogenero                               | 228,235,234 |
+| `COLX`      | ColossusCoinXT                         | 101,149,102 |
+| `COIN_`     | undefined                              | 6,108,188   |
+| `COIN`      | Coinvest                               | 24,88,251   |
+| `CONI`      | CoinBene                               | 218,248,249 |
+| `CON_`      | Paycon                                 | 31,23,14    |
+| `COS`       | Contentos                              | 4,4,35      |
+| `COSM`      | CosmoChain                             | 151,105,203 |
+| `CORAL`     | CoralPay                               | 247,103,90  |
+| `CORE`      | Core Group Asset                       | 7,30,30     |
+| `COSS`      | COSS                                   | 35,36,44    |
+| `COT`       | CoTrader                               | 27,28,44    |
+| `COVEX`     | CoVEX                                  | 241,241,236 |
+| `COR`       | Corion                                 | 240,241,240 |
+| `COV`       | Covesting                              | 219,219,219 |
+| `COVAL`     | Circuits of Value                      | 51,59,91    |
+| `COTI`      | COTI                                   | 4,75,121    |
+| `COV_`      | undefined                              | 36,36,36    |
+| `COX`       | CobraCoin                              | 190,183,164 |
+| `COY`       | Coin Analyst                           | 222,243,251 |
+| `CPAY`      | CryptoPay                              | 4,155,235   |
+| `CP`        | CryptoProfile                          | 186,170,143 |
+| `CPC`       | CapriCoin                              | 236,195,110 |
+| `CPEX`      | CoinPulseToken                         | 173,173,173 |
+| `CPC_`      | undefined                              | 28,74,116   |
+| `CPL`       | CoinPlace Token                        | 238,149,53  |
+| `CPN`       | CompuCoin                              | 15,155,82   |
+| `CPLO`      | Cpollo                                 | 239,247,247 |
+| `CPY`       | COPYTRACK                              | 153,195,221 |
+| `CPROP`     | CPROP                                  | 44,139,195  |
+| `CQST`      | ConquestCoin                           | 245,214,103 |
+| `CR`        | CryptoRiyal                            | 50,43,43    |
+| `CRAFT`     | Craftcoin                              | 173,145,39  |
+| `CRAB`      | CrabCoin                               | 219,186,146 |
+| `CRAVE_`    | undefined                              | 90,181,198  |
+| `CRAIG`     | CraigsCoin                             | 172,4,4     |
+| `CND_`      | undefined                              | 236,33,34   |
+| `CRC__`     | undefined                              | 143,143,143 |
+| `CRACK`     | CrackCoin                              | 203,203,203 |
+| `CRDS`      | Credits                                | 230,234,233 |
+| `CRB`       | Creditbit                              | 42,58,81    |
+| `CRC___`    | undefined                              | 220,217,221 |
+| `CRED`      | Verify                                 | 100,180,84  |
+| `CREA`      | CreativeChain                          | 4,4,4       |
+| `CREDO`     | Credo                                  | 13,28,58    |
+| `CREDIT`    | Credit                                 | 26,148,135  |
+| `CREV`      | CryptoRevolution                       | 49,48,48    |
+| `CRAVE`     | CraveCoin                              | 21,20,20    |
+| `CRE_`      | undefined                              | 4,4,4       |
+| `CRF`       | CrowdForce                             | 20,52,91    |
+| `CRGO`      | CargoCoin                              | 233,241,241 |
+| `CREVA`     | Creva Coin                             | 87,162,225  |
+| `CRNK`      | CrankCoin                              | 30,25,6     |
+| `CRDNC`     | Credence Coin                          | 104,106,98  |
+| `CRM`       | Cream                                  | 204,36,36   |
+| `CROAT`     | Croat                                  | 246,59,23   |
+| `CRO`       | Crypto.com Chain Token                 | 4,36,82     |
+| `CRL`       | Cryptelo Coin                          | 231,245,250 |
+| `CRPT`      | Crypterium                             | 5,36,138    |
+| `CRPS`      | CryptoPennies                          | 180,180,180 |
+| `CRV`       | Cravy                                  | 198,4,50    |
+| `CRS_`      | undefined                              | 237,74,195  |
+| `CRWD`      | CRWD Network                           | 65,73,101   |
+| `CRU`       | Curium                                 | 43,7,7      |
+| `CRW`       | Crown Coin                             | 19,19,43    |
+| `CRX`       | ChronosCoin                            | 66,148,198  |
+| `CRYP`      | CrypticCoin                            | 240,192,30  |
+| `CSC`       | CasinoCoin                             | 247,243,242 |
+| `CS`        | CryptoSpots                            | 241,9,9     |
+| `CSPN`      | Crypto Sports                          | 138,102,102 |
+| `CSH`       | CashOut                                | 195,208,196 |
+| `CSNO`      | BitDice                                | 28,48,94    |
+| `CSP`       | Caspian                                | 10,136,142  |
+| `CSMIC`     | Cosmic                                 | 226,198,225 |
+| `CRYPT`     | CryptCoin                              | 4,60,108    |
+| `CSQ`       | cosquare                               | 9,9,12      |
+| `CS_`       | undefined                              | 19,19,19    |
+| `CSTL`      | Castle                                 | 4,4,4       |
+| `CTIC`      | Coinmatic                              | 12,51,122   |
+| `CTC`       | CarterCoin                             | 204,146,50  |
+| `CTT`       | CodeTract                              | 35,50,57    |
+| `CTW`       | Citowise                               | 155,69,250  |
+| `CTR`       | Centra                                 | 223,186,97  |
+| `CTXC`      | Cortex                                 | 67,161,209  |
+| `CTX`       | CarTaxi                                | 58,53,57    |
+| `CTY`       | Connecty                               | 8,55,81     |
+| `CUSD`      | Carbon                                 | 28,28,28    |
+| `CURE`      | Curecoin                               | 25,133,210  |
+| `CV`        | CarVertical                            | 30,46,78    |
+| `CUZ`       | Cool Cousin                            | 251,20,84   |
+| `CVC`       | Civic                                  | 238,243,238 |
+| `CUBE`      | DigiCube                               | 51,155,220  |
+| `CWIS`      | Crypto Wisdom Coin                     | 29,150,212  |
+| `CWT`       | Coinware                               | 77,133,177  |
+| `CWXT`      | CryptoWorldXToken                      | 17,8,20     |
+| `CWV`       | CryptoWave                             | 61,50,41    |
+| `CXA`       | CryptovationX                          | 37,168,212  |
+| `CXG`       | Coinxes                                | 48,174,164  |
+| `CXT`       | Coinonat                               | 12,12,12    |
+| `CWX`       | Crypto-X                               | 200,200,200 |
+| `CXO`       | CargoX                                 | 36,60,139   |
+| `CYBR`      | CYBR                                   | 42,60,107   |
+| `CYDER`     | Cyder Coin                             | 44,222,28   |
+| `CYG`       | Cygnus                                 | 93,94,93    |
+| `CYS`       | BlooCYS                                | 238,247,248 |
+| `CYP`       | CypherPunkCoin                         | 25,34,38    |
+| `CYT`       | Cryptokenz                             | 16,20,23    |
+| `CZC`       | Crazy Coin                             | 236,206,114 |
+| `DACH`      | DACH Coin                              | 90,104,114  |
+| `DACC`      | Decentralized Accessible Content Chain | 172,180,187 |
+| `DAGT`      | Digital Asset Guarantee Token          | 22,126,200  |
+| `DADI`      | DADI                                   | 165,52,36   |
+| `DAILY`     | Coindaily                              | 58,111,247  |
+| `DAG`       | Constellation                          | 31,66,140   |
+| `DANK`      | DarkKush                               | 215,162,215 |
+| `DARK`      | Dark                                   | 52,52,52    |
+| `DAPS`      | DAPS Token                             | 93,29,91    |
+| `CYRS`      | Cyrus Token                            | 178,167,171 |
+| `DAS`       | DAS                                    | 242,217,231 |
+| `DAT`       | Datum                                  | 44,155,219  |
+| `DAR`       | Darcrus                                | 76,212,180  |
+| `DASH`      | Dash                                   | 4,139,227   |
+| `DAV_`      | undefined                              | 249,105,69  |
+| `DATA`      | Streamr DATAcoin                       | 252,92,4    |
+| `DAX`       | DAEX                                   | 91,76,147   |
+| `DAXX`      | DaxxCoin                               | 209,203,188 |
+| `DAY`       | Chronologic                            | 4,83,251    |
+| `DAYTA`     | Dayta                                  | 58,233,181  |
+| `DBCCOIN`   | Datablockchain                         | 51,65,76    |
+| `DBET`      | Decent.bet                             | 7,7,7       |
+| `DAV`       | DavorCoin                              | 217,185,103 |
+| `DBIC`      | DubaiCoin                              | 77,70,47    |
+| `DBG`       | Digital Bullion Gold                   | 232,202,59  |
+| `DBIX`      | DubaiCoin                              | 78,71,47    |
+| `DBC`       | DeepBrain Chain                        | 16,221,234  |
+| `DBR`       | Düber                                  | 48,131,41   |
+| `DBTC`      | DebitCoin                              | 209,209,209 |
+| `DCK`       | DickCoin                               | 43,64,70    |
+| `DCR`       | Decred                                 | 239,248,248 |
+| `DCRE`      | DeltaCredits                           | 226,169,89  |
+| `DCT`       | Decent                                 | 4,162,111   |
+| `DCN`       | Dentacoin                              | 4,4,4       |
+| `DDF`       | Digital Developers Fund                | 236,171,30  |
+| `DCY`       | Dinastycoin                            | 252,204,68  |
+| `DEA`       | Degas Coin                             | 96,51,30    |
+| `DEB`       | Debitum Token                          | 146,34,181  |
+| `DDL`       | Donocle                                | 51,51,51    |
+| `DDD`       | Scry.info                              | 166,205,83  |
+| `DEC`       | Darico                                 | 5,5,5       |
+| `DEEP`      | Deep Gold                              | 25,12,50    |
+| `DEEX`      | DEEX                                   | 45,43,45    |
+| `DCS`       | deCLOUDs                               | 11,184,240  |
+| `DEL`       | DelChain                               | 49,61,106   |
+| `DEM`       | eMark                                  | 143,143,143 |
+| `DENT`      | Dent                                   | 116,116,116 |
+| `DETH`      | DarkEther                              | 6,6,7       |
+| `DES`       | Destiny                                | 31,29,25    |
+| `DFBT`      | DentalFix                              | 51,87,104   |
+| `DEPO`      | Depository Network                     | 32,57,99    |
+| `DESI`      | Desico                                 | 190,190,193 |
+| `DFS`       | Digital Fantasy Sports                 | 31,27,22    |
+| `DFT`       | Draftcoin                              | 13,187,232  |
+| `DGDC`      | DarkGold                               | 196,155,4   |
+| `DEUR`      | DigiEuro                               | 13,10,8     |
+| `DGM`       | DigiMoney                              | 223,232,225 |
+| `DGD`       | Digix DAO                              | 7,30,38     |
+| `DGORE`     | DogeGoreCoin                           | 166,114,79  |
+| `DGX`       | Digix Gold token                       | 28,44,76    |
+| `DGTX`      | Digitex Futures                        | 28,180,235  |
+| `DGMS`      | Digigems                               | 165,75,155  |
+| `DGPT`      | DigiPulse                              | 4,115,187   |
+| `DIG`       | Dignity                                | 45,72,126   |
+| `DIEM`      | CarpeDiemCoin                          | 15,79,113   |
+| `DICE`      | Etheroll                               | 20,20,20    |
+| `DIME`      | DimeCoin                               | 240,245,246 |
+| `DIGIF`     | DigiFel                                | 5,201,170   |
+| `DIS`       | DiscoveryIoT                           | 224,149,70  |
+| `DIM`       | DIMCOIN                                | 247,242,246 |
+| `DFXT`      | DigiFinexToken                         | 19,67,243   |
+| `DIVI`      | Divi Project                           | 247,240,239 |
+| `DIVX`      | Divi Exchange Token                    | 99,99,99    |
+| `DIW`       | DIWtoken                               | 71,71,114   |
+| `DKC`       | DarkKnightCoin                         | 41,42,43    |
+| `DLA`       | Dolla                                  | 16,147,233  |
+| `DIP`       | Etherisc                               | 48,154,205  |
+| `DLISK`     | Dlisk                                  | 4,83,75     |
+| `DLT`       | Agrello Delta                          | 69,36,107   |
+| `DLC`       | DollarCoin                             | 213,193,109 |
+| `DLR`       | DollarOnline                           | 171,206,57  |
+| `DLXV`      | Delta-X                                | 18,13,28    |
+| `DN8`       | Pldgr                                  | 56,142,145  |
+| `DNET_`     | undefined                              | 241,236,243 |
+| `DNA`       | EncrypGen                              | 7,132,204   |
+| `DNET`      | Darknet                                | 172,28,36   |
+| `DNN`       | DNN Token                              | 12,131,244  |
+| `DNO`       | Denaro                                 | 20,38,64    |
+| `DNTX`      | DNAtix                                 | 210,226,237 |
+| `DNR`       | Denarius                               | 196,196,196 |
+| `DOCK`      | Dock.io                                | 117,133,200 |
+| `DNT`       | district0x                             | 44,60,139   |
+| `DOC`       | Doc Coin                               | 233,229,228 |
+| `DOR`       | Dorado                                 | 24,58,91    |
+| `DISK`      | Dark Lisk                              | 92,92,92    |
+| `DOGED`     | DogeCoinDark                           | 20,16,8     |
+| `DOV`       | DOVU                                   | 4,4,4       |
+| `DOPE`      | DopeCoin                               | 201,204,201 |
+| `DP`        | DigitalPrice                           | 228,28,36   |
+| `DON`       | DonationCoin                           | 193,192,193 |
+| `DPP`       | Digital Assets Power Play              | 126,42,128  |
+| `DOT`       | Dotcoin                                | 72,82,116   |
+| `DPY`       | Delphy                                 | 211,213,214 |
+| `DPAY`      | DelightPay                             | 179,53,63   |
+| `DPT`       | Deliverers Power Token                 | 168,186,54  |
+| `DRA`       | DraculaCoin                            | 214,214,201 |
+| `DOOH`      | Bidooh                                 | 4,204,195   |
+| `DRACO`     | DT Token                               | 67,83,127   |
+| `DRF`       | Drife                                  | 4,4,4       |
+| `DREAM`     | DreamTeam Token                        | 233,185,45  |
+| `DRC`       | Dropcoin                               | 236,243,244 |
+| `DRG`       | Dragon Coin                            | 143,104,51  |
+| `DRKC`      | DarkCash                               | 52,154,203  |
+| `DOGETH`    | EtherDoge                              | 25,37,95    |
+| `DRM8`      | Dream8Coin                             | 194,195,198 |
+| `DRKT`      | DarkTron                               | 115,123,130 |
+| `DRGN`      | Dragonchain                            | 22,132,204  |
+| `DROP_`     | undefined                              | 135,202,248 |
+| `DRXNE`     | Droxne                                 | 41,76,100   |
+| `DRT`       | DomRaider                              | 234,87,100  |
+| `DRZ`       | Droidz                                 | 25,54,78    |
+| `DRS`       | Digital Rupees                         | 202,214,213 |
+| `DT`        | DarkToken                              | 175,177,179 |
+| `DSR`       | Desire                                 | 170,83,250  |
+| `DSLA`      | Stacktical                             | 240,235,216 |
+| `DSB`       | DarkShibe                              | 175,176,176 |
+| `DT1`       | Dollar Token 1                         | 60,102,177  |
+| `DTB`       | Databits                               | 61,54,39    |
+| `DTA`       | Data                                   | 47,52,82    |
+| `DRPU`      | DRP Utility                            | 82,106,178  |
+| `DTCT`      | DetectorToken                          | 30,180,171  |
+| `DTC_`      | undefined                              | 29,29,36    |
+| `DTC__`     | undefined                              | 198,229,245 |
+| `DTEM`      | Dystem                                 | 159,182,208 |
+| `DTN`       | Datareum                               | 38,38,65    |
+| `DTR`       | Dynamic Trading Rights                 | 21,22,67    |
+| `DTRC`      | Datarius                               | 62,63,62    |
+| `DTT_`      | undefined                              | 68,188,92   |
+| `DTX`       | DataBroker DAO                         | 183,47,100  |
+| `DUO`       | ParallelCoin                           | 51,51,51    |
+| `DUB`       | DubCoin                                | 11,12,92    |
+| `DUSK`      | Dusk Network                           | 12,12,13    |
+| `DUCK`      | DuckDuckCoin                           | 231,195,125 |
+| `DUBI`      | Decentralized Universal Basic Income   | 57,180,228  |
+| `DUTCH`     | Dutch Coin                             | 227,220,211 |
+| `DXC_`      | undefined                              | 4,15,35     |
+| `DXT`       | DataWallet                             | 4,4,4       |
+| `EA`        | EagleCoin                              | 235,235,235 |
+| `DYNO`      | DYNO                                   | 63,180,217  |
+| `DYNCOIN`   | Dyncoin                                | 34,26,18    |
+| `EB3`       | EB3coin                                | 201,138,33  |
+| `EBC`       | EBCoin                                 | 235,76,61   |
+| `EBIT`      | eBit                                   | 44,52,52    |
+| `EARTH`     | Earth Token                            | 35,126,165  |
+| `EBS`       | EbolaShare                             | 145,8,9     |
+| `EBTC`      | eBitcoin                               | 244,147,27  |
+| `EBST`      | eBoost                                 | 10,100,143  |
+| `EBET`      | EthBet                                 | 12,12,12    |
+| `EBZ`       | Ebitz                                  | 9,174,181   |
+| `ECA`       | Electra                                | 136,9,170   |
+| `ECASH`     | Ethereum Cash                          | 123,177,128 |
+| `ECC`       | ECC                                    | 215,149,45  |
+| `ECR`       | EcoVerse                               | 240,241,239 |
+| `ECHT`      | e-Chat                                 | 4,90,165    |
+| `ECOB`      | EcoBit                                 | 46,58,46    |
+| `ECTE`      | EurocoinToken                          | 54,216,133  |
+| `ECO`       | ECOcoin                                | 227,208,119 |
+| `EDDIE`     | Eddie coin                             | 221,233,241 |
+| `ECOM`      | Omnitude                               | 227,43,92   |
+| `EDGE`      | EdgeCoin                               | 4,44,91     |
+| `EDO`       | Eidoo                                  | 31,31,36    |
+| `EDR`       | E-Dinar Coin                           | 190,14,40   |
+| `EDC`       | EducoinV                               | 238,181,57  |
+| `EDN`       | EdenChain                              | 237,242,242 |
+| `EFL`       | E-Gulden                               | 170,158,129 |
+| `EDT`       | EtherDelta                             | 58,133,208  |
+| `EDU`       | EduCoin                                | 60,131,218  |
+| `EGAS`      | ETHGAS                                 | 44,131,198  |
+| `EGC`       | EverGreenCoin                          | 5,130,82    |
+| `EFYT`      | Ergo                                   | 25,25,25    |
+| `EGDC`      | EasyGuide                              | 36,131,36   |
+| `EGG`       | EggCoin                                | 59,148,219  |
+| `EKN`       | Elektron                               | 243,92,44   |
+| `EGO`       | EGOcoin                                | 217,4,4     |
+| `EKO`       | EchoLink                               | 25,155,180  |
+| `ELA`       | Elastos                                | 208,220,16  |
+| `ELES`      | Elements Estates                       | 213,208,201 |
+| `ELF`       | aelf                                   | 242,246,246 |
+| `ELE`       | Elementrem                             | 67,69,167   |
+| `ELITE`     | EthereumLite                           | 5,74,213    |
+| `ELIX`      | Elixir                                 | 208,236,246 |
+| `ELM`       | Elements                               | 28,44,60    |
+| `ELI_`      | undefined                              | 251,218,5   |
+| `ELTC2`     | eLTC                                   | 140,147,162 |
+| `ELS`       | Elysium                                | 109,114,79  |
+| `ELLA`      | Ellaism                                | 100,154,67  |
+| `ELT`       | Electron                               | 196,206,219 |
+| `ELP`       | Ellerium                               | 216,225,221 |
+| `ELY`       | Elysian                                | 37,56,128   |
+| `ELT_`      | undefined                              | 65,193,165  |
+| `ELTCOIN`   | ELTCOIN                                | 4,4,4       |
+| `EMC`       | Emercoin                               | 40,18,47    |
+| `EMB`       | EmberCoin                              | 206,206,207 |
+| `EMD`       | Emerald                                | 36,189,122  |
+| `EMN`       | Eminent Token                          | 33,28,33    |
+| `EMC2`      | Einsteinium                            | 188,176,140 |
+| `EMIGR`     | EmiratesGoldCoin                       | 200,185,123 |
+| `EMPC`      | EmporiumCoin                           | 11,11,11    |
+| `EMOT`      | Sentigraph.io                          | 234,237,237 |
+| `EMU`       | eMusic                                 | 4,57,80     |
+| `EMT`       | EasyMine                               | 37,44,53    |
+| `EMPR`      | empowr                                 | 77,112,178  |
+| `EMX`       | EMX                                    | 4,13,37     |
+| `ENCN`      | EndChain                               | 20,19,36    |
+| `ENG`       | Enigma                                 | 44,44,44    |
+| `ENCX`      | Encrybit                               | 113,48,80   |
+| `ENK`       | Enkidu                                 | 116,108,186 |
+| `ENJ`       | Enjin Coin                             | 55,238,248  |
+| `ENGT`      | Engagement Token                       | 4,164,252   |
+| `ENQ`       | Enecuum                                | 4,12,43     |
+| `ENE`       | EneCoin                                | 138,200,195 |
+| `ENRG`      | EnergyCoin                             | 14,48,10    |
+| `ENTER`     | EnterCoin (ENTER)                      | 4,4,4       |
+| `ENTRP`     | Entropy Token                          | 4,4,4       |
+| `ENTT`      | Presale Ventures                       | 251,209,68  |
+| `ENV`       | Envienta                               | 36,120,161  |
+| `EOT_`      | undefined                              | 4,4,4       |
+| `EOS`       | EOS                                    | 232,232,232 |
+| `EOSDAC`    | eosDAC                                 | 66,66,66    |
+| `EPIK`      | EPIK Token                             | 59,37,78    |
+| `EPY_`      | undefined                              | 26,151,211  |
+| `EQ`        | EQUI                                   | 27,27,28    |
+| `EQT`       | EquiTrader                             | 27,109,148  |
+| `EQUAL`     | EqualCoin                              | 192,174,137 |
+| `EQUI`      | EQUI Token                             | 52,97,147   |
+| `ERA`       | ETHA                                   | 41,125,191  |
+| `EQY`       | Eqwity                                 | 4,4,4       |
+| `ERB`       | ERBCoin                                | 207,207,207 |
+| `ERC`       | EuropeCoin                             | 219,218,215 |
+| `ERC20`     | Index ERC20                            | 14,14,8     |
+| `ERO`       | Eroscoin                               | 12,13,44    |
+| `ERT_`      | undefined                              | 103,86,131  |
+| `EREAL`     | eREAL                                  | 39,164,78   |
+| `ERR`       | ErrorCoin                              | 18,18,18    |
+| `ESC`       | Ethersportcoin                         | 4,4,4       |
+| `ERY`       | Eryllium                               | 134,137,134 |
+| `ESN`       | Ethersocial                            | 70,186,236  |
+| `ESP`       | Espers                                 | 43,118,201  |
+| `ESS`       | Essentia                               | 36,58,81    |
+| `EST`       | ESports Chain                          | 92,144,251  |
+| `ERT`       | Esports.com                            | 28,29,29    |
+| `ESTATE`    | AgentMile                              | 42,43,67    |
+| `ET4`       | Eticket4                               | 235,29,60   |
+| `ETALON`    | Etalon                                 | 226,243,243 |
+| `ET`        | ENDO                                   | 21,21,21    |
+| `ETBS`      | EthBits                                | 36,36,36    |
+| `ETBT`      | Ethereum Black                         | 218,218,218 |
+| `ETH`       | Ethereum                               | 140,140,140 |
+| `ETC`       | Ethereum Classic                       | 31,151,34   |
+| `ESZ`       | EtherSportz                            | 27,16,43    |
+| `ETE`       | EXTRADECOIN                            | 241,248,248 |
+| `ETF`       | EthereumFog                            | 64,183,221  |
+| `ETG`       | Ethereum Gold                          | 143,117,37  |
+| `ETHD`      | Ethereum Dark                          | 141,141,141 |
+| `ETHIX`     | EthicHub                               | 100,219,163 |
+| `ETHB`      | EtherBTC                               | 197,151,44  |
+| `ETHOS`     | Ethos                                  | 7,226,178   |
+| `ETHS`      | EthereumScrypt                         | 33,33,33    |
+| `ETKN`      | EasyToken                              | 131,90,248  |
+| `ETK`       | Energi Token                           | 12,35,43    |
+| `ETHO`      | ETHER-1                                | 187,108,134 |
+| `ETL`       | EtherLite                              | 61,51,76    |
+| `ETN`       | Electroneum                            | 11,27,36    |
+| `ETT_`      | undefined                              | 51,180,166  |
+| `ETP`       | Metaverse                              | 228,236,242 |
+| `ETT`       | EncryptoTel                            | 202,239,242 |
+| `EUC`       | Eurocoin                               | 25,146,183  |
+| `ERE`       | Erecoin                                | 214,180,105 |
+| `EURN`      | NOKU EUR                               | 68,68,235   |
+| `EVER`      | EverLife.AI                            | 202,44,84   |
+| `EURS`      | STASIS EURS                            | 51,90,114   |
+| `EVC`       | Eventchain                             | 5,132,185   |
+| `EVE`       | Devery                                 | 28,43,123   |
+| `EVENT`     | Event Token                            | 229,243,247 |
+| `EVN`       | Envion                                 | 52,131,196  |
+| `EVIL`      | EvilCoin                               | 42,20,16    |
+| `EVR`       | Everus                                 | 40,182,174  |
+| `EVOS`      | EVOS                                   | 12,12,12    |
+| `EVX`       | Everex                                 | 237,243,245 |
+| `EXB`       | ExaByte (EXB)                          | 203,4,32    |
+| `EXIT`      | ExitCoin                               | 191,120,122 |
+| `EXP`       | Expanse                                | 245,164,62  |
+| `EXO`       | Exosis                                 | 244,248,248 |
+| `EXRN`      | EXRNchain                              | 199,199,199 |
+| `EXN`       | ExchangeN                              | 30,31,45    |
+| `EXY`       | Experty                                | 51,64,85    |
+| `EXT_`      | undefined                              | 64,162,229  |
+| `EYE`       | EYE Token                              | 26,21,74    |
+| `EZM`       | EZMarket                               | 28,44,59    |
+| `EZX`       | EZ Exchange                            | 237,238,235 |
+| `F16`       | F16Coin                                | 5,5,5       |
+| `F2K`       | Farm2Kitchen                           | 230,245,243 |
+| `FABA`      | Faba Invest                            | 236,239,236 |
+| `FAIR`      | FairCoin                               | 232,220,197 |
+| `FAME`      | FameCoin                               | 16,89,159   |
+| `FAIR_`     | undefined                              | 5,38,60     |
+| `FAN`       | Fan360                                 | 51,51,51    |
+| `FAZZ`      | FazzCoin                               | 4,4,4       |
+| `FANZ`      | FanChain                               | 52,51,51    |
+| `FC`        | Facecoin                               | 4,4,4       |
+| `FCN`       | FantomCoin                             | 199,199,199 |
+| `FCT`       | Factoids                               | 4,83,139    |
+| `FET`       | Fetch.AI                               | 4,4,4       |
+| `FFCT`      | FortFC                                 | 5,100,126   |
+| `FIBRE`     | FIBRE                                  | 44,42,46    |
+| `FGZ`       | Free Game Zone                         | 218,37,6    |
+| `FIH`       | Fidelity House                         | 247,117,43  |
+| `FIII`      | Fiii                                   | 60,160,210  |
+| `FIL`       | FileCoin                               | 4,219,219   |
+| `FILL`      | Fillit                                 | 223,226,227 |
+| `FIRE`      | FireCoin                               | 184,20,25   |
+| `FIST`      | FistBump                               | 204,204,204 |
+| `FIND`      | FindCoin                               | 247,115,51  |
+| `FIRST`     | FirstCoin                              | 43,63,90    |
+| `FJC`       | FujiCoin                               | 171,204,84  |
+| `FIT`       | Fitcoin                                | 157,147,127 |
+| `FLAP`      | Flappy Coin                            | 218,186,103 |
+| `FLC`       | Fieldcoin                              | 173,206,74  |
+| `FLASH`     | FLASH coin                             | 251,180,20  |
+| `FLIK`      | FLiK                                   | 219,217,222 |
+| `FLDC`      | Folding Coin                           | 155,27,27   |
+| `FLIXX`     | Flixxo                                 | 250,212,21  |
+| `FLEX`      | TrustedCars FLEX                       | 35,36,43    |
+| `EXMR`      | EXMR                                   | 228,225,223 |
+| `FLLW`      | Follow Coin                            | 129,187,224 |
+| `FLP`       | Gameflip                               | 230,116,22  |
+| `FLOT`      | FireLotto                              | 236,140,54  |
+| `FLO`       | Flo                                    | 7,135,202   |
+| `FLIP`      | BitFlip                                | 247,145,37  |
+| `FLS`       | Fuloos Coin                            | 212,183,100 |
+| `FLX`       | Flash                                  | 63,70,75    |
+| `FLY`       | FlyCoin                                | 77,81,99    |
+| `FML`       | FormulA                                | 11,18,50    |
+| `FND`       | FundRequest                            | 90,188,121  |
+| `FNL`       | Finlocale                              | 248,248,245 |
+| `FNO`       | Fonero                                 | 84,84,84    |
+| `FNTB`      | FinTab                                 | 247,209,39  |
+| `FNX`       | FinanceX                               | 12,12,35    |
+| `FONZ`      | FonzieCoin                             | 164,132,116 |
+| `FOOD`      | FoodCoin                               | 244,125,10  |
+| `FOR`       | Force Coin                             | 23,68,94    |
+| `FOTA`      | Fortuna                                | 60,66,75    |
+| `FOREX`     | FOREXCOIN                              | 234,211,149 |
+| `FORK`      | Gastro Advisor Token                   | 76,76,68    |
+| `FRAZ`      | FrazCoin                               | 93,228,94   |
+| `FPC`       | Futurepia                              | 214,217,218 |
+| `FRAC`      | FractalCoin                            | 141,38,33   |
+| `FRD`       | Farad                                  | 231,228,229 |
+| `FRC`       | FireRoosterCoin                        | 219,148,94  |
+| `FOAM`      | Foam                                   | 99,75,73    |
+| `FRED`      | FREDEnergy                             | 211,131,111 |
+| `FRE`       | FreeCoin                               | 87,52,60    |
+| `FRN`       | Francs                                 | 20,20,20    |
+| `FRST`      | FirstCoin                              | 43,63,90    |
+| `FRWC`      | Frankywillcoin                         | 25,25,25    |
+| `FSN`       | Fusion                                 | 50,50,50    |
+| `FSBT`      | Forty Seven Bank                       | 219,220,222 |
+| `FSN_`      | undefined                              | 245,152,39  |
+| `FTM`       | Fantom                                 | 4,4,4       |
+| `FTO`       | FuturoCoin                             | 244,163,4   |
+| `FTP`       | FuturePoints                           | 192,153,66  |
+| `FTRC`      | FutureCoin                             | 238,193,109 |
+| `FTUM`      | Fatum                                  | 251,161,10  |
+| `FTT`       | FarmaTrust                             | 17,62,127   |
+| `FUCK`      | Fuck Token                             | 67,163,218  |
+| `FUN`       | FunFair                                | 224,47,84   |
+| `FUNDZ`     | FundFantasy                            | 229,193,108 |
+| `FUNC`      | FunCoin                                | 88,40,130   |
+| `FUZZ`      | Fuzzballs                              | 108,74,62   |
+| `FUND`      | Fund Platform                          | 236,243,243 |
+| `FUTC`      | FutCoin                                | 223,73,53   |
+| `FX`        | FCoin                                  | 241,240,240 |
+| `FYP`       | FlypMe                                 | 24,194,210  |
+| `FUNK`      | Cypherfunks Coin                       | 31,30,57    |
+| `FXP`       | FXPay                                  | 40,177,195  |
+| `FYN`       | FundYourselfNow                        | 251,247,239 |
+| `FUEL`      | Etherparty                             | 52,139,203  |
+| `GALI`      | Galilel                                | 124,84,76   |
+| `GAT`       | GATCOIN                                | 213,212,216 |
+| `GAM`       | Gambit coin                            | 216,193,164 |
+| `GAME`      | Gamecredits                            | 155,195,28  |
+| `GAI`       | GraphGrail AI                          | 220,200,201 |
+| `GAKH`      | GAKHcoin                               | 101,76,30   |
+| `GBA`       | Geeba                                  | 44,52,147   |
+| `GAIA`      | GAIA Platform                          | 40,100,136  |
+| `GBE`       | Godbex                                 | 251,250,233 |
+| `GAP`       | Gapcoin                                | 70,196,214  |
+| `GB`        | GoldBlocks                             | 212,172,52  |
+| `GBG`       | Golos Gold                             | 245,30,30   |
+| `GBO`       | Gabro.io                               | 232,63,118  |
+| `GBX`       | GoByte                                 | 25,102,172  |
+| `GBRC`      | GBR Coin                               | 249,181,35  |
+| `GBXT`      | Globitex Token                         | 12,85,133   |
+| `GBT`       | GameBetCoin                            | 214,204,205 |
+| `GCR`       | Global Currency Reserve                | 139,196,59  |
+| `GC`        | Gric Coin                              | 168,131,72  |
+| `GBYTE`     | Byteball                               | 44,60,76    |
+| `GCN`       | gCn Coin                               | 197,197,197 |
+| `GCC_`      | undefined                              | 212,205,199 |
+| `GEA`       | Goldea                                 | 216,174,71  |
+| `GEMA`      | Gemera                                 | 6,20,12     |
+| `GDL`       | GodlyCoin                              | 232,195,107 |
+| `GENX`      | Genesis Network                        | 251,251,75  |
+| `GDX`       | Gamedex                                | 247,240,242 |
+| `GEN_`      | undefined                              | 235,235,235 |
+| `GEMZ`      | Gemz Social                            | 141,38,33   |
+| `GENE`      | PARKGENE                               | 198,211,216 |
+| `GEON`      | Geon                                   | 19,20,36    |
+| `GEO`       | GeoCoin                                | 15,79,46    |
+| `GES`       | Galaxy eSolutions                      | 8,109,163   |
+| `GER`       | GermanCoin                             | 20,20,20    |
+| `GET`       | Guaranteed Entrance Token              | 250,106,88  |
+| `GETX`      | Guaranteed Ethurance Token Extra       | 4,37,67     |
+| `GGC`       | Gingr                                  | 4,4,4       |
+| `GGP`       | GGPro                                  | 62,22,63    |
+| `GGR`       | GGRocket                               | 239,5,61    |
+| `GGS`       | Gilgam                                 | 202,202,207 |
+| `GHC`       | GhostCoin                              | 214,219,220 |
+| `GIC`       | Giant                                  | 20,107,211  |
+| `GIFT`      | GiftNet                                | 42,119,132  |
+| `GIG`       | GigCoin                                | 136,181,74  |
+| `GIM`       | Gimli                                  | 198,167,103 |
+| `GIZ`       | GIZMOcoin                              | 111,100,82  |
+| `GIVE`      | GiveCoin                               | 225,185,69  |
+| `GLDR`      | Golder Coin                            | 19,19,20    |
+| `GLN`       | Galion Token                           | 44,104,164  |
+| `GLA`       | Gladius                                | 15,34,81    |
+| `GLT`       | GlobalToken                            | 153,101,65  |
+| `GLYPH`     | GlyphCoin                              | 35,35,28    |
+| `GMA`       | Goldchip Mining Asset                  | 176,176,177 |
+| `GMC`       | Gridmaster                             | 236,37,44   |
+| `GJC`       | Global Jobcoin                         | 51,96,193   |
+| `GMT`       | Mercury Protocol                       | 11,4,43     |
+| `GML`       | GameLeagueCoin                         | 217,193,185 |
+| `GMR`       | Gimmer                                 | 65,57,57    |
+| `GMS`       | Gemstra                                | 16,181,235  |
+| `GNJ`       | GanjaCoin V2                           | 157,196,63  |
+| `GNR`       | Gainer                                 | 197,104,32  |
+| `GNC`       | Greencoin                              | 110,194,68  |
+| `GNO`       | Gnosis                                 | 4,164,196   |
+| `GNX`       | Genaro Network                         | 9,6,30      |
+| `GNT`       | Golem Network Token                    | 16,175,191  |
+| `GO`        | GoChain                                | 36,28,59    |
+| `GOALS`     | UnitedFans                             | 42,43,45    |
+| `GOAT`      | Goat                                   | 182,181,189 |
+| `GOT`       | Giotto Coin                            | 193,129,177 |
+| `GOON`      | Goonies                                | 4,4,4       |
+| `GOA`       | GoaCoin                                | 35,177,77   |
+| `GOLOS`     | Golos                                  | 245,30,30   |
+| `GOTX`      | GothicCoin                             | 106,62,26   |
+| `GOOD`      | GoodCoin                               | 5,75,21     |
+| `GOT_`      | undefined                              | 75,171,243  |
+| `GOVT`      | The Government Network                 | 25,83,158   |
+| `GPPT`      | Pluto Project Coin                     | 36,28,84    |
+| `GRAM`      | Telegram Open Network                  | 43,163,219  |
+| `GPS`       | Triffic                                | 19,35,51    |
+| `GPU`       | GPU Coin                               | 33,223,239  |
+| `GREXIT`    | GrexitCoin                             | 241,211,77  |
+| `GRAV`      | Graviton                               | 8,11,47     |
+| `GRC`       | GridCoin                               | 80,79,67    |
+| `GRID`      | Grid+                                  | 124,140,148 |
+| `GRIN`      | Grin                                   | 247,239,4   |
+| `GRFT`      | Graft Blockchain                       | 64,92,128   |
+| `GRLC`      | Garlicoin                              | 250,217,107 |
+| `GRM`       | GridMaster                             | 245,241,240 |
+| `GRS`       | Groestlcoin                            | 9,133,157   |
+| `GRO`       | Gron Digital                           | 178,171,146 |
+| `GRX`       | Gold Reward Token                      | 229,195,113 |
+| `GROW`      | GrownCoin                              | 91,142,114  |
+| `GSM`       | GSM Coin                               | 10,134,247  |
+| `GRW`       | GrowthCoin                             | 206,84,80   |
+| `GSI`       | Globex SCI                             | 21,92,187   |
+| `GRWI`      | Growers International                  | 88,137,58   |
+| `GSC`       | Global Social Chain                    | 245,251,251 |
+| `GSY`       | GenesysCoin                            | 194,158,159 |
+| `GST`       | GameStars                              | 62,9,88     |
+| `GTC`       | Game                                   | 252,155,66  |
+| `GTO`       | GIFTO                                  | 124,37,250  |
+| `GSX`       | GlowShares                             | 30,30,37    |
+| `GTN`       | Greentoken                             | 37,61,77    |
+| `GTIB`      | Global Trust Coin                      | 214,5,37    |
+| `GTR`       | Gturbo                                 | 246,250,248 |
+| `GTC_`      | undefined                              | 238,187,50  |
+| `GTX`       | GALLACTIC                              | 62,76,161   |
+| `GUE`       | GuerillaCoin                           | 21,21,21    |
+| `GUESS`     | Peerguess                              | 68,84,107   |
+| `GVE`       | Globalvillage Ecosystem                | 244,249,249 |
+| `GUNS`      | GeoFunders                             | 53,52,66    |
+| `GUP`       | Guppy                                  | 52,219,219  |
+| `GVT`       | Genesis Vision                         | 28,36,43    |
+| `GUSD`      | Gemini Dollar                          | 43,44,60    |
+| `GUN`       | GunCoin                                | 147,130,96  |
+| `GXC`       | Gx Coin                                | 160,154,183 |
+| `GX`        | GameX                                  | 223,39,102  |
+| `GXT`       | Game Protocol                          | 242,247,247 |
+| `GXC_`      | undefined                              | 234,183,67  |
+| `GZB`       | Gigzi                                  | 19,19,35    |
+| `GXS`       | GXChain                                | 240,247,250 |
+| `H2O`       | Hydrominer                             | 4,156,220   |
+| `H3O`       | Hydrominer                             | 4,51,83     |
+| `HALLO`     | Halloween Coin                         | 97,88,83    |
+| `HAND`      | ShowHand                               | 21,172,217  |
+| `HAMS`      | HamsterCoin                            | 214,193,153 |
+| `HANA`      | Hanacoin                               | 74,82,83    |
+| `HASH`      | Hashbon                                | 251,171,4   |
+| `HBC`       | HomeBlockCoin                          | 244,147,27  |
+| `HAVEN`     | Safe Haven                             | 205,185,223 |
+| `HAZE`      | HazeCoin                               | 8,31,145    |
+| `HBE`       | healthbank                             | 235,172,59  |
+| `HC`        | HyperCash                              | 91,76,147   |
+| `HAT`       | Hawala.Exchange                        | 241,98,100  |
+| `HBX`       | Hyperbridge                            | 234,248,251 |
+| `HBT`       | Hubii Network                          | 37,156,219  |
+| `HDAC`      | Hdac                                   | 4,35,99     |
+| `HCC`       | HappyCreatorCoin                       | 224,182,92  |
+| `HBZ`       | HBZ Coin                               | 156,148,116 |
+| `HDG`       | Hedge Token                            | 249,247,250 |
+| `HEAT`      | Heat Ledger                            | 34,26,22    |
+| `HEDG`      | HedgeTrade                             | 87,212,124  |
+| `HEEL`      | HeelCoin                               | 215,178,156 |
+| `HERB`      | HerbCoin                               | 36,160,4    |
+| `HETA`      | HetaChain                              | 228,125,64  |
+| `HEX`       | HexCoin                                | 14,14,14    |
+| `HGO`       | HireGo                                 | 131,141,130 |
+| `HFT`       | Hirefreehands                          | 90,202,97   |
+| `HGS`       | HashGains                              | 238,232,226 |
+| `HIH`       | HiHealth                               | 8,100,246   |
+| `HHEM`      | Healthureum                            | 245,246,248 |
+| `HIDU`      | H-Education World                      | 211,211,211 |
+| `HIRE_`     | undefined                              | 43,52,140   |
+| `HIRE`      | HireMatch                              | 194,238,245 |
+| `HIT`       | HitChain                               | 228,228,227 |
+| `HILL`      | President Clinton                      | 176,148,63  |
+| `HIVE`      | Hive                                   | 36,76,204   |
+| `HLC`       | Halal-Chain                            | 4,52,100    |
+| `HKN`       | Hacken                                 | 13,146,158  |
+| `HLD`       | HyperLending                           | 242,162,92  |
+| `HLDY`      | HOLIDAY                                | 53,172,189  |
+| `HLM`       | Helium                                 | 57,130,250  |
+| `HLX`       | Helix3                                 | 242,248,249 |
+| `HMP`       | HempCoin                               | 139,140,140 |
+| `HNC_`      | undefined                              | 149,124,147 |
+| `HMN`       | Harvest Masternode Coin                | 204,155,53  |
+| `HMQ`       | Humaniq                                | 83,138,196  |
+| `HODL`      | HOdlcoin                               | 148,100,49  |
+| `HOLD`      | HOLD                                   | 20,20,20    |
+| `HONEY`     | Honey                                  | 248,200,110 |
+| `HORUS`     | HorusPay                               | 37,145,203  |
+| `HNC`       | Hellenic Coin                          | 174,140,54  |
+| `HORSE`     | Ethorse                                | 162,102,31  |
+| `HNY`       | BitFence                               | 247,242,240 |
+| `HOT`       | Hydro Protocol                         | 15,202,228  |
+| `HPAY`      | HadePay                                | 243,125,23  |
+| `HPB`       | High Performance Blockchain            | 23,163,203  |
+| `HPC`       | HappyCoin                              | 136,220,100 |
+| `HQT`       | HyperQuant                             | 6,6,6       |
+| `HPSP`      | Hyperspace                             | 44,58,82    |
+| `HRB`       | Harbour DAO                            | 93,178,163  |
+| `HRBE`      | Harambee Token                         | 121,81,53   |
+| `HQX`       | HOQU                                   | 252,98,43   |
+| `HRO`       | HEROIC.com                             | 187,4,4     |
+| `HSC`       | HashCoin                               | 92,156,252  |
+| `HSR`       | Hshare                                 | 82,66,138   |
+| `HST`       | Decision Token                         | 35,35,35    |
+| `HT`        | Huobi Token                            | 69,74,112   |
+| `HUC`       | HunterCoin                             | 207,142,46  |
+| `HTML`      | HTML Coin                              | 238,180,29  |
+| `HTC`       | Hitcoin                                | 162,115,47  |
+| `HUR`       | Hurify                                 | 90,133,165  |
+| `HUSH`      | Hush                                   | 42,42,42    |
+| `HUGE`      | BigCoin                                | 179,4,4     |
+| `HUS`       | HUSSY                                  | 43,43,43    |
+| `HTML5`     | HTML5 Coin                             | 70,55,29    |
+| `HVCO`      | High Voltage Coin                      | 229,229,4   |
+| `HV`        | HighVibe.Network                       | 101,171,203 |
+| `HVE`       | UHIVE                                  | 45,139,182  |
+| `HYC`       | HYCON                                  | 21,46,63    |
+| `HXC`       | HexanCoin                              | 197,171,92  |
+| `HXT`       | HextraCoin                             | 172,138,62  |
+| `HZ`        | Horizon                                | 13,58,109   |
+| `HYP`       | Hyperstake                             | 52,97,113   |
+| `HYGH`      | HYGH                                   | 19,19,20    |
+| `HYPER`     | HyperCoin                              | 210,193,127 |
+| `HZT`       | HazMatCoin                             | 234,67,4    |
+| `IAG`       | IAGON                                  | 231,236,245 |
+| `I0C`       | I0coin                                 | 234,182,54  |
+| `IBANK`     | iBankCoin                              | 180,170,132 |
+| `IC`        | Ignition                               | 213,197,76  |
+| `ICASH`     | ICASH                                  | 252,4,4     |
+| `ICC`       | Insta Cash Coin                        | 5,140,188   |
+| `ICN`       | Iconomi                                | 20,140,107  |
+| `ICOB`      | Icobid                                 | 242,156,50  |
+| `ICHN`      | i-chain                                | 49,227,237  |
+| `ICST`      | ICST                                   | 18,204,205  |
+| `ICOS`      | ICOBox                                 | 92,92,92    |
+| `ICON`      | Iconic                                 | 27,27,23    |
+| `ID`        | TrigID                                 | 108,192,172 |
+| `IDAC`      | IDAC                                   | 67,154,169  |
+| `ICT`       | Intrachain                             | 235,240,242 |
+| `IDH`       | IndaHash                               | 68,45,122   |
+| `ICX`       | ICON Project                           | 24,27,41    |
+| `HVN`       | Hiveterminal Token                     | 18,175,241  |
+| `IEC`       | IvugeoEvolutionCoin                    | 59,57,53    |
+| `IDC`       | IdealCoin                              | 42,60,70    |
+| `IDXM`      | IDEX Membership                        | 88,176,215  |
+| `IDT`       | InvestDigital                          | 20,124,252  |
+| `IDORU`     | Vip2Fan                                | 102,86,219  |
+| `IFLT`      | InflationCoin                          | 193,200,236 |
+| `IETH`      | iEthereum                              | 35,30,33    |
+| `IFT`       | InvestFeed                             | 44,192,217  |
+| `IFX`       | Infinex                                | 206,233,243 |
+| `IGNIS`     | Ignis                                  | 243,243,243 |
+| `IG`        | IG Token                               | 24,153,184  |
+| `IGTT`      | IGT                                    | 29,47,96    |
+| `ILC`       | ILCoin                                 | 211,149,4   |
+| `ILCT`      | ILCoin Token                           | 32,22,14    |
+| `IHF`       | Invictus Hyperion Fund                 | 20,52,116   |
+| `IML`       | IMMLA                                  | 16,42,175   |
+| `IMPCH`     | Impeach                                | 235,200,178 |
+| `IMS`       | Independent Money System               | 65,58,58    |
+| `IMPCN`     | Brain Space                            | 104,180,150 |
+| `IMT`       | MoneyToken                             | 26,131,136  |
+| `INC`       | Incrementum                            | 188,124,50  |
+| `IMU`       | imusify                                | 12,12,12    |
+| `IN`        | InCoin                                 | 15,15,15    |
+| `IMX`       | Impact                                 | 103,188,72  |
+| `INCNT`     | Incent                                 | 247,159,40  |
+| `INCP`      | InceptionCoin                          | 220,220,220 |
+| `INF8`      | Infinium-8                             | 4,4,4       |
+| `INDI`      | IndiCoin                               | 235,140,53  |
+| `ING`       | Iungo                                  | 87,131,215  |
+| `INFLR`     | Inflr                                  | 4,177,171   |
+| `IMVR`      | ImmVRse                                | 60,60,60    |
+| `INFX`      | Influxcoin                             | 42,148,251  |
+| `INN`       | Innova                                 | 4,99,155    |
+| `INSANE`    | InsaneCoin                             | 35,139,193  |
+| `INK`       | Ink                                    | 250,21,13   |
+| `INSN`      | Insane Coin                            | 31,133,182  |
+| `INT`       | Internet Node Token                    | 234,249,249 |
+| `INSTAR`    | Insights Network                       | 207,224,221 |
+| `INV`       | Invictus                               | 217,217,217 |
+| `INVX`      | Investx                                | 249,248,238 |
+| `INV_`      | undefined                              | 227,227,227 |
+| `INVOX`     | Invox Finance                          | 4,55,93     |
+| `INXT`      | Internxt                               | 65,65,65    |
+| `INX`       | InMax                                  | 17,10,33    |
+| `IOC`       | IOCoin                                 | 125,198,240 |
+| `IOT`       | IOTA                                   | 15,15,15    |
+| `IOST`      | IOS token                              | 36,35,36    |
+| `IOUX`      | IOU                                    | 12,12,12    |
+| `IOTW`      | IOTW                                   | 67,31,79    |
+| `IOU`       | IOU1                                   | 224,225,225 |
+| `IPL`       | InsurePal                              | 110,177,73  |
+| `IOV`       | IOV                                    | 221,223,220 |
+| `IPSX`      | IP Exchange                            | 238,250,249 |
+| `IPC`       | ImperialCoin                           | 164,118,78  |
+| `IPT`       | Crypt-ON                               | 12,23,38    |
+| `IQB`       | Intelligence Quotient Benefit          | 85,51,115   |
+| `IOP`       | Internet of People                     | 72,183,203  |
+| `IRL`       | IrishCoin                              | 221,220,210 |
+| `IQ`        | Everipedia                             | 156,156,156 |
+| `ITC`       | IoT Chain                              | 4,24,43     |
+| `ISH`       | Interstellar Holdings                  | 231,221,217 |
+| `ITR`       | INTRO                                  | 61,84,127   |
+| `ISR`       | Insureum                               | 26,46,99    |
+| `IVZ`       | InvisibleCoin                          | 4,4,4       |
+| `IVN`       | IVN Security                           | 238,238,238 |
+| `IW`        | iWallet                                | 4,75,4      |
+| `ITZ`       | Interzone                              | 226,146,104 |
+| `IXT`       | iXledger                               | 31,177,211  |
+| `IZX`       | IZX                                    | 249,205,26  |
+| `IWT`       | IwToken                                | 228,228,228 |
+| `J`         | JoinCoin                               | 25,74,41    |
+| `JANE`      | JaneCoin                               | 36,36,36    |
+| `JC`        | JesusCoin                              | 160,124,62  |
+| `J8T`       | JET8                                   | 250,74,61   |
+| `JDC`       | JustDatingSite                         | 134,131,133 |
+| `JBS`       | JumBucks Coin                          | 17,130,198  |
+| `JEW`       | Shekel                                 | 218,226,98  |
+| `JET`       | Jetcoin                                | 157,105,55  |
+| `JIB`       | Jibbit                                 | 234,249,247 |
+| `JIF`       | JiffyCoin                              | 19,220,196  |
+| `JINN`      | Jinn                                   | 56,55,47    |
+| `JIO`       | JIO Token                              | 52,99,123   |
+| `JNT`       | Jibrel Network Token                   | 4,60,196    |
+| `JMC`       | Junson Ming Chan Coin                  | 71,12,9     |
+| `JNS`       | Janus                                  | 68,92,4     |
+| `JOBS`      | JobsCoin                               | 241,241,241 |
+| `JOYS`      | JOYS                                   | 245,193,67  |
+| `JOY`       | Joycoin                                | 249,147,32  |
+| `JOK`       | JokerCoin                              | 32,35,44    |
+| `JOYT`      | JoyToken                               | 40,32,48    |
+| `JSE`       | JSEcoin                                | 4,20,51     |
+| `JCR`       | Jincor                                 | 175,230,251 |
+| `JTX`       | Project J                              | 4,4,45      |
+| `JVY`       | Javvy                                  | 68,108,179  |
+| `KARMA`     | Karma                                  | 86,196,75   |
+| `KAT`       | KATZcoin                               | 73,32,32    |
+| `KAPU`      | Kapu                                   | 20,19,17    |
+| `KAYI`      | Kayı                                   | 4,187,249   |
+| `KBX`       | KuBitX                                 | 140,196,61  |
+| `KBR`       | Kubera Coin                            | 252,243,197 |
+| `KAN`       | Bitkan                                 | 11,130,240  |
+| `KBC`       | Karatgold coin                         | 132,116,76  |
+| `KCASH`     | Kcash                                  | 43,43,43    |
+| `KC`        | Kernalcoin                             | 111,62,4    |
+| `KCS`       | Kucoin                                 | 4,161,233   |
+| `KEN`       | Kencoin                                | 60,92,156   |
+| `KEC`       | KEYCO                                  | 226,229,230 |
+| `KEK`       | KekCoin                                | 198,164,70  |
+| `KED`       | Klingon Empire Darsek                  | 37,22,22    |
+| `KEP`       | Kepler                                 | 5,5,5       |
+| `KEY`       | SelfKey                                | 44,51,67    |
+| `KIN`       | Kin                                    | 206,234,240 |
+| `KIND`      | Kind Ads                               | 84,76,244   |
+| `KEY_`      | undefined                              | 22,22,22    |
+| `KIBIS`     | KIBIS                                  | 36,44,87    |
+| `KING`      | King93                                 | 82,19,39    |
+| `KLC`       | KiloCoin                               | 162,114,74  |
+| `KNC__`     | undefined                              | 145,136,59  |
+| `KLKS`      | Kalkulus                               | 6,6,5       |
+| `KMD`       | Komodo                                 | 66,111,111  |
+| `KNC`       | Kyber Network                          | 63,162,158  |
+| `KMX`       | KiMex                                  | 6,6,6       |
+| `KNW`       | Knowledge                              | 44,52,84    |
+| `KOBO`      | KoboCoin                               | 27,138,76   |
+| `KOLION`    | Kolion                                 | 250,147,5   |
+| `KR`        | Krypton                                | 38,164,72   |
+| `KOTO`      | Koto                                   | 138,8,9     |
+| `KRB`       | Karbo                                  | 250,243,5   |
+| `KORE`      | Kore                                   | 228,44,4    |
+| `KRAK`      | Kraken                                 | 4,4,4       |
+| `KREDS`     | KREDS                                  | 28,171,227  |
+| `KRM`       | Karma                                  | 155,5,5     |
+| `KRONE`     | Kronecoin                              | 4,4,4       |
+| `KRP`       | Kryptoin                               | 15,14,13    |
+| `KRX`       | RAVN Korrax                            | 4,4,4       |
+| `KST`       | StarKST                                | 62,46,106   |
+| `KRO`       | Betoken                                | 227,246,241 |
+| `KUBOS`     | KubosCoin                              | 50,113,192  |
+| `KSS`       | Krosscoin                              | 111,67,159  |
+| `KSYS`      | K-Systems                              | 38,43,191   |
+| `KUBO`      | KUBO                                   | 4,4,4       |
+| `KURT`      | Kurrent                                | 5,5,5       |
+| `KUSD`      | Kowala                                 | 4,140,243   |
+| `KUE`       | Kuende                                 | 239,90,86   |
+| `KUSH`      | KushCoin                               | 51,149,27   |
+| `KUV`       | Kuverit                                | 155,153,153 |
+| `KVT`       | Kinesis Velocity Token                 | 28,35,55    |
+| `KVT_`      | undefined                              | 20,32,103   |
+| `LA`        | LATOKEN                                | 20,28,60    |
+| `KZC`       | KZCash                                 | 244,245,225 |
+| `LABX`      | Stakinglab                             | 19,44,76    |
+| `LAO`       | LC Token                               | 4,4,4       |
+| `LANA`      | LanaCoin                               | 222,172,70  |
+| `LAT`       | Latium                                 | 55,106,184  |
+| `LAZ`       | Lazarus                                | 173,123,42  |
+| `LBC`       | LBRY Credits                           | 29,97,82    |
+| `LBR`       | LaborCrypto                            | 163,138,91  |
+| `LCK`       | Luckbox                                | 27,28,36    |
+| `LC`        | Lutetium Coin                          | 53,54,54    |
+| `LCC`       | LitecoinCash                           | 25,157,45   |
+| `LBTC`      | LiteBitcoin                            | 49,50,73    |
+| `LCP`       | Litecoin Plus                          | 170,204,216 |
+| `LCR`       | Lucre                                  | 250,247,238 |
+| `LCASH`     | LitecoinCash                           | 251,193,59  |
+| `LCT`       | LendConnect                            | 172,138,84  |
+| `LDM`       | Ludum token                            | 175,150,120 |
+| `LDOGE`     | LiteDoge                               | 233,211,164 |
+| `LDC`       | LeadCoin                               | 4,4,35      |
+| `LEDU`      | Education Ecosystem                    | 36,44,44    |
+| `LED`       | Terawatt                               | 88,182,71   |
+| `LEMON`     | LemonCoin                              | 252,219,12  |
+| `LELE`      | Lelecoin                               | 208,129,64  |
+| `LEND`      | EthLend                                | 15,158,202  |
+| `LEN`       | Liqnet                                 | 231,241,243 |
+| `LEO`       | LEOcoin                                | 235,171,28  |
+| `LEPEN`     | LePenCoin                              | 211,176,160 |
+| `LFC`       | BigLifeCoin                            | 201,203,204 |
+| `LGD`       | Legends Cryptocurrency                 | 32,29,28    |
+| `LGO`       | Legolas Exchange                       | 122,172,210 |
+| `LEV`       | Leverj                                 | 242,131,11  |
+| `LHC`       | LHCoin                                 | 12,106,191  |
+| `LIFE`      | LIFE                                   | 20,187,155  |
+| `LIKE`      | LikeCoin                               | 41,99,107   |
+| `LINDA`     | Linda                                  | 84,84,84    |
+| `LIB`       | Libellum                               | 4,39,69     |
+| `LINX`      | Linx                                   | 42,42,40    |
+| `LION`      | CoinLion                               | 38,91,122   |
+| `LIR`       | Let it Ride                            | 115,48,44   |
+| `LITION`    | Lition                                 | 4,27,44     |
+| `LIT`       | Lithium                                | 220,202,129 |
+| `LAB`       | Labrys                                 | 252,83,4    |
+| `LIZ`       | Lizus Payment                          | 134,20,56   |
+| `LIV`       | LiviaCoin                              | 191,187,173 |
+| `LINK`      | ChainLink                              | 42,89,217   |
+| `LTC`       | Litecoin                               | 190,190,190 |
+| `LK`        | Liker                                  | 127,126,121 |
+| `ALP`       | Alphacon                               | 243,82,45   |
+| `AGT`       | AGATE                                  | 28,104,142  |
+| `AZU`       | Azultec                                | 4,147,163   |
+| `BBI`       | BelugaPay                              | 5,68,83     |
+| `CXC`       | CheckCoin                              | 68,132,180  |
+| `USDT`      | Tether                                 | 38,161,23   |
+| `NEO`       | NEO                                    | 123,184,81  |
+| `PAX`       | Paxos Standard                         | 230,228,56  |
+| `DARX`      | Bitdaric                               | 197,212,249 |
+| `DHT`       | DeHedge Token                          | 241,210,216 |
+| `DKD`       | Dekado                                 | 52,168,252  |
+| `DYN`       | Dynamic                                | 139,28,155  |
+| `ECC_`      | undefined                              | 47,144,70   |
+| `FFM`       | Files.fm Library                       | 223,222,226 |
+| `GEP`       | Gaia                                   | 32,54,79    |
+| `GMC_`      | undefined                              | 202,167,74  |
+| `HLP`       | Purpose Coin                           | 208,207,204 |
+| `ITU`       | iTrue                                  | 5,12,94     |
+| `IZA`       | Inzura                                 | 60,67,76    |
+| `KEX`       | KexCoin                                | 75,36,82    |
+| `CLDX`      | Cloverdex                              | 237,251,246 |
+| `CUR`       | Cura Network                           | 226,225,224 |
+| `CWEX`      | Crypto Wine Exchange                   | 115,21,67   |
+| `DSH`       | Dashcoin                               | 67,99,162   |
+| `HEDGE`     | Hedgecoin                              | 60,60,60    |
+| `ICB`       | IceBergCoin                            | 42,105,165  |
+| `KLK`       | Klickzie                               | 7,7,7       |
+| `LIVE`      | Live Stars                             | 160,22,6    |
+| `BGL`       | Buglab                                 | 212,12,92   |
+| `DIGS`      | Diggits                                | 49,40,39    |
+| `EVN_`      | undefined                              | 238,202,116 |
+| `FLVR`      | FlavorCoin                             | 34,38,39    |
+| `GP`        | GoldPieces                             | 237,216,21  |
+| `DXG`       | DexAge                                 | 132,118,73  |
+| `EDR_`      | undefined                              | 11,115,155  |
+| `HAL`       | Halcyon                                | 197,194,190 |
+| `JUDGE`     | JudgeCoin                              | 242,193,48  |
+| `AC`        | Asia Coin                              | 49,145,211  |
+| `BITS`      | BitstarCoin                            | 251,232,208 |
+| `COOL`      | CoolCoin                               | 197,198,198 |
+| `GRE`       | GreenCoin                              | 88,157,11   |
+| `LEA`       | LeaCoin                                | 237,221,237 |
+| `BIP`       | Minter                                 | 84,44,196   |
+| `BST`       | BitStone                               | 9,199,109   |
+| `CRE`       | Credits                                | 96,148,24   |
+| `GEN`       | Genstake                               | 4,226,243   |
+| `ARB`       | Arbit Coin                             | 43,43,43    |
+| `EXCL`      | Exclusive Coin                         | 214,191,119 |
+| `BOST`      | BoostCoin                              | 8,8,8       |
+| `EOC`       | EveryonesCoin                          | 28,28,20    |
+| `GHOUL`     | Ghoul Coin                             | 62,214,12   |
+| `BITZ`      | Bitz Coin                              | 8,37,148    |
+| `CKC`       | Clockcoin                              | 29,57,71    |
+| `CYC`       | ConSpiracy Coin                        | 209,185,17  |
+| `CACH`      | Cachecoin                              | 209,209,209 |
+| `CESC`      | Crypto Escudo                          | 174,174,174 |
+| `DGC`       | DigiCoin                               | 10,10,10    |
+| `CHIP`      | Chip                                   | 217,229,231 |
+| `EPY`       | Empyrean                               | 172,169,148 |
+| `GLOBE`     | Global                                 | 21,129,187  |
+| `GDC`       | GrandCoin                              | 249,196,41  |
+| `FC2`       | Fuel2Coin                              | 177,179,180 |
+| `ANC`       | Anoncoin                               | 10,10,10    |
+| `BCX`       | BattleCoin                             | 112,80,73   |
+| `BUK`       | CryptoBuk                              | 78,113,73   |
+| `CAT`       | Catcoin                                | 231,237,238 |
+| `FRK`       | Franko                                 | 9,53,205    |
+| `GLD`       | GoldCoin                               | 232,195,58  |
+| `GLX`       | GalaxyCoin                             | 18,27,37    |
+| `HBN`       | HoboNickels                            | 182,180,153 |
+| `ARG`       | Argentum                               | 156,19,27   |
+| `KGC`       | KrugerCoin                             | 183,140,64  |
+| `BTC`       | Bitcoin                                | 244,147,27  |
+| `BT1`       | Bitfinex Bitcoin Future                | 244,147,27  |
+| `BT2`       | Bitcoin SegWit2X                       | 244,147,27  |
+| `BTE`       | ByteCoin                               | 30,160,71   |
+| `ALF`       | AlphaCoin                              | 49,159,35   |
+| `BTQ`       | BitQuark                               | 37,126,179  |
+| `AMC`       | AmericanCoin                           | 168,150,72  |
+| `AUR`       | Aurora Coin                            | 47,149,113  |
+| `BET`       | BetaCoin                               | 245,205,44  |
+| `BQC`       | BQCoin                                 | 246,152,60  |
+| `C2`        | Coin.2                                 | 153,101,67  |
+| `COMM`      | Community Coin                         | 161,19,17   |
+| `CARBON`    | Carboncoin                             | 58,174,103  |
+| `DUX`       | DuxCoin                                | 10,8,8      |
+| `ELC`       | Elacoin                                | 59,84,44    |
+| `CLR`       | CopperLark                             | 220,235,237 |
+| `CTO`       | Crypto                                 | 222,137,34  |
+| `DMD`       | Diamond                                | 131,145,153 |
+| `DOGE`      | Dogecoin                               | 182,155,61  |
+| `DVC`       | DevCoin                                | 4,148,4     |
+| `EAC`       | EarthCoin                              | 94,180,70   |
+| `DB`        | DarkBit                                | 222,137,34  |
+| `EAGS`      | EagsCoin                               | 222,137,34  |
+| `EXE`       | ExeCoin                                | 19,68,201   |
+| `DCC`       | DarkCrave                              | 222,137,34  |
+| `EQM`       | Equilibrium Coin                       | 222,137,34  |
+| `EZC`       | EZCoin                                 | 176,169,143 |
+| `FLT`       | FlutterCoin                            | 59,123,139  |
+| `FTC`       | FeatherCoin                            | 50,50,50    |
+| `FST`       | FastCoin                               | 237,159,35  |
+| `HSP`       | Horse Power                            | 28,92,252   |
+| `FCS`       | CryptoFocus                            | 222,137,34  |
+| `GLC`       | GlobalCoin                             | 204,191,210 |
+| `GPL`       | Gold Pressed Latinum                   | 201,211,185 |
+| `HVC`       | HeavyCoin                              | 58,55,54    |
+| `KTK`       | KryptCoin                              | 86,161,105  |
+| `IXC`       | IXcoin                                 | 188,188,194 |
+| `JWL`       | Jewels                                 | 196,103,43  |
+| `IFC`       | Infinite Coin                          | 234,183,63  |
+| `ISL`       | IslaCoin                               | 222,137,34  |
+| `JKC`       | JunkCoin                               | 219,216,202 |
+| `KDC`       | Klondike Coin                          | 219,172,48  |
+| `RVN`       | Ravencoin                              | 55,64,130   |
+| `FFC`       | FireflyCoin                            | 177,176,172 |
+| `LENIN`     | LeninCoin                              | 216,212,184 |
+| `LIMX`      | LimeCoinX                              | 247,249,242 |
+| `DTC`       | DayTrader Coin                         | 244,196,12  |
+| `LGBTQ`     | LGBTQoin                               | 206,156,68  |
+| `XMR`       | Monero                                 | 140,140,140 |
+| `XRP`       | XRP                                    | 210,210,210 |
+| `XLM`       | Stellar                                | 221,223,252 |

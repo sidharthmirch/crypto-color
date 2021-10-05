@@ -6,7 +6,8 @@
     "declaration": true,
     "declarationMap": true,    
     "sourceMap": true,
-    "outDir": "lib",                /* Redirect output to the directory. */
+    "outDir": "lib",     
+    "resolveJsonModule": true,           /* Redirect output to the directory. */
     "esModuleInterop": true,        /* Enables intero between CommonJS and ES */
     "skipLibCheck": true,           /* Skip type checking of declaration files. */
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently */
