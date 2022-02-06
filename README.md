@@ -19,4 +19,4 @@ cryptoColor("BTC", true, 0.3);
 ```
 
 #### [There are currently **1926 cryptocurrencies** represented\*:](./tracker.md)
-To contribute, please add in your contribution to [tracker.md](./trackermd), add it to the json, build [index.ts](./src/index.ts) and make a PR.
+To contribute, please add in your contribution to [tracker.md](./tracker.md), add it to the json, build [index.ts](./src/index.ts) and make a PR.
